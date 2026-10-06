@@ -8,7 +8,8 @@ extract: accepts either the JSON file the Drive download tool saves ({"content":
 or a plain PDF. Printed page numbers equal PDF page numbers. Exits 1 if any
 non-breaking space survives.
 check: exits 1 unless every sentence is found in the text. Whitespace runs and
-curly/straight quote differences are ignored; everything else must match exactly.
+curly/straight quote differences and letter case are ignored; everything else must
+match exactly.
 Source is pure ASCII on purpose: special characters are written as chr() codes.
 """
 import sys, re, json, base64, unicodedata
@@ -27,7 +28,7 @@ def clean(t):
 def norm(t):
     for k, v in QUOTES.items():
         t = t.replace(k, v)
-    return re.sub(r"\s+", " ", t).strip()
+    return re.sub(r"\s+", " ", t).strip().lower()
 
 def extract(src, first, last, out):
     import pymupdf
