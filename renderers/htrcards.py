@@ -9,9 +9,21 @@ PAL = {
  "gold": dict(bg="#0A0A0B", fg="#F7F3EA", accent="#D9A441", subfg="#DED8CB",
               muted="#8A8377", hair="rgba(217,164,65,.30)", vig="rgba(0,0,0,.60)",
               grainmode="overlay", hl="ul"),
- "bone": dict(bg="#EFEBE3", fg="#131313", accent="#131313", subfg="#2B2926",
+ "bone": dict(bg="#EFEBE3", fg="#131313", accent="#8E1A1F", subfg="#2B2926",
               muted="#7A736A", hair="rgba(19,19,19,.22)", vig="rgba(0,0,0,.10)",
-              grainmode="multiply", hl="block"),
+              grainmode="multiply", hl="ul"),
+    "oxblood": dict(bg="#3B0D11", fg="#F7F3EA", accent="#E9B44C", subfg="#EADFD3",
+                 muted="#B39A92", hair="rgba(233,180,76,.32)", vig="rgba(0,0,0,.45)",
+                 grainmode="overlay", hl="ul"),
+    "navy": dict(bg="#0D1B2E", fg="#F4F1EA", accent="#E9B44C", subfg="#D9DEE6",
+                 muted="#8894A6", hair="rgba(233,180,76,.30)", vig="rgba(0,0,0,.45)",
+                 grainmode="overlay", hl="ul"),
+    "forest": dict(bg="#0F2A1E", fg="#F4F0E4", accent="#E9B44C", subfg="#D8E0D4",
+                 muted="#8FA396", hair="rgba(233,180,76,.30)", vig="rgba(0,0,0,.45)",
+                 grainmode="overlay", hl="ul"),
+    "mustard": dict(bg="#D9A441", fg="#0E0E0F", accent="#6E0F14", subfg="#1F1B12",
+                 muted="#5E4A1C", hair="rgba(14,14,15,.30)", vig="rgba(0,0,0,.12)",
+                 grainmode="multiply", hl="ul"),
 }
 SIZES = {"4x5": (1080, 1350), "9x16": (1080, 1920), "1x1": (1080, 1080), "16x9": (1200, 675)}
 # safe-zone padding per ratio: (top, bottom, side)

@@ -13,11 +13,28 @@ PALETTES = {
     "bone": dict(bg="#EFEBE3", fg="#131313", accent="#131313", subfg="#2B2926",
                  muted="#7A736A", hair="rgba(19,19,19,.22)", vig="rgba(0,0,0,.10)",
                  grainmode="multiply", hl="block"),
+    "oxblood": dict(bg="#3B0D11", fg="#F7F3EA", accent="#E9B44C", subfg="#EADFD3",
+                 muted="#B39A92", hair="rgba(233,180,76,.32)", vig="rgba(0,0,0,.45)",
+                 grainmode="overlay", hl="ul"),
+    "navy": dict(bg="#0D1B2E", fg="#F4F1EA", accent="#E9B44C", subfg="#D9DEE6",
+                 muted="#8894A6", hair="rgba(233,180,76,.30)", vig="rgba(0,0,0,.45)",
+                 grainmode="overlay", hl="ul"),
+    "forest": dict(bg="#0F2A1E", fg="#F4F0E4", accent="#E9B44C", subfg="#D8E0D4",
+                 muted="#8FA396", hair="rgba(233,180,76,.30)", vig="rgba(0,0,0,.45)",
+                 grainmode="overlay", hl="ul"),
+    "mustard": dict(bg="#D9A441", fg="#0E0E0F", accent="#6E0F14", subfg="#1F1B12",
+                 muted="#5E4A1C", hair="rgba(14,14,15,.30)", vig="rgba(0,0,0,.12)",
+                 grainmode="multiply", hl="ul"),
 }
 RGB = {"gold": dict(bg=(10,10,11), fg=(247,243,234), accent=(217,164,65),
                     subfg=(222,216,203), muted=(138,131,119), hair=(70,57,30)),
        "bone": dict(bg=(239,235,227), fg=(19,19,19), accent=(19,19,19),
                     subfg=(43,41,38), muted=(122,115,106), hair=(198,193,184))}
+RGB.update({
+       "oxblood": dict(bg=(59,13,17), fg=(247,243,234), accent=(233,180,76), subfg=(234,223,211), muted=(179,154,146), hair=(115,67,36)),
+       "navy": dict(bg=(13,27,46), fg=(244,241,234), accent=(233,180,76), subfg=(217,222,230), muted=(136,148,166), hair=(79,73,55)),
+       "forest": dict(bg=(15,42,30), fg=(244,240,228), accent=(233,180,76), subfg=(216,224,212), muted=(143,163,150), hair=(80,83,44)),
+       "mustard": dict(bg=(217,164,65), fg=(14,14,15), accent=(110,15,20), subfg=(31,27,18), muted=(94,74,28), hair=(156,119,50))})
 RATIOS = {"9x16": dict(w=1080, h=1920, pad=104, padtop=200, padbot=380, h1=176, sub=54, submt=52, subw=880,
                        kfs=25, dot=17, kgap=22, promise=35, mark=19, footpt=40, ulh=7),
           "1x1":  dict(w=1080, h=1080, pad=88,  padtop=120, padbot=150, h1=126, sub=41, submt=36, subw=880,
