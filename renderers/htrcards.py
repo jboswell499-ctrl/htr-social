@@ -25,6 +25,21 @@ PAL = {
                  muted="#5E4A1C", hair="rgba(14,14,15,.30)", vig="rgba(0,0,0,.12)",
                  grainmode="multiply", hl="ul"),
 }
+ROT = ["oxblood", "mustard", "navy", "forest", "bone"]
+def auto_palette(mode, ratio, slug):
+    """Give each asset its own colour scheme so consecutive posts on a platform differ.
+    The hook card (rendered separately) is gold/bone, so gold is left out here except 16x9.
+    The set shifts by one each day."""
+    import datetime, re
+    day = datetime.date.today().toordinal()
+    if ratio == "16x9": return "gold"
+    m = re.search(r"-q([123])$", slug)
+    if mode == "quote":
+        q = m.group(1) if m else "1"
+        order = {"4x5": {"2": 0, "1": 1, "3": 3}, "9x16": {"2": 2, "1": 4, "3": 0}}.get(ratio, {})
+        return ROT[(order.get(q, 0) + day) % len(ROT)]
+    return ROT[((2 if ratio == "4x5" else 3) + day) % len(ROT)]
+
 SIZES = {"4x5": (1080, 1350), "9x16": (1080, 1920), "1x1": (1080, 1080), "16x9": (1200, 675)}
 # safe-zone padding per ratio: (top, bottom, side)
 SAFE = {"4x5": (162, 243, 86), "9x16": (288, 422, 86), "1x1": (120, 150, 86), "16x9": (70, 90, 80)}
@@ -146,10 +161,12 @@ def main():
     ap.add_argument("--quote", help="quote text (use | for forced breaks, *word* for accent)")
     ap.add_argument("--attrib", default="The Making of a High-Value Man|Justin Boswell")
     ap.add_argument("--ratio", default="4x5", choices=list(SIZES))
-    ap.add_argument("--palette", default="gold", choices=list(PAL))
+    ap.add_argument("--palette", default="auto", choices=list(PAL) + ["auto"])
     ap.add_argument("--slug", required=True)
     ap.add_argument("--outdir", default=os.path.expanduser("~/htr-engine/cards"))
     a = ap.parse_args()
+    if a.palette == "auto": a.palette = auto_palette(a.mode, a.ratio, a.slug)
+    print("PALETTE:", a.palette)
     os.makedirs(a.outdir, exist_ok=True)
     fd = os.path.expanduser("~/htr-engine/node_modules/@fontsource")
     if not os.path.isdir(os.path.join(fd, "anton")):

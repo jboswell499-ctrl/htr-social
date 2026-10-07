@@ -13,3 +13,7 @@ Public image host and tooling for the Hard To Replace daily posts.
 - `tools/prep_images.py` — PNG to JPEG (quality 92) with a size check.
 
 Images in the repo root are from 2026-10-06, before the dated folders.
+
+## Colour schemes
+
+renderers/htrcards.py picks a palette per asset when --palette is not given (auto), so consecutive posts on a platform never share a scheme and the set shifts by one each day. Palettes: gold, bone, oxblood, navy, forest, mustard. Pass --palette to override. hookcard.py takes the same palette names.
