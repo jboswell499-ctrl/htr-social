@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-"""HTR carousel + quote-card renderer. Brand system: Anton + Inter, black + gold."""
-import argparse, json, os, re, sys
+"""HTR carousel + quote-card renderer. Brand system: Anton + Inter, black + gold.
+
+Quote cards also come in textured "styles" (--style): brush, paper and swipe add a
+hand-lettered accent word, worn type and a lit, grained background. Carousels stay clean."""
+import argparse, json, os, re, subprocess, sys, urllib.parse
 
 DISPLAY = "'Anton','Archivo','DejaVu Sans Condensed',Impact,sans-serif"
 TEXT = "'Inter','DejaVu Sans','Liberation Sans',Arial,sans-serif"
@@ -40,6 +43,94 @@ def auto_palette(mode, ratio, slug):
         return ROT[(order.get(q, 0) + day) % len(ROT)]
     return ROT[((2 if ratio == "4x5" else 3) + day) % len(ROT)]
 
+# ---- quote-card styles -------------------------------------------------------
+BRUSH = "'Permanent Marker','Anton',Impact,sans-serif"
+STYLE_PAL = {
+ "brush": dict(bg="#0B0908", fg="#EFE8DA", accent="#C9A06A", subfg="#DED8CB", muted="#8F877A",
+               hair="rgba(201,160,106,.32)", vig="rgba(0,0,0,.70)", grainmode="overlay", hl="brushw"),
+ "paper": dict(bg="#E3DAC8", fg="#16130F", accent="#8E1A1F", subfg="#2B2926", muted="#6B6256",
+               hair="rgba(22,19,15,.28)", vig="rgba(70,45,10,.22)", grainmode="multiply", hl="brushw"),
+ "swipe": dict(bg="#11161B", fg="#F1EDE4", accent="#D9A441", subfg="#D9DEE6", muted="#8894A6",
+               hair="rgba(217,164,65,.30)", vig="rgba(0,0,0,.60)", grainmode="overlay", hl="swipew"),
+}
+STYLE_ROT = ["brush", "clean", "paper", "swipe"]
+def auto_style(mode, slug):
+    """Quote cards rotate through the styles: each of the day's three quotes gets a different
+    one, and the set shifts by one each day. A quote keeps its style across ratios."""
+    import datetime
+    if mode != "quote": return "clean"
+    m = re.search(r"-q([123])$", slug)
+    q = int(m.group(1)) if m else 1
+    return STYLE_ROT[(datetime.date.today().toordinal() + q) % len(STYLE_ROT)]
+
+def svg_uri(svg): return "data:image/svg+xml," + urllib.parse.quote(svg)
+def _svg(w, h, inner, extra=""):
+    return "<svg xmlns='http://www.w3.org/2000/svg' width='%d' height='%d' %s>%s</svg>" % (w, h, extra, inner)
+# speckle that eats small holes out of the type, and long streaks that read as a dry brush
+SPECK = svg_uri(_svg(600, 600, "<filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' "
+    "baseFrequency='0.55' numOctaves='2' seed='7'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 12.2'/>"
+    "</filter><rect width='600' height='600' filter='url(#g)'/>"))
+STREAK = svg_uri(_svg(900, 600, "<filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' "
+    "baseFrequency='0.004 0.12' numOctaves='2' seed='3'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 11.2'/>"
+    "</filter><rect width='900' height='600' filter='url(#g)'/>"))
+WOOD = svg_uri(_svg(1200, 800, "<filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' "
+    "baseFrequency='0.0022 0.07' numOctaves='3' seed='11'/><feColorMatrix values='0 0 0 0 .78 0 0 0 0 .56 0 0 0 0 .34 0 0 0 2.4 -.85'/>"
+    "</filter><rect width='1200' height='800' filter='url(#g)'/>"))
+BLOTCH = svg_uri(_svg(1200, 1200, "<filter id='g' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' "
+    "baseFrequency='0.006' numOctaves='4' seed='21'/><feColorMatrix values='0 0 0 0 .35 0 0 0 0 .24 0 0 0 0 .12 0 0 0 2.2 -.8'/>"
+    "</filter><rect width='1200' height='1200' filter='url(#g)'/>"))
+def stroke_uri(color, fat):
+    """A rough hand-drawn paint stroke: thin = underline, fat = a swipe behind the word."""
+    path = ("M46 51 C 110 48, 180 54, 250 50 S 320 48, 354 51" if fat else "M6 16 C 70 8, 140 20, 215 12 S 330 9, 394 14")
+    return svg_uri(_svg(400, 100 if fat else 28,
+        "<filter id='r' filterUnits='userSpaceOnUse' x='0' y='0' width='400' height='%d'><feTurbulence type='fractalNoise' baseFrequency='%s' "
+        "numOctaves='2' seed='5'/><feDisplacementMap in='SourceGraphic' scale='%d'/></filter>"
+        "<path d='%s' fill='none' stroke='%s' stroke-width='%d' stroke-linecap='round' filter='url(#r)'/>"
+        % (100 if fat else 28, "0.012 0.22" if fat else "0.03 0.6", 9 if fat else 6, path, color, 84 if fat else 9),
+        "viewBox='0 0 400 %d' preserveAspectRatio='none'" % (100 if fat else 28)))
+
+def style_css(style, p, fd):
+    if style == "clean": return "", ""
+    font = ("@font-face{font-family:'Permanent Marker';src:url('file://%s/permanent-marker/files/"
+            "permanent-marker-latin-400-normal.woff2') format('woff2')}" % fd)
+    # the body type only gets fine speckle (letters stay whole); the dry-brush streaks go on the accent word alone
+    worn = "-webkit-mask-image:url(\"%s\");mask-image:url(\"%s\");-webkit-mask-size:600px 600px;mask-size:600px 600px;" % (SPECK, SPECK)
+    dry = "-webkit-mask-image:url(\"%s\");mask-image:url(\"%s\");-webkit-mask-size:900px 600px;mask-size:900px 600px;" % (STREAK, STREAK)
+    css = font + ".card::after{opacity:.11}.tex{position:absolute;inset:0;pointer-events:none;z-index:1}"
+    css += ".quote{%sline-height:1.02;padding:.12em .08em .1em 0;white-space:nowrap}" % worn
+    css += (".quote .hl.brushw,.quote .hl.swipew{font-family:%s;display:inline-block;line-height:.86;"
+            "letter-spacing:.01em;transform:rotate(-3deg);transform-origin:center;margin:0 .08em;vertical-align:baseline}" % BRUSH)
+    css += (".quote .hl.brushw{" + dry + "font-size:1.2em;line-height:.74;padding-bottom:.17em;background:url(\"%s\") no-repeat left bottom/100%% .15em}"
+            % stroke_uri(p["accent"], False))
+    css += (".quote .hl.swipew{font-size:1em;line-height:.8;color:%s;padding:.2em .36em .12em;margin:0 -.04em;transform:rotate(-2deg);"
+            "background:url(\"%s\") no-repeat center/100%% 100%%}" % (p["bg"], stroke_uri(p["accent"], True)))
+    if style == "brush":
+        css += (".glow{background:radial-gradient(70%% 46%% at 88%% 80%%,rgba(214,160,92,.30),rgba(214,160,92,0) 70%%),"
+                "radial-gradient(60%% 30%% at 10%% 4%%,rgba(255,240,215,.07),rgba(0,0,0,0) 70%%)}"
+                ".wood{top:auto;height:40%%;background:url(\"%s\") center bottom/cover;mix-blend-mode:screen;opacity:.2;"
+                "-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 62%%);mask-image:linear-gradient(to bottom,transparent 0,#000 62%%)}"
+                % WOOD)
+    elif style == "paper":
+        css += (".glow{background:radial-gradient(90%% 60%% at 22%% 18%%,rgba(255,250,236,.55),rgba(255,250,236,0) 70%%)}"
+                ".wood{background:url(\"%s\") center/cover;mix-blend-mode:multiply;opacity:.3}" % BLOTCH)
+    else:
+        css += (".glow{background:radial-gradient(80%% 50%% at 14%% 12%%,rgba(120,150,180,.16),rgba(0,0,0,0) 70%%),"
+                "radial-gradient(70%% 40%% at 90%% 92%%,rgba(217,164,65,.14),rgba(0,0,0,0) 70%%)}.wood{display:none}")
+    return css.replace("%%", "%"), '<div class="tex wood"></div><div class="tex glow"></div>'
+
+def ensure_brush_font(fd):
+    """Install the hand-lettering face next to the brand fonts. False means: fall back to clean."""
+    if not fd: return False
+    path = os.path.join(fd, "permanent-marker", "files", "permanent-marker-latin-400-normal.woff2")
+    if os.path.isfile(path): return True
+    try:
+        subprocess.run(["npm", "i", "--silent", "--no-audit", "--no-fund", "@fontsource/permanent-marker"],
+                       cwd=os.path.dirname(os.path.dirname(fd)), check=True, timeout=300,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except Exception:
+        return False
+    return os.path.isfile(path)
+
 SIZES = {"4x5": (1080, 1350), "9x16": (1080, 1920), "1x1": (1080, 1080), "16x9": (1200, 675)}
 # safe-zone padding per ratio: (top, bottom, side)
 SAFE = {"4x5": (162, 243, 86), "9x16": (288, 422, 86), "1x1": (120, 150, 86), "16x9": (70, 90, 80)}
@@ -64,7 +155,8 @@ def fmt(t, cls):
     s = "<br>".join(x.strip() for x in esc(t).split("|"))
     return re.sub(r"\*(.+?)\*", lambda m: '<span class="hl %s">%s</span>' % (cls, m.group(1)), s)
 
-def shell(p, w, h, pt, pb, ps, fd, body, h1fs, bodyfs):
+def shell(p, w, h, pt, pb, ps, fd, body, h1fs, bodyfs, style="clean"):
+    xcss, xlayers = style_css(style, p, fd)
     return """<!doctype html><meta charset="utf-8"><style>
 %(face)s
 *{margin:0;padding:0;box-sizing:border-box}
@@ -96,7 +188,8 @@ h1 + .body{margin-top:40px}
 .promise em{font-style:normal;color:%(accent)s}
 .mark{text-align:right;font-weight:500;font-size:17px;letter-spacing:.2em;text-transform:uppercase;color:%(muted)s;white-space:nowrap;line-height:1.5}
 .swipe{font-weight:800;font-size:26px;letter-spacing:.2em;text-transform:uppercase;color:%(accent)s}
-</style><div class="card"><div class="inner">%(body)s</div></div>
+%(xcss)s
+</style><div class="card">%(xlayers)s<div class="inner">%(body)s</div></div>
 <script>
 (function(){
   var mid=document.querySelector('.mid');
@@ -109,7 +202,8 @@ h1 + .body{margin-top:40px}
   while(bd&&mid.scrollHeight>mid.clientHeight&&bs>24&&g++<300){bs-=1.5;bd.style.fontSize=bs+'px';}
 })();
 </script>""" % dict(p, face=face(fd), grain=GRAIN, w=w, h=h, pt=pt, pb=pb, ps=ps,
-                    DISP=DISPLAY, TEXT=TEXT, body=body, h1fs=h1fs, bodyfs=bodyfs)
+                    DISP=DISPLAY, TEXT=TEXT, body=body, h1fs=h1fs, bodyfs=bodyfs,
+                    xcss=xcss, xlayers=xlayers)
 
 KICK = '<div class="kicker"><div class="dot"></div><div class="txt">Hard&nbsp;To&nbsp;Replace&trade;</div><div class="rule"></div>%s</div>'
 FOOT = ('<div class="footwrap"><div class="rule"></div><div class="foot">'
@@ -140,16 +234,17 @@ def build_quote(q, attrib, p):
         fmt(q, cls), esc(attrib).replace("|", "<br>"))
     return KICK % "" + '<div class="mid">%s</div>' % mid + FOOT
 
-def render(pages, outpaths, w, h, fd, pal, h1fs, bodyfs, pt, pb, ps):
+def render(pages, outpaths, w, h, fd, pal, h1fs, bodyfs, pt, pb, ps, style="clean"):
+    P = pal if isinstance(pal, dict) else PAL[pal]
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:
         b = pw.chromium.launch()
         for body, out in zip(pages, outpaths):
             os.makedirs(os.path.expanduser("~/htr-engine"), exist_ok=True)
             f = os.path.expanduser("~/htr-engine/_r.html")
-            open(f, "w").write(shell(PAL[pal], w, h, pt, pb, ps, fd, body, h1fs, bodyfs))
+            open(f, "w").write(shell(P, w, h, pt, pb, ps, fd, body, h1fs, bodyfs, style))
             pg = b.new_page(viewport={"width": w + 60, "height": min(h + 60, 2200)})
-            pg.goto("file://" + f); pg.wait_for_timeout(700)
+            pg.goto("file://" + f); pg.wait_for_timeout(1100 if style != "clean" else 700)
             pg.query_selector(".card").screenshot(path=out); pg.close()
             print("rendered", out)
         b.close()
@@ -162,6 +257,8 @@ def main():
     ap.add_argument("--attrib", default="The Making of a High-Value Man|Justin Boswell")
     ap.add_argument("--ratio", default="4x5", choices=list(SIZES))
     ap.add_argument("--palette", default="auto", choices=list(PAL) + ["auto"])
+    ap.add_argument("--style", default="auto", choices=["auto", "clean"] + list(STYLE_PAL),
+                    help="quote cards only: clean, brush, paper, swipe; auto rotates them by day")
     ap.add_argument("--slug", required=True)
     ap.add_argument("--outdir", default=os.path.expanduser("~/htr-engine/cards"))
     a = ap.parse_args()
@@ -182,9 +279,14 @@ def main():
             outs.append(os.path.join(a.outdir, "HTR_carousel_%s_%02d.png" % (a.slug, i)))
         render(pages, outs, w, h, fd, a.palette, 112, 42, pt, pb, ps)
     else:
-        pages = [build_quote(a.quote, a.attrib, PAL[a.palette])]
+        style = auto_style(a.mode, a.slug) if a.style == "auto" else a.style
+        if style != "clean" and not ensure_brush_font(fd):
+            print("WARN: hand-lettering font unavailable, using the clean style"); style = "clean"
+        print("STYLE:", style)
+        pal = STYLE_PAL[style] if style != "clean" else PAL[a.palette]
+        pages = [build_quote(a.quote, a.attrib, pal)]
         outs = [os.path.join(a.outdir, "HTR_quote_%s_%s.png" % (a.slug, a.ratio))]
-        render(pages, outs, w, h, fd, a.palette, 118, 40, pt, pb, ps)
+        render(pages, outs, w, h, fd, pal, 118, 40, pt, pb, ps, style)
     print("STATUS: chromium — full brand quality")
     return 0
 
