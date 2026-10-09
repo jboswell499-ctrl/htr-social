@@ -21,3 +21,10 @@ FB-4 19:00 facebook: scheduled
 TT-4 20:30 tiktok: scheduled
 IG-5 21:00 instagram: scheduled as a Reel. Track: Midnight Dreamer, Giulio Cercato
 FB-5 21:30 facebook: scheduled
+
+Instagram Stories (added 14:23 at Justin's request, no music, no caption):
+IG-1 story 14:35: scheduled (Q2 card)
+IG-2 story 14:50: scheduled (Q1 card)
+IG-3 story 15:32: scheduled (hook card)
+IG-4 story 18:32: scheduled (carousel video)
+IG-5 story 21:02: scheduled (Q3 card)
