@@ -36,7 +36,7 @@ def page(slide, i, n, pal, fontdir):
 body{background:#222}
 .card{width:%(W)dpx;height:%(H)dpx;position:relative;overflow:hidden;background:%(bg)s;color:%(fg)s;font-family:%(TEXT)s}
 .card:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 30%% 42%%,transparent 35%%,%(vig)s 100%%)}
-.safe{position:absolute;top:%(TOP)dpx;bottom:%(BOT)dpx;left:%(LEFT)dpx;right:%(RIGHT)dpx;display:flex;flex-direction:column}
+.safe{z-index:2;position:absolute;top:%(TOP)dpx;bottom:%(BOT)dpx;left:%(LEFT)dpx;right:%(RIGHT)dpx;display:flex;flex-direction:column}
 .bars{display:flex;gap:10px;height:8px;flex:none}
 .bars i{flex:1;background:%(hair)s;border-radius:4px}
 .bars i.on{background:%(accent)s}
@@ -71,6 +71,7 @@ def main():
     ap.add_argument("--palette", default="gold", choices=list(PALETTES))
     ap.add_argument("--outdir", default=os.path.expanduser("~/htr-engine/cards"))
     ap.add_argument("--workdir", default=os.path.expanduser("~/htr-engine"))
+    ap.add_argument("--motif", default="none", choices=["none", "cross"], help="cross: Sunday scripture days")
     a = ap.parse_args()
     slides = json.load(open(a.json))
     if not 4 <= len(slides) <= 7:
@@ -88,7 +89,12 @@ def main():
         b = pw.chromium.launch()
         for i, s in enumerate(slides):
             f = os.path.join(a.workdir, "_tt_%02d.html" % (i + 1))
-            open(f, "w").write(page(s, i, len(slides), a.palette, fontdir))
+            html = page(s, i, len(slides), a.palette, fontdir)
+            if a.motif != "none":
+                import motif as _m
+                _acc = "#8E1B1F" if a.palette == "bone" else PALETTES[a.palette]["accent"]
+                html = _m.apply(html, a.motif, _acc, W, H, TOP + 40, BOT + 60, RIGHT)
+            open(f, "w").write(html)
             pg = b.new_page(viewport={"width": W + 40, "height": H + 40})
             pg.goto("file://" + f); pg.wait_for_function("document.body.getAttribute('data-ok')!==null", timeout=15000)
             pg.wait_for_timeout(300)

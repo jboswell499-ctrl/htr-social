@@ -234,6 +234,8 @@ def build_quote(q, attrib, p):
         fmt(q, cls), esc(attrib).replace("|", "<br>"))
     return KICK % "" + '<div class="mid">%s</div>' % mid + FOOT
 
+MOTIF = "none"
+
 def render(pages, outpaths, w, h, fd, pal, h1fs, bodyfs, pt, pb, ps, style="clean"):
     P = pal if isinstance(pal, dict) else PAL[pal]
     from playwright.sync_api import sync_playwright
@@ -242,7 +244,12 @@ def render(pages, outpaths, w, h, fd, pal, h1fs, bodyfs, pt, pb, ps, style="clea
         for body, out in zip(pages, outpaths):
             os.makedirs(os.path.expanduser("~/htr-engine"), exist_ok=True)
             f = os.path.expanduser("~/htr-engine/_r.html")
-            open(f, "w").write(shell(P, w, h, pt, pb, ps, fd, body, h1fs, bodyfs, style))
+            html = shell(P, w, h, pt, pb, ps, fd, body, h1fs, bodyfs, style)
+            if MOTIF != "none":
+                sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                import motif as _m
+                html = _m.apply(html, MOTIF, P["accent"], w, h, pt + 70, pb + 150, ps)
+            open(f, "w").write(html)
             pg = b.new_page(viewport={"width": w + 60, "height": min(h + 60, 2200)})
             pg.goto("file://" + f); pg.wait_for_timeout(1100 if style != "clean" else 700)
             pg.query_selector(".card").screenshot(path=out); pg.close()
@@ -261,7 +268,9 @@ def main():
                     help="quote cards only: clean, brush, paper, swipe; auto rotates them by day")
     ap.add_argument("--slug", required=True)
     ap.add_argument("--outdir", default=os.path.expanduser("~/htr-engine/cards"))
+    ap.add_argument("--motif", default="none", choices=["none", "cross"], help="cross: Sunday scripture days")
     a = ap.parse_args()
+    global MOTIF; MOTIF = a.motif
     if a.palette == "auto": a.palette = auto_palette(a.mode, a.ratio, a.slug)
     print("PALETTE:", a.palette)
     os.makedirs(a.outdir, exist_ok=True)

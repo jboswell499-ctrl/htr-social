@@ -194,6 +194,9 @@ def render_pil(head, sub, pal, r, outpath):
                t, font=mf, fill=c["muted"])
     im.save(outpath)
 
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--head", required=True)
@@ -205,6 +208,7 @@ def main():
     ap.add_argument("--padtop", type=int, default=None, help="top safe-zone padding px")
     ap.add_argument("--padbot", type=int, default=None, help="bottom safe-zone padding px")
     ap.add_argument("--force-pil", action="store_true")
+    ap.add_argument("--motif", default="none", choices=["none", "cross"], help="cross: Sunday scripture days")
     a = ap.parse_args()
     os.makedirs(a.workdir, exist_ok=True); os.makedirs(a.outdir, exist_ok=True)
     for _rk, _r in RATIOS.items():
@@ -221,7 +225,12 @@ def main():
                 b = pw.chromium.launch()
                 for rk, r in RATIOS.items():
                     f = os.path.join(a.workdir, "_card_%s.html" % rk)
-                    open(f, "w").write(page(a.head, a.sub, a.palette, r, fontdir))
+                    html = page(a.head, a.sub, a.palette, r, fontdir)
+                    if a.motif != "none":
+                        import motif as _m
+                        _acc = "#8E1B1F" if a.palette == "bone" else PALETTES[a.palette]["accent"]
+                        html = _m.apply(html, a.motif, _acc, r["w"], r["h"], r["padtop"], r["padbot"], r["pad"])
+                    open(f, "w").write(html)
                     pg = b.new_page(viewport={"width": r["w"] + 80, "height": min(r["h"] + 80, 2200)})
                     pg.goto("file://" + f); pg.wait_for_timeout(900)
                     pg.query_selector(".card").screenshot(path=outs[rk]); pg.close()
