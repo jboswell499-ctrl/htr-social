@@ -18,3 +18,9 @@ IG-4 19:00 instagram: scheduled as a Reel. Track: Wildflower (Instrumental), Jon
 
 ST-2 11:02 instagram story: scheduled (Q1 card)
 ST-4 19:02 instagram story: scheduled (carousel video)
+
+Added on request (Justin's talking-head video, HTR_video_ch08-small-commitments.mp4, 59s):
+VID-IG 13:30 instagram: scheduled as a Reel. Track: Home, Giulio Cercato (music at 10%, voice at 100%)
+VID-TT 13:30 tiktok: scheduled, video with its own audio (no auto music)
+VID-FB 13:30 facebook: scheduled
+VID-ST 13:32 instagram story: scheduled (same video)
