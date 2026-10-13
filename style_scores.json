@@ -1,0 +1,35 @@
+{
+ "updated": "2026-10-13 08:19",
+ "looks": {
+  "classic": {
+   "n": 6,
+   "avg_views": 86.0,
+   "avg_likes": 4.67,
+   "likes_per_100_views": 5.43,
+   "shares": 3,
+   "comments": 2
+  }
+ },
+ "by_network": {
+  "tiktok": {
+   "classic": {
+    "n": 4,
+    "avg_views": 89.2,
+    "avg_likes": 2.0,
+    "likes_per_100_views": 2.24,
+    "shares": 0,
+    "comments": 0
+   }
+  },
+  "instagram": {
+   "classic": {
+    "n": 2,
+    "avg_views": 79.5,
+    "avg_likes": 10.0,
+    "likes_per_100_views": 12.58,
+    "shares": 3,
+    "comments": 2
+   }
+  }
+ }
+}
