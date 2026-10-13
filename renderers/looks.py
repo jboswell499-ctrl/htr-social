@@ -320,6 +320,7 @@ def main():
             jobs.append((html, os.path.join(a.outdir, name), w, h, st))
     flags = render(jobs, a.look)
     print("STATUS: chromium - full brand quality" + (" (%d flagged)" % flags if flags else ""))
+    sys.exit(1 if flags else 0)
 
 if __name__ == "__main__":
     main()

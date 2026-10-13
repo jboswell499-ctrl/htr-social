@@ -65,6 +65,24 @@ document.fonts.ready.then(function(){
 </script>""" % dict(p, face=face(fontdir), W=W, H=H, TOP=TOP, BOT=BOT, LEFT=LEFT, RIGHT=RIGHT,
                     DISP=DISPLAY_STACK, TEXT=TEXT_STACK, bars=bars, lines=lines, small=small, cue=cue)
 
+
+def _delegate(slot, a, args, palette):
+    """New looks (2026-10-13): if today's pick for this slot is not classic, render with looks.py."""
+    import subprocess
+    here = os.path.dirname(os.path.abspath(__file__))
+    sys.path.insert(0, os.path.join(os.path.dirname(here), "tools"))
+    import pick_looks
+    look = pick_looks.todays_look(slot) if a.look == "auto" else a.look
+    if a.motif != "none": look = "classic"
+    if look == "classic":
+        pick_looks.record(slot, "classic", palette); print("LOOK: classic"); return None
+    m = re.match(r"ch(\d+)", a.slug); ch = m.group(1) if m else "00"
+    print("LOOK: %s (today's pick for %s; pass --look classic to force the original look)" % (look, slot))
+    r = subprocess.run([sys.executable, os.path.join(here, "looks.py"), "--look", look, "--chapter", ch,
+                        "--slug", a.slug, "--outdir", a.outdir] + args)
+    if r.returncode == 0: pick_looks.record(slot, look, "-")
+    return r.returncode
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", required=True); ap.add_argument("--slug", required=True)
@@ -72,7 +90,12 @@ def main():
     ap.add_argument("--outdir", default=os.path.expanduser("~/htr-engine/cards"))
     ap.add_argument("--workdir", default=os.path.expanduser("~/htr-engine"))
     ap.add_argument("--motif", default="none", choices=["none", "cross"], help="cross: Sunday scripture days")
+    ap.add_argument("--look", default="auto", help="auto (today's pick), classic, or a looks.py look")
     a = ap.parse_args()
+    m = re.search(r"-tt([1-4])$", a.slug)
+    if m:
+        rc = _delegate("TT-" + m.group(1), a, ["--mode", "slides", "--json", a.json, "--ratio", "9x16"], a.palette)
+        if rc is not None: return rc
     slides = json.load(open(a.json))
     if not 4 <= len(slides) <= 7:
         print("ERROR: need 4 to 7 slides, got %d" % len(slides)); return 1

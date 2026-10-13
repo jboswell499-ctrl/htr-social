@@ -40,15 +40,44 @@ def pick(net, k, scores, day):
     shift = day % k
     return chosen[shift:] + chosen[:shift]
 
-def main():
-    d = datetime.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else datetime.date.today()
-    day = d.toordinal()
-    here = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    p = os.path.join(here, "style_scores.json")
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+def picks_for(d):
+    """All six picks for date d. Sunday is always classic (scripture day needs the cross motif)."""
+    slots = ["TT-1", "TT-2", "TT-3", "TT-4", "IG-2", "IG-4"]
+    if d.weekday() == 6: return dict.fromkeys(slots, "classic")
+    p = os.path.join(HERE, "style_scores.json")
     scores = json.load(open(p)) if os.path.isfile(p) else {}
-    for slot, look in zip(["TT-1", "TT-2", "TT-3", "TT-4"], pick("tiktok", 4, scores, day)):
-        print(slot, look)
-    for slot, look in zip(["IG-2", "IG-4"], pick("instagram", 2, scores, day + 3)):
+    day = d.toordinal()
+    out = dict(zip(slots[:4], pick("tiktok", 4, scores, day)))
+    out.update(zip(slots[4:], pick("instagram", 2, scores, day + 3)))
+    return out
+
+def today_ny():
+    import zoneinfo
+    return datetime.datetime.now(zoneinfo.ZoneInfo("America/New_York")).date()
+
+def _path(d): return os.path.join(HERE, "looks", "%s.json" % d.isoformat())
+
+def todays_look(slot, d=None):
+    """The look for a slot today. The day's picks are frozen in looks/DATE.json on first use."""
+    d = d or today_ny(); f = _path(d)
+    if os.path.isfile(f):
+        rec = json.load(open(f))
+    else:
+        rec = {"date": d.isoformat(), "picked": picks_for(d), "used": {}}
+        os.makedirs(os.path.dirname(f), exist_ok=True); json.dump(rec, open(f, "w"), indent=1)
+    return rec["picked"].get(slot, "classic")
+
+def record(slot, look, palette="-", d=None):
+    """Note the look a slot was actually rendered in (it can fall back to classic)."""
+    todays_look(slot, d); d = d or today_ny(); f = _path(d)
+    rec = json.load(open(f)); rec["used"][slot] = {"look": look, "palette": palette}
+    json.dump(rec, open(f, "w"), indent=1)
+
+def main():
+    d = datetime.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else today_ny()
+    for slot, look in picks_for(d).items():
         print(slot, look)
 
 if __name__ == "__main__":

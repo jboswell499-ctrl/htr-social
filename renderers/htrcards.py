@@ -256,6 +256,24 @@ def render(pages, outpaths, w, h, fd, pal, h1fs, bodyfs, pt, pb, ps, style="clea
             print("rendered", out)
         b.close()
 
+
+def _delegate(slot, a, args, palette):
+    """New looks (2026-10-13): if today's pick for this slot is not classic, render with looks.py."""
+    import subprocess
+    here = os.path.dirname(os.path.abspath(__file__))
+    sys.path.insert(0, os.path.join(os.path.dirname(here), "tools"))
+    import pick_looks
+    look = pick_looks.todays_look(slot) if a.look == "auto" else a.look
+    if a.motif != "none": look = "classic"
+    if look == "classic":
+        pick_looks.record(slot, "classic", palette); print("LOOK: classic"); return None
+    m = re.match(r"ch(\d+)", a.slug); ch = m.group(1) if m else "00"
+    print("LOOK: %s (today's pick for %s; pass --look classic to force the original look)" % (look, slot))
+    r = subprocess.run([sys.executable, os.path.join(here, "looks.py"), "--look", look, "--chapter", ch,
+                        "--slug", a.slug, "--outdir", a.outdir] + args)
+    if r.returncode == 0: pick_looks.record(slot, look, "-")
+    return r.returncode
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", required=True, choices=["carousel", "quote"])
@@ -269,7 +287,15 @@ def main():
     ap.add_argument("--slug", required=True)
     ap.add_argument("--outdir", default=os.path.expanduser("~/htr-engine/cards"))
     ap.add_argument("--motif", default="none", choices=["none", "cross"], help="cross: Sunday scripture days")
+    ap.add_argument("--look", default="auto", help="auto (today's pick), classic, or a looks.py look")
     a = ap.parse_args()
+    if a.mode == "carousel":
+        rc = _delegate("IG-4", a, ["--mode", "slides", "--prefix", "carousel", "--json", a.json, "--ratio", a.ratio], "carousel")
+        if rc is not None: return rc
+    elif a.slug.endswith("-q1") and a.ratio == "9x16":
+        st = auto_style(a.mode, a.slug) if a.style == "auto" else a.style
+        rc = _delegate("IG-2", a, ["--mode", "quote", "--quote", a.quote, "--attrib", a.attrib, "--ratio", "9x16"], st)
+        if rc is not None: return rc
     global MOTIF; MOTIF = a.motif
     if a.palette == "auto": a.palette = auto_palette(a.mode, a.ratio, a.slug)
     print("PALETTE:", a.palette)
