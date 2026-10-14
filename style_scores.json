@@ -1,34 +1,34 @@
 {
- "updated": "2026-10-13 08:19",
+ "updated": "2026-10-13 22:42",
  "looks": {
   "classic": {
-   "n": 6,
-   "avg_views": 86.0,
-   "avg_likes": 4.67,
-   "likes_per_100_views": 5.43,
-   "shares": 3,
-   "comments": 2
+   "n": 11,
+   "avg_views": 90.3,
+   "avg_likes": 4.73,
+   "likes_per_100_views": 5.24,
+   "shares": 5,
+   "comments": 4
   }
  },
  "by_network": {
   "tiktok": {
    "classic": {
-    "n": 4,
-    "avg_views": 89.2,
-    "avg_likes": 2.0,
-    "likes_per_100_views": 2.24,
+    "n": 7,
+    "avg_views": 96.4,
+    "avg_likes": 1.86,
+    "likes_per_100_views": 1.93,
     "shares": 0,
     "comments": 0
    }
   },
   "instagram": {
    "classic": {
-    "n": 2,
+    "n": 4,
     "avg_views": 79.5,
-    "avg_likes": 10.0,
-    "likes_per_100_views": 12.58,
-    "shares": 3,
-    "comments": 2
+    "avg_likes": 9.75,
+    "likes_per_100_views": 12.26,
+    "shares": 5,
+    "comments": 4
    }
   }
  }
