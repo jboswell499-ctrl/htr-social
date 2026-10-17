@@ -1,34 +1,98 @@
 {
- "updated": "2026-10-15 22:43",
+ "updated": "2026-10-16 22:42",
  "looks": {
+  "block": {
+   "n": 1,
+   "avg_views": 140.0,
+   "avg_likes": 2.0,
+   "likes_per_100_views": 1.43,
+   "shares": 0,
+   "comments": 0
+  },
   "classic": {
-   "n": 23,
-   "avg_views": 88.1,
-   "avg_likes": 4.87,
-   "likes_per_100_views": 5.53,
-   "shares": 8,
-   "comments": 8
+   "n": 25,
+   "avg_views": 83.3,
+   "avg_likes": 4.96,
+   "likes_per_100_views": 5.96,
+   "shares": 9,
+   "comments": 9
+  },
+  "editorial": {
+   "n": 1,
+   "avg_views": 842.0,
+   "avg_likes": 17.0,
+   "likes_per_100_views": 2.02,
+   "shares": 1,
+   "comments": 0
+  },
+  "ledger": {
+   "n": 1,
+   "avg_views": 173.0,
+   "avg_likes": 2.0,
+   "likes_per_100_views": 1.16,
+   "shares": 0,
+   "comments": 0
+  },
+  "notebook": {
+   "n": 1,
+   "avg_views": 30.0,
+   "avg_likes": 10.0,
+   "likes_per_100_views": 33.33,
+   "shares": 0,
+   "comments": 1
   }
  },
  "by_network": {
   "tiktok": {
+   "block": {
+    "n": 1,
+    "avg_views": 140.0,
+    "avg_likes": 2.0,
+    "likes_per_100_views": 1.43,
+    "shares": 0,
+    "comments": 0
+   },
    "classic": {
-    "n": 15,
-    "avg_views": 89.3,
-    "avg_likes": 2.13,
-    "likes_per_100_views": 2.39,
+    "n": 16,
+    "avg_views": 85.5,
+    "avg_likes": 2.12,
+    "likes_per_100_views": 2.49,
+    "shares": 0,
+    "comments": 0
+   },
+   "editorial": {
+    "n": 1,
+    "avg_views": 842.0,
+    "avg_likes": 17.0,
+    "likes_per_100_views": 2.02,
+    "shares": 1,
+    "comments": 0
+   },
+   "ledger": {
+    "n": 1,
+    "avg_views": 173.0,
+    "avg_likes": 2.0,
+    "likes_per_100_views": 1.16,
     "shares": 0,
     "comments": 0
    }
   },
   "instagram": {
    "classic": {
-    "n": 8,
-    "avg_views": 85.9,
+    "n": 9,
+    "avg_views": 79.3,
     "avg_likes": 10.0,
-    "likes_per_100_views": 11.64,
-    "shares": 8,
-    "comments": 8
+    "likes_per_100_views": 12.61,
+    "shares": 9,
+    "comments": 9
+   },
+   "notebook": {
+    "n": 1,
+    "avg_views": 30.0,
+    "avg_likes": 10.0,
+    "likes_per_100_views": 33.33,
+    "shares": 0,
+    "comments": 1
    }
   }
  }
