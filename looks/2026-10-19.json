@@ -1,0 +1,37 @@
+{
+ "date": "2026-10-19",
+ "picked": {
+  "TT-1": "block",
+  "TT-2": "classic",
+  "TT-3": "editorial",
+  "TT-4": "ledger",
+  "IG-2": "block",
+  "IG-4": "classic"
+ },
+ "used": {
+  "IG-4": {
+   "look": "classic",
+   "palette": "carousel"
+  },
+  "IG-2": {
+   "look": "block",
+   "palette": "-"
+  },
+  "TT-1": {
+   "look": "block",
+   "palette": "-"
+  },
+  "TT-2": {
+   "look": "classic",
+   "palette": "bone"
+  },
+  "TT-3": {
+   "look": "editorial",
+   "palette": "-"
+  },
+  "TT-4": {
+   "look": "ledger",
+   "palette": "-"
+  }
+ }
+}
