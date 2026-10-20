@@ -10,11 +10,29 @@ REELS.json: same for Instagram Reels with
 Either file may be "-" to skip it. A post is matched to its log row by network and publish time
 (within 30 minutes). Posts younger than 48 hours are shown but left out of the scores, since their
 numbers are still climbing. Writes STYLE_REPORT.md and style_scores.json next to the log.
+
+Also left out of the scores (still listed, with the reason):
+- posts inside an EXCLUDE window, when the whole account's reach was down and the numbers say nothing
+  about the look;
+- matches that are not clear: another post on the same network landed less than 10 minutes further
+  from the slot time than the chosen one, so the views may belong to a different post.
 """
 import argparse, csv, datetime, json, os, sys, zoneinfo
 
 NY = zoneinfo.ZoneInfo("America/New_York"); UTC = datetime.timezone.utc
 SETTLE_H = 48
+AMBIG_MIN = 10
+# (network, from, to) in America/New_York, inclusive. TikTok reach fell to 0-6 views per post from
+# midday 2026-10-16, after posting went from 4 to 12-14 a day; the publisher runs 2 a day through
+# 2026-10-26 to recover. Nothing posted in that stretch is evidence for or against a look.
+EXCLUDE = [("tiktok", "2026-10-16T12:00", "2026-10-26T23:59", "TikTok reach drop")]
+
+def excluded(network, t):
+    for net, lo, hi, why in EXCLUDE:
+        lo = datetime.datetime.fromisoformat(lo).replace(tzinfo=NY)
+        hi = datetime.datetime.fromisoformat(hi).replace(tzinfo=NY)
+        if net == network and lo <= t <= hi: return why
+    return None
 
 def load_rows(path, network):
     if path == "-" or not os.path.isfile(path): return []
@@ -47,9 +65,17 @@ def main():
         cand = [p for p in posts if p["network"] == row["network"] and abs((p["t"] - t).total_seconds()) <= 1800]
         if not cand:
             unmatched += 1; continue
-        p = min(cand, key=lambda p: abs((p["t"] - t).total_seconds()))
+        cand.sort(key=lambda p: abs((p["t"] - t).total_seconds()))
+        p = cand[0]
         age = (now - p["t"]).total_seconds() / 3600
-        matched.append(dict(row, **{k: p[k] for k in ("views", "likes", "comments", "shares")}, settled=age >= SETTLE_H))
+        gap = lambda q: abs((q["t"] - t).total_seconds())
+        if len(cand) > 1 and gap(cand[1]) - gap(p) < AMBIG_MIN * 60:
+            why = "two posts at that time"
+        else:
+            why = excluded(row["network"], p["t"])
+        if not why and age < SETTLE_H: why = "new"
+        matched.append(dict(row, **{k: p[k] for k in ("views", "likes", "comments", "shares")},
+                            settled=not why, why=why or ""))
     # scores per look (settled posts only), overall and per network
     def agg(items):
         n = len(items)
@@ -71,6 +97,9 @@ def main():
 
     L = ["# HTR style report", "", "Updated %s (America/New_York). Scores use posts at least %d hours old; "
          "newer posts are listed but not scored." % (scores["updated"], SETTLE_H), ""]
+    for net, lo, hi, why in EXCLUDE:
+        L.extend(["Not scored: %s posts from %s to %s (%s)." % (net.capitalize(), lo.replace("T", " "),
+                  hi.replace("T", " "), why), ""])
     def table(title, d):
         L.extend(["## " + title, "", "| Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |",
                   "|---|---|---|---|---|---|---|"])
@@ -82,10 +111,10 @@ def main():
     for net, d in scores["by_network"].items(): table(net.capitalize(), d)
     L.extend(["Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook "
               "as much as with the look.", "", "## Every logged post", "",
-              "| Date | Slot | Look | Palette | Views | Likes | Shares | Settled | Hook |", "|---|---|---|---|---|---|---|---|---|"])
+              "| Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |", "|---|---|---|---|---|---|---|---|---|"])
     for m in sorted(matched, key=lambda m: (m["date"], m["time_et"])):
         L.append("| %s | %s | %s | %s | %d | %d | %d | %s | %s |" % (m["date"], m["slot"], m["look"], m["palette"],
-                 m["views"], m["likes"], m["shares"], "yes" if m["settled"] else "no", m["hook"].replace("|", "/")))
+                 m["views"], m["likes"], m["shares"], "yes" if m["settled"] else "no (%s)" % m["why"], m["hook"].replace("|", "/")))
     L.extend(["", "%d logged posts matched, %d not found in the metrics yet." % (len(matched), unmatched)])
     open(a.out, "w").write("\n".join(L) + "\n")
     print("matched %d, unmatched %d, looks scored: %s" % (len(matched), unmatched, ", ".join(scores["looks"]) or "none"))

@@ -29,3 +29,10 @@ renderers/htrcards.py picks a palette per asset when --palette is not given (aut
 - Each day `tools/pick_looks.py` picks a look for TT-1..TT-4, IG-2 (Q1 Reel and Story) and IG-4 (carousel Reel, also FB-4 and LI-3). The pick is frozen in `looks/DATE.json` the first time a renderer asks for it.
 - `tiktok_slides.py` (slugs ending -ttN), `htrcards.py --mode carousel` and `htrcards.py --mode quote` for `-q1` at 9x16 hand off to looks.py automatically when the pick is not classic. Pass `--look classic` to force the original look. `--motif cross` (Sunday) always stays classic.
 - Nightly: `tools/log_today.py DATE` adds the day's posts to `STYLE_LOG.csv`; `tools/style_report.py` joins the log with Metricool per-post views and likes and writes `STYLE_REPORT.md` and `style_scores.json`, which the next day's picks read. Looks that win on views get used more; looks with fewer than 3 scored posts keep being tested.
+
+## TikTok recovery and retired looks (2026-10-19)
+
+- TikTok reach fell to 0-6 views per post from midday 2026-10-16, right after the account went from 4 posts a day to 12-14 (a separate batch of short videos was posting alongside the publisher, sometimes in the same minute). The last two queued videos of that batch (2026-10-20 10:15 and 12:15) were turned into drafts.
+- 2026-10-20 to 2026-10-26: the publisher posts only TT-1 (10:00) and TT-3 (16:00), and skips a TikTok slot if another TikTok is within 2 hours of it. All four slots return on 2026-10-27. `pick_looks.TT_RECOVERY` holds the dates.
+- `style_report.py` does not score TikTok posts from 2026-10-16 12:00 to 2026-10-26 (`EXCLUDE`), or a post when another one landed at nearly the same time, so the looks are not blamed for the account-wide drop.
+- `poster` is retired (`pick_looks.RETIRED`): 24 views on its one Instagram Reel against a 69 average for classic, and 2 views on each of its TikToks.

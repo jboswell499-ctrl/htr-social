@@ -14,11 +14,25 @@ Rules
 - One slot in four is always given to a non-leading look, so the ranking keeps getting checked.
 - The four TikTok sets get four different looks, and the slot each look lands in rotates daily so
   a look is not judged by one posting time. The two Instagram Reels get two different looks.
+- Retired looks (RETIRED below) are never picked. Their old posts stay in the log and the report.
+- TikTok recovery week (TT_RECOVERY below): only TT-1 and TT-3 are posted, so only they get picks;
+  TT-2 and TT-4 are set to classic and are not scheduled.
 """
 import datetime, json, os, sys
 
-POOL = ["classic", "editorial", "ledger", "block", "notebook", "poster"]
+# poster retired 2026-10-19 on Justin's call: 24 views on its one Instagram Reel (classic averaged 69)
+# and 2 views on each of its two TikToks.
+RETIRED = {"poster": "2026-10-19"}
+POOL = [lk for lk in ["classic", "editorial", "ledger", "block", "notebook", "poster"] if lk not in RETIRED]
 MIN_N = 3
+
+# TikTok reach collapsed on 2026-10-16 after the account went from 4 to 12-14 posts a day. For one
+# week the publisher posts only these TikTok slots, then all four come back.
+TT_RECOVERY = (datetime.date(2026, 10, 20), datetime.date(2026, 10, 26), ["TT-1", "TT-3"])
+
+def tiktok_slots(d):
+    lo, hi, slots = TT_RECOVERY
+    return list(slots) if lo <= d <= hi else ["TT-1", "TT-2", "TT-3", "TT-4"]
 
 def ranked(scores, net, day):
     d = scores.get("by_network", {}).get(net, {})
@@ -49,7 +63,9 @@ def picks_for(d):
     p = os.path.join(HERE, "style_scores.json")
     scores = json.load(open(p)) if os.path.isfile(p) else {}
     day = d.toordinal()
-    out = dict(zip(slots[:4], pick("tiktok", 4, scores, day)))
+    tt = tiktok_slots(d)
+    out = dict.fromkeys(slots[:4], "classic")
+    out.update(zip(tt, pick("tiktok", len(tt), scores, day)))
     out.update(zip(slots[4:], pick("instagram", 2, scores, day + 3)))
     return out
 

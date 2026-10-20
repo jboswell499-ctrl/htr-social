@@ -1,26 +1,26 @@
 {
- "updated": "2026-10-19 22:42",
+ "updated": "2026-10-19 22:54",
  "looks": {
   "block": {
-   "n": 3,
-   "avg_views": 122.7,
-   "avg_likes": 1.67,
-   "likes_per_100_views": 1.36,
+   "n": 2,
+   "avg_views": 142.0,
+   "avg_likes": 2.0,
+   "likes_per_100_views": 1.41,
    "shares": 0,
    "comments": 0
   },
   "classic": {
-   "n": 31,
-   "avg_views": 76.3,
-   "avg_likes": 4.87,
-   "likes_per_100_views": 6.38,
+   "n": 29,
+   "avg_views": 81.4,
+   "avg_likes": 5.17,
+   "likes_per_100_views": 6.36,
    "shares": 11,
    "comments": 12
   },
   "editorial": {
-   "n": 4,
-   "avg_views": 256.2,
-   "avg_likes": 9.25,
+   "n": 3,
+   "avg_views": 341.3,
+   "avg_likes": 12.33,
    "likes_per_100_views": 3.61,
    "shares": 2,
    "comments": 2
@@ -34,18 +34,18 @@
    "comments": 0
   },
   "notebook": {
-   "n": 4,
-   "avg_views": 60.0,
-   "avg_likes": 3.5,
-   "likes_per_100_views": 5.83,
+   "n": 2,
+   "avg_views": 63.5,
+   "avg_likes": 5.5,
+   "likes_per_100_views": 8.66,
    "shares": 0,
    "comments": 1
   },
   "poster": {
-   "n": 3,
-   "avg_views": 9.3,
-   "avg_likes": 4.0,
-   "likes_per_100_views": 42.86,
+   "n": 1,
+   "avg_views": 24.0,
+   "avg_likes": 10.0,
+   "likes_per_100_views": 41.67,
    "shares": 1,
    "comments": 1
   }
@@ -53,25 +53,25 @@
  "by_network": {
   "tiktok": {
    "block": {
-    "n": 3,
-    "avg_views": 122.7,
-    "avg_likes": 1.67,
-    "likes_per_100_views": 1.36,
+    "n": 2,
+    "avg_views": 142.0,
+    "avg_likes": 2.0,
+    "likes_per_100_views": 1.41,
     "shares": 0,
     "comments": 0
    },
    "classic": {
-    "n": 19,
-    "avg_views": 80.8,
-    "avg_likes": 2.11,
-    "likes_per_100_views": 2.6,
+    "n": 17,
+    "avg_views": 90.0,
+    "avg_likes": 2.29,
+    "likes_per_100_views": 2.55,
     "shares": 0,
     "comments": 0
    },
    "editorial": {
-    "n": 2,
-    "avg_views": 423.5,
-    "avg_likes": 8.5,
+    "n": 1,
+    "avg_views": 846.0,
+    "avg_likes": 17.0,
     "likes_per_100_views": 2.01,
     "shares": 1,
     "comments": 0
@@ -85,18 +85,10 @@
     "comments": 0
    },
    "notebook": {
-    "n": 3,
-    "avg_views": 70.0,
-    "avg_likes": 1.33,
-    "likes_per_100_views": 1.9,
-    "shares": 0,
-    "comments": 0
-   },
-   "poster": {
-    "n": 2,
-    "avg_views": 2.0,
+    "n": 1,
+    "avg_views": 97.0,
     "avg_likes": 1.0,
-    "likes_per_100_views": 50.0,
+    "likes_per_100_views": 1.03,
     "shares": 0,
     "comments": 0
    }
