@@ -1,35 +1,35 @@
 # HTR style report
 
-Updated 2026-10-18 22:44 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-10-19 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 ## All networks
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 2 | 460.5 | 13.50 | 2.93 | 1 | 1 |
+| editorial | 4 | 256.2 | 9.25 | 3.61 | 2 | 2 |
 | ledger | 2 | 139.5 | 1.50 | 1.08 | 0 | 0 |
 | block | 3 | 122.7 | 1.67 | 1.36 | 0 | 0 |
-| classic | 29 | 80.7 | 5.21 | 6.45 | 11 | 11 |
-| notebook | 3 | 79.3 | 4.67 | 5.88 | 0 | 1 |
-| poster | 2 | 13.0 | 5.50 | 42.31 | 1 | 1 |
+| classic | 31 | 76.3 | 4.87 | 6.38 | 11 | 12 |
+| notebook | 4 | 60.0 | 3.50 | 5.83 | 0 | 1 |
+| poster | 3 | 9.3 | 4.00 | 42.86 | 1 | 1 |
 
 ## Tiktok
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 1 | 845.0 | 17.00 | 2.01 | 1 | 0 |
+| editorial | 2 | 423.5 | 8.50 | 2.01 | 1 | 0 |
 | ledger | 2 | 139.5 | 1.50 | 1.08 | 0 | 0 |
 | block | 3 | 122.7 | 1.67 | 1.36 | 0 | 0 |
-| notebook | 2 | 104.0 | 2.00 | 1.92 | 0 | 0 |
-| classic | 18 | 85.3 | 2.22 | 2.60 | 0 | 0 |
-| poster | 1 | 2.0 | 1.00 | 50.00 | 0 | 0 |
+| classic | 19 | 80.8 | 2.11 | 2.60 | 0 | 0 |
+| notebook | 3 | 70.0 | 1.33 | 1.90 | 0 | 0 |
+| poster | 2 | 2.0 | 1.00 | 50.00 | 0 | 0 |
 
 ## Instagram
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 1 | 76.0 | 10.00 | 13.16 | 0 | 1 |
-| classic | 11 | 73.1 | 10.09 | 13.81 | 11 | 11 |
+| editorial | 2 | 89.0 | 10.00 | 11.24 | 1 | 2 |
+| classic | 12 | 69.2 | 9.25 | 13.37 | 11 | 12 |
 | notebook | 1 | 30.0 | 10.00 | 33.33 | 0 | 1 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
@@ -61,11 +61,11 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-13 | TT-2 | classic | bone | 118 | 3 | 0 | yes | Whoever frames it wins it. |
 | 2026-10-13 | TT-3 | classic | oxblood | 59 | 1 | 0 | yes | 3 things that happen to men who ignore power |
 | 2026-10-13 | TT-4 | classic | navy | 14 | 1 | 0 | yes | Leverage is having somewhere else to go. |
-| 2026-10-13 | IG-4 | classic | carousel | 14 | 9 | 0 | yes | Ch9 carousel |
+| 2026-10-13 | IG-4 | classic | carousel | 15 | 9 | 0 | yes | Ch9 carousel |
 | 2026-10-14 | TT-1 | block | - | 141 | 2 | 0 | yes | You don't lose respect arguing. You lose it rushing. |
 | 2026-10-14 | IG-2 | classic | brush | 27 | 10 | 1 | yes | Ch10 Daily Standard |
 | 2026-10-14 | TT-2 | classic | bone | 25 | 1 | 0 | yes | You lost the room before you spoke. |
-| 2026-10-14 | TT-3 | editorial | - | 845 | 17 | 1 | yes | 3 ways men lose respect they took years to build |
+| 2026-10-14 | TT-3 | editorial | - | 846 | 17 | 1 | yes | 3 ways men lose respect they took years to build |
 | 2026-10-14 | TT-4 | ledger | - | 173 | 2 | 0 | yes | Letting it slide is teaching. |
 | 2026-10-14 | IG-4 | notebook | - | 30 | 10 | 0 | yes | Ch10 carousel |
 | 2026-10-15 | TT-1 | classic | gold | 162 | 5 | 0 | yes | You're not too nice. You're being used. |
@@ -80,11 +80,17 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-16 | TT-3 | poster | - | 2 | 1 | 0 | yes | 3 things bad company takes before you notice. |
 | 2026-10-16 | TT-4 | classic | navy | 6 | 1 | 0 | yes | Forgiveness isn't a house key. |
 | 2026-10-16 | IG-4 | editorial | - | 76 | 10 | 0 | yes | Ch12 carousel |
-| 2026-10-17 | TT-1 | poster | - | 1 | 1 | 0 | no | Your bank app is a lie detector. |
-| 2026-10-17 | IG-2 | editorial | - | 80 | 10 | 1 | no | Ch13 Daily Standard |
-| 2026-10-17 | TT-2 | editorial | - | 1 | 0 | 0 | no | Raises don't fix leaks. |
-| 2026-10-17 | TT-3 | classic | oxblood | 0 | 0 | 0 | no | No savings costs you 3 things. |
-| 2026-10-17 | TT-4 | notebook | - | 1 | 0 | 0 | no | You don't have an income problem. |
-| 2026-10-17 | IG-4 | classic | carousel | 6 | 0 | 0 | no | Ch13 carousel |
+| 2026-10-17 | TT-1 | poster | - | 2 | 1 | 0 | yes | Your bank app is a lie detector. |
+| 2026-10-17 | IG-2 | editorial | - | 102 | 10 | 1 | yes | Ch13 Daily Standard |
+| 2026-10-17 | TT-2 | editorial | - | 1 | 0 | 0 | yes | Raises don't fix leaks. |
+| 2026-10-17 | TT-3 | classic | oxblood | 0 | 0 | 0 | yes | No savings costs you 3 things. |
+| 2026-10-17 | TT-4 | notebook | - | 2 | 0 | 0 | yes | You don't have an income problem. |
+| 2026-10-17 | IG-4 | classic | carousel | 25 | 0 | 0 | yes | Ch13 carousel |
+| 2026-10-18 | TT-1 | classic | gold | 0 | 0 | 0 | no | Uncounted risk is just a bet. |
+| 2026-10-18 | IG-2 | classic | brush | 13 | 0 | 0 | no | Ch14 Daily Standard |
+| 2026-10-18 | TT-2 | classic | bone | 0 | 0 | 0 | no | You're eating your future. |
+| 2026-10-18 | TT-3 | classic | oxblood | 0 | 0 | 0 | no | 3 things spending it all costs you. |
+| 2026-10-18 | TT-4 | classic | navy | 1 | 0 | 0 | no | Fools get paid too. |
+| 2026-10-18 | IG-4 | classic | carousel | 4 | 1 | 0 | no | Ch14 carousel |
 
-47 logged posts matched, 6 not found in the metrics yet.
+53 logged posts matched, 6 not found in the metrics yet.
