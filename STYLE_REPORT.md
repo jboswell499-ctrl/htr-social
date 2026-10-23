@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-10-21 22:43 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-10-22 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach drop).
 
@@ -9,9 +9,9 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | editorial | 3 | 342.0 | 12.33 | 3.61 | 2 | 2 |
-| ledger | 2 | 139.5 | 1.50 | 1.08 | 0 | 0 |
-| block | 3 | 99.7 | 2.33 | 2.34 | 0 | 1 |
-| classic | 32 | 75.3 | 4.94 | 6.55 | 12 | 15 |
+| ledger | 3 | 103.3 | 2.00 | 1.94 | 0 | 1 |
+| block | 3 | 100.7 | 2.67 | 2.65 | 0 | 1 |
+| classic | 33 | 75.7 | 5.15 | 6.80 | 13 | 16 |
 | notebook | 2 | 63.5 | 5.50 | 8.66 | 0 | 1 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
@@ -30,10 +30,11 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | editorial | 2 | 90.0 | 10.00 | 11.11 | 1 | 2 |
-| classic | 15 | 58.7 | 7.93 | 13.51 | 12 | 15 |
+| classic | 16 | 60.6 | 8.19 | 13.52 | 13 | 16 |
+| ledger | 1 | 31.0 | 3.00 | 9.68 | 0 | 1 |
 | notebook | 1 | 30.0 | 10.00 | 33.33 | 0 | 1 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
-| block | 1 | 15.0 | 3.00 | 20.00 | 0 | 1 |
+| block | 1 | 18.0 | 4.00 | 22.22 | 0 | 1 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
 
@@ -87,22 +88,24 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-17 | TT-2 | editorial | - | 1 | 0 | 0 | no (two posts at that time) | Raises don't fix leaks. |
 | 2026-10-17 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | No savings costs you 3 things. |
 | 2026-10-17 | TT-4 | notebook | - | 2 | 1 | 0 | no (two posts at that time) | You don't have an income problem. |
-| 2026-10-17 | IG-4 | classic | carousel | 29 | 2 | 0 | yes | Ch13 carousel |
+| 2026-10-17 | IG-4 | classic | carousel | 32 | 3 | 0 | yes | Ch13 carousel |
 | 2026-10-18 | TT-1 | classic | gold | 4 | 1 | 0 | no (TikTok reach drop) | Uncounted risk is just a bet. |
-| 2026-10-18 | IG-2 | classic | brush | 18 | 3 | 0 | yes | Ch14 Daily Standard |
+| 2026-10-18 | IG-2 | classic | brush | 21 | 4 | 0 | yes | Ch14 Daily Standard |
 | 2026-10-18 | TT-2 | classic | bone | 0 | 0 | 0 | no (TikTok reach drop) | You're eating your future. |
 | 2026-10-18 | TT-3 | classic | oxblood | 0 | 0 | 0 | no (TikTok reach drop) | 3 things spending it all costs you. |
 | 2026-10-18 | TT-4 | classic | navy | 1 | 0 | 0 | no (TikTok reach drop) | Fools get paid too. |
-| 2026-10-18 | IG-4 | classic | carousel | 8 | 1 | 0 | yes | Ch14 carousel |
+| 2026-10-18 | IG-4 | classic | carousel | 11 | 3 | 0 | yes | Ch14 carousel |
 | 2026-10-19 | TT-1 | block | - | 110 | 1 | 0 | no (TikTok reach drop) | A goal without a plan is a daydream. |
-| 2026-10-19 | IG-2 | block | - | 15 | 3 | 0 | yes | Ch15 Daily Standard |
-| 2026-10-19 | TT-2 | classic | bone | 16 | 1 | 0 | no (TikTok reach drop) | A full calendar proves nothing. |
-| 2026-10-19 | TT-3 | editorial | - | 199 | 11 | 0 | no (TikTok reach drop) | 3 things a vague purpose costs you. |
-| 2026-10-19 | TT-4 | ledger | - | 9 | 0 | 0 | no (TikTok reach drop) | You're not productive. You're drifting. |
-| 2026-10-19 | IG-4 | classic | carousel | 20 | 2 | 1 | yes | Ch15 carousel |
-| 2026-10-20 | TT-1 | notebook | - | 138 | 3 | 0 | no (TikTok reach drop) | You're not underpaid. You're out of options. |
-| 2026-10-20 | IG-2 | classic | paper | 44 | 4 | 1 | no (new) | Ch16 Daily Standard |
-| 2026-10-20 | TT-3 | classic | oxblood | 1 | 0 | 0 | no (TikTok reach drop) | Your steady job is your biggest risk. |
-| 2026-10-20 | IG-4 | ledger | - | 20 | 1 | 0 | no (new) | Ch16 carousel |
+| 2026-10-19 | IG-2 | block | - | 18 | 4 | 0 | yes | Ch15 Daily Standard |
+| 2026-10-19 | TT-2 | classic | bone | 16 | 2 | 0 | no (TikTok reach drop) | A full calendar proves nothing. |
+| 2026-10-19 | TT-3 | editorial | - | 199 | 12 | 0 | no (TikTok reach drop) | 3 things a vague purpose costs you. |
+| 2026-10-19 | TT-4 | ledger | - | 9 | 1 | 0 | no (TikTok reach drop) | You're not productive. You're drifting. |
+| 2026-10-19 | IG-4 | classic | carousel | 23 | 4 | 1 | yes | Ch15 carousel |
+| 2026-10-20 | TT-1 | notebook | - | 142 | 4 | 0 | no (TikTok reach drop) | You're not underpaid. You're out of options. |
+| 2026-10-20 | IG-2 | classic | paper | 76 | 6 | 1 | yes | Ch16 Daily Standard |
+| 2026-10-20 | TT-3 | classic | oxblood | 2 | 1 | 0 | no (TikTok reach drop) | Your steady job is your biggest risk. |
+| 2026-10-20 | IG-4 | ledger | - | 31 | 3 | 0 | yes | Ch16 carousel |
+| 2026-10-21 | IG-2 | block | - | 25 | 2 | 0 | no (new) | Ch17 Daily Standard |
+| 2026-10-21 | IG-4 | classic | carousel | 3 | 1 | 0 | no (new) | Ch17 carousel |
 
-63 logged posts matched, 2 not found in the metrics yet.
+65 logged posts matched, 3 not found in the metrics yet.
