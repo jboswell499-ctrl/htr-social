@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-22 22:42",
+ "updated": "2026-10-23 22:42",
  "looks": {
   "block": {
-   "n": 3,
-   "avg_views": 100.7,
-   "avg_likes": 2.67,
-   "likes_per_100_views": 2.65,
+   "n": 4,
+   "avg_views": 82.8,
+   "avg_likes": 2.5,
+   "likes_per_100_views": 3.02,
    "shares": 0,
-   "comments": 1
+   "comments": 2
   },
   "classic": {
-   "n": 33,
-   "avg_views": 75.7,
-   "avg_likes": 5.15,
-   "likes_per_100_views": 6.8,
+   "n": 34,
+   "avg_views": 73.8,
+   "avg_likes": 5.03,
+   "likes_per_100_views": 6.82,
    "shares": 13,
-   "comments": 16
+   "comments": 17
   },
   "editorial": {
    "n": 3,
@@ -95,20 +95,20 @@
   },
   "instagram": {
    "block": {
-    "n": 1,
-    "avg_views": 18.0,
-    "avg_likes": 4.0,
-    "likes_per_100_views": 22.22,
+    "n": 2,
+    "avg_views": 23.5,
+    "avg_likes": 3.0,
+    "likes_per_100_views": 12.77,
     "shares": 0,
-    "comments": 1
+    "comments": 2
    },
    "classic": {
-    "n": 16,
-    "avg_views": 60.6,
-    "avg_likes": 8.19,
-    "likes_per_100_views": 13.52,
+    "n": 17,
+    "avg_views": 57.6,
+    "avg_likes": 7.76,
+    "likes_per_100_views": 13.48,
     "shares": 13,
-    "comments": 16
+    "comments": 17
    },
    "editorial": {
     "n": 2,
