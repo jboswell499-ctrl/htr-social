@@ -3,7 +3,8 @@
 
   log_today.py YYYY-MM-DD
 
-Only slots marked "scheduled" in RUN_STATUS.md are logged (TT-1..TT-4, IG-2, IG-4). The look comes
+Only slots marked "scheduled" in RUN_STATUS.md are logged (TT-1..TT-4, IG-2, IG-3, IG-4). IG-3 is the
+Sunday focus list (added 2026-10-25); it is logged under the look "focus-list", which pick_looks never picks. The look comes
 from the "used" record the renderers wrote; a slot with no record is logged as classic. Rows already
 in the log for that date and slot are left alone, so running it twice is safe.
 """
@@ -26,16 +27,17 @@ def main():
     have = {(r["date"], r["slot"]) for r in rows}
     new = []
     for line in text.splitlines():
-        m = re.match(r"^(TT-[1-4]|IG-[24]) (\d\d:\d\d) (tiktok|instagram): scheduled(.*)$", line.strip())
+        m = re.match(r"^(TT-[1-4]|IG-[234]) (\d\d:\d\d) (tiktok|instagram): scheduled(.*)$", line.strip())
         if not m or (date, m.group(1)) in have: continue
         slot, t, net, rest = m.groups()
         u = used.get(slot, {"look": "classic", "palette": CLASSIC_PAL.get(slot, "-")})
+        if slot == "IG-3": u = {"look": "focus-list", "palette": "-"}
         if net == "tiktok":
             h = re.search(r"Slide 1:\s*(.+?)\s*$", rest); hook = h.group(1) if h else ""
             piece = "slides"
         else:
-            hook = "Ch%s %s" % (ch, "Daily Standard" if slot == "IG-2" else "carousel")
-            piece = "quote-reel" if slot == "IG-2" else "carousel-reel"
+            hook = "Ch%s %s" % (ch, {"IG-2": "Daily Standard", "IG-3": "focus list"}.get(slot, "carousel"))
+            piece = {"IG-2": "quote-reel", "IG-3": "focus-reel"}.get(slot, "carousel-reel")
         new.append(dict(date=date, slot=slot, network=net, time_et=t, piece=piece,
                         look=u["look"], palette=u.get("palette", "-"), hook=hook))
     if new:
