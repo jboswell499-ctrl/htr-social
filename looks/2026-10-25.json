@@ -1,0 +1,29 @@
+{
+ "date": "2026-10-25",
+ "picked": {
+  "TT-1": "classic",
+  "TT-2": "classic",
+  "TT-3": "classic",
+  "TT-4": "classic",
+  "IG-2": "classic",
+  "IG-4": "classic"
+ },
+ "used": {
+  "IG-4": {
+   "look": "classic",
+   "palette": "carousel"
+  },
+  "TT-1": {
+   "look": "classic",
+   "palette": "gold"
+  },
+  "TT-3": {
+   "look": "classic",
+   "palette": "oxblood"
+  },
+  "IG-2": {
+   "look": "classic",
+   "palette": "swipe"
+  }
+ }
+}
