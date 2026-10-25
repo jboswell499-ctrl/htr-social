@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-10-23 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-10-24 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach drop).
 
@@ -11,8 +11,8 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach
 | editorial | 3 | 342.0 | 12.33 | 3.61 | 2 | 2 |
 | ledger | 3 | 103.3 | 2.00 | 1.94 | 0 | 1 |
 | block | 4 | 82.8 | 2.50 | 3.02 | 0 | 2 |
-| classic | 34 | 73.8 | 5.03 | 6.82 | 13 | 17 |
-| notebook | 2 | 63.5 | 5.50 | 8.66 | 0 | 1 |
+| notebook | 3 | 78.0 | 3.67 | 4.70 | 0 | 2 |
+| classic | 35 | 72.9 | 4.91 | 6.75 | 14 | 18 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 ## Tiktok
@@ -23,16 +23,16 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach
 | block | 2 | 142.0 | 2.00 | 1.41 | 0 | 0 |
 | ledger | 2 | 139.5 | 1.50 | 1.08 | 0 | 0 |
 | notebook | 1 | 97.0 | 1.00 | 1.03 | 0 | 0 |
-| classic | 17 | 90.0 | 2.29 | 2.55 | 0 | 0 |
+| classic | 17 | 90.1 | 2.29 | 2.55 | 0 | 0 |
 
 ## Instagram
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | editorial | 2 | 90.0 | 10.00 | 11.11 | 1 | 2 |
-| classic | 17 | 57.6 | 7.76 | 13.48 | 13 | 17 |
+| notebook | 2 | 68.5 | 5.00 | 7.30 | 0 | 2 |
+| classic | 18 | 56.6 | 7.39 | 13.05 | 14 | 18 |
 | ledger | 1 | 31.0 | 3.00 | 9.68 | 0 | 1 |
-| notebook | 1 | 30.0 | 10.00 | 33.33 | 0 | 1 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 | block | 2 | 23.5 | 3.00 | 12.77 | 0 | 2 |
 
@@ -47,7 +47,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-10 | TT-3 | classic | oxblood | 89 | 2 | 0 | yes | Fear doesn't wreck your life. |
 | 2026-10-10 | IG-4 | classic | carousel | 97 | 10 | 1 | yes | Ch6 carousel |
 | 2026-10-10 | TT-4 | classic | navy | 29 | 2 | 0 | yes | Confidence is a bank account. |
-| 2026-10-11 | TT-1 | classic | gold | 126 | 2 | 0 | yes | "I'll do better" is not a standard. |
+| 2026-10-11 | TT-1 | classic | gold | 127 | 2 | 0 | yes | "I'll do better" is not a standard. |
 | 2026-10-11 | TT-2 | classic | bone | 93 | 2 | 0 | yes | The third exception slips by you. |
 | 2026-10-11 | IG-2 | classic | clean | 123 | 10 | 1 | yes | Ch7 Daily Standard |
 | 2026-10-11 | TT-3 | classic | oxblood | 120 | 1 | 0 | yes | 3 things people learn when your standards bend |
@@ -108,7 +108,10 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-21 | IG-2 | block | - | 29 | 2 | 0 | yes | Ch17 Daily Standard |
 | 2026-10-21 | IG-4 | classic | carousel | 10 | 1 | 0 | yes | Ch17 carousel |
 | 2026-10-22 | TT-1 | classic | gold | 1 | 0 | 0 | no (TikTok reach drop) | Unfair doesn't mean final. |
-| 2026-10-22 | IG-2 | classic | brush | 26 | 1 | 1 | no (new) | Ch18 Daily Standard |
-| 2026-10-22 | IG-4 | notebook | - | 10 | 0 | 0 | no (new) | Ch18 carousel |
+| 2026-10-22 | IG-2 | classic | brush | 40 | 1 | 1 | yes | Ch18 Daily Standard |
+| 2026-10-22 | IG-4 | notebook | - | 107 | 0 | 0 | yes | Ch18 carousel |
+| 2026-10-23 | TT-1 | classic | gold | 1 | 0 | 0 | no (TikTok reach drop) | Your personality is a habit. |
+| 2026-10-23 | IG-2 | editorial | - | 108 | 0 | 0 | no (new) | Ch19 Daily Standard |
+| 2026-10-23 | IG-4 | classic | carousel | 37 | 0 | 0 | no (new) | Ch19 carousel |
 
-68 logged posts matched, 3 not found in the metrics yet.
+71 logged posts matched, 4 not found in the metrics yet.
