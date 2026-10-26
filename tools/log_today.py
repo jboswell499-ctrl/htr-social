@@ -12,7 +12,7 @@ in the log for that date and slot are left alone, so running it twice is safe.
 import csv, json, os, re, sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CLASSIC_PAL = {"TT-1": "gold", "TT-2": "bone", "TT-3": "oxblood", "TT-4": "navy", "IG-4": "carousel", "IG-1": "gold"}
+CLASSIC_PAL = {"TT-1": "gold", "TT-2": "bone", "TT-3": "oxblood", "TT-4": "navy", "IG-4": "carousel", "IG-1": "bone"}
 
 def main():
     date = sys.argv[1]
