@@ -39,11 +39,15 @@ renderers/htrcards.py picks a palette per asset when --palette is not given (aut
 
 ## Sunday focus list (2026-10-25)
 
-- `renderers/focuslist.py --json LIST.json --slug SLUG` renders the Sunday focus list: a short numbered list (3 to 5 items,
-  each with one plain line on what to do with it) over a generated scene of a rough-hewn wooden cross in warm interior light.
-  Writes `HTR_focus_<slug>_4x5.png` (Facebook) and `HTR_focus_<slug>_9x16.png` (Reel and Story, type outside the top 288 px
-  and bottom 422 px). The scene (backlit or side-lit, amber, candle or dawn light) is chosen from the slug, and the type is
-  kept clear of the cross automatically; it flags "TYPE TOO SMALL OR OVERFLOW" if the copy had to shrink too far.
+- `renderers/focuslist.py --json LIST.json --slug SLUG [--avoid LOOK]` renders the Sunday focus list: a short numbered list
+  (3 to 5 items, each with one plain line on what to do with it) with a cross carrying the image. Writes
+  `HTR_focus_<slug>_4x5.png` (Facebook) and `HTR_focus_<slug>_9x16.png` (Reel and Story, type outside the top 288 px and bottom
+  422 px). Type is kept clear of the cross automatically; it flags "TYPE TOO SMALL OR OVERFLOW" if the copy had to shrink too far.
+- Five looks, each a different layout and a different image, rotated one step per Sunday from 2026-11-01 so no two Sundays in a
+  row look alike (Justin's rule: never the same layout or graphic over and over): `window` (cross-shaped window of light in a
+  stone wall, centred type), `ledger` (aged paper, ruled rows, printed cross), `timeline` (thin gold cross down the left edge,
+  items as nodes on it), `split` (backlit wooden cross panel over a colour panel), `column` (list left, wooden cross right).
+  Colours and light also change within a look. `--avoid` skips last Sunday's look if the rotation lands on it.
 - Added at Justin's request after he shared a faith "focus list" post he liked, asking for posts similar to it, not a copy:
   no sky, clouds or mountain, no distressed type or brush underline, and every item carries a plain line.
 - Scheduled each Sunday as IG-3 (15:00 Reel), ST-3 (15:02 Story) and FB-3 (15:00 post). `log_today.py` logs IG-3 under the
