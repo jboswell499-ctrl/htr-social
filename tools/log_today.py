@@ -3,7 +3,8 @@
 
   log_today.py YYYY-MM-DD
 
-Only slots marked "scheduled" in RUN_STATUS.md are logged (TT-1..TT-4, IG-2, IG-3, IG-4). IG-3 is the
+Only slots marked "scheduled" in RUN_STATUS.md are logged (TT-1..TT-4, IG-1, IG-2, IG-3, IG-4). IG-1 (from 2026-10-27)
+is the single hook-first Instagram Reel and is logged with its slide-1 line like a TikTok. IG-3 is the
 Sunday focus list (added 2026-10-25); it is logged under the look "focus-list", which pick_looks never picks. The look comes
 from the "used" record the renderers wrote; a slot with no record is logged as classic. Rows already
 in the log for that date and slot are left alone, so running it twice is safe.
@@ -11,7 +12,7 @@ in the log for that date and slot are left alone, so running it twice is safe.
 import csv, json, os, re, sys
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CLASSIC_PAL = {"TT-1": "gold", "TT-2": "bone", "TT-3": "oxblood", "TT-4": "navy", "IG-4": "carousel"}
+CLASSIC_PAL = {"TT-1": "gold", "TT-2": "bone", "TT-3": "oxblood", "TT-4": "navy", "IG-4": "carousel", "IG-1": "gold"}
 
 def main():
     date = sys.argv[1]
@@ -27,14 +28,14 @@ def main():
     have = {(r["date"], r["slot"]) for r in rows}
     new = []
     for line in text.splitlines():
-        m = re.match(r"^(TT-[1-4]|IG-[234]) (\d\d:\d\d) (tiktok|instagram): scheduled(.*)$", line.strip())
+        m = re.match(r"^(TT-[1-4]|IG-[1234]) (\d\d:\d\d) (tiktok|instagram): scheduled(.*)$", line.strip())
         if not m or (date, m.group(1)) in have: continue
         slot, t, net, rest = m.groups()
         u = used.get(slot, {"look": "classic", "palette": CLASSIC_PAL.get(slot, "-")})
         if slot == "IG-3": u = {"look": "focus-list", "palette": "-"}
-        if net == "tiktok":
+        if net == "tiktok" or slot == "IG-1":
             h = re.search(r"Slide 1:\s*(.+?)\s*$", rest); hook = h.group(1) if h else ""
-            piece = "slides"
+            piece = "slides" if net == "tiktok" else "hook-reel"
         else:
             hook = "Ch%s %s" % (ch, {"IG-2": "Daily Standard", "IG-3": "focus list"}.get(slot, "carousel"))
             piece = {"IG-2": "quote-reel", "IG-3": "focus-reel"}.get(slot, "carousel-reel")

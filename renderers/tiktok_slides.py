@@ -92,9 +92,10 @@ def main():
     ap.add_argument("--motif", default="none", choices=["none", "cross"], help="cross: Sunday scripture days")
     ap.add_argument("--look", default="auto", help="auto (today's pick), classic, or a looks.py look")
     a = ap.parse_args()
-    m = re.search(r"-tt([1-4])$", a.slug)
+    m = re.search(r"-(tt[1-4]|ig)$", a.slug)
     if m:
-        rc = _delegate("TT-" + m.group(1), a, ["--mode", "slides", "--json", a.json, "--ratio", "9x16"], a.palette)
+        slot = "IG-1" if m.group(1) == "ig" else "TT-" + m.group(1)[2]
+        rc = _delegate(slot, a, ["--mode", "slides", "--json", a.json, "--ratio", "9x16"], a.palette)
         if rc is not None: return rc
     slides = json.load(open(a.json))
     if not 4 <= len(slides) <= 7:

@@ -15,8 +15,10 @@ Rules
 - The four TikTok sets get four different looks, and the slot each look lands in rotates daily so
   a look is not judged by one posting time. The two Instagram Reels get two different looks.
 - Retired looks (RETIRED below) are never picked. Their old posts stay in the log and the report.
-- TikTok recovery week (TT_RECOVERY below): only TT-1 and TT-3 are posted, so only they get picks;
-  TT-2 and TT-4 are set to classic and are not scheduled.
+- Two TikToks a day (TT_TWO_FROM below): from 2026-10-20 only TT-1 and TT-3 are posted, so only they
+  get picks; TT-2 and TT-4 are set to classic and are not scheduled. Justin made this permanent on 2026-10-26.
+- IG-1 (from 2026-10-27) is the day's single Instagram Reel, a hook-first swipe-slide video. It shares the
+  Instagram ranking with the old IG-2 and IG-4 Reels.
 """
 import datetime, json, os, sys
 
@@ -26,13 +28,12 @@ RETIRED = {"poster": "2026-10-19"}
 POOL = [lk for lk in ["classic", "editorial", "ledger", "block", "notebook", "poster"] if lk not in RETIRED]
 MIN_N = 3
 
-# TikTok reach collapsed on 2026-10-16 after the account went from 4 to 12-14 posts a day. For one
-# week the publisher posts only these TikTok slots, then all four come back.
-TT_RECOVERY = (datetime.date(2026, 10, 20), datetime.date(2026, 10, 26), ["TT-1", "TT-3"])
+# TikTok reach collapsed on 2026-10-16 after the account went from 4 to 12-14 posts a day. From
+# 2026-10-20 the publisher posts only TT-1 and TT-3; on 2026-10-26 Justin made two a day permanent.
+TT_TWO_FROM = datetime.date(2026, 10, 20)
 
 def tiktok_slots(d):
-    lo, hi, slots = TT_RECOVERY
-    return list(slots) if lo <= d <= hi else ["TT-1", "TT-2", "TT-3", "TT-4"]
+    return ["TT-1", "TT-3"] if d >= TT_TWO_FROM else ["TT-1", "TT-2", "TT-3", "TT-4"]
 
 def ranked(scores, net, day):
     d = scores.get("by_network", {}).get(net, {})
@@ -57,8 +58,8 @@ def pick(net, k, scores, day):
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def picks_for(d):
-    """All six picks for date d. Sunday is always classic (scripture day needs the cross motif)."""
-    slots = ["TT-1", "TT-2", "TT-3", "TT-4", "IG-2", "IG-4"]
+    """All picks for date d. Sunday is always classic (scripture day needs the cross motif)."""
+    slots = ["TT-1", "TT-2", "TT-3", "TT-4", "IG-1", "IG-2", "IG-4"]
     if d.weekday() == 6: return dict.fromkeys(slots, "classic")
     p = os.path.join(HERE, "style_scores.json")
     scores = json.load(open(p)) if os.path.isfile(p) else {}
@@ -66,7 +67,7 @@ def picks_for(d):
     tt = tiktok_slots(d)
     out = dict.fromkeys(slots[:4], "classic")
     out.update(zip(tt, pick("tiktok", len(tt), scores, day)))
-    out.update(zip(slots[4:], pick("instagram", 2, scores, day + 3)))
+    out.update(zip(slots[4:], pick("instagram", 3, scores, day + 3)))
     return out
 
 def today_ny():
