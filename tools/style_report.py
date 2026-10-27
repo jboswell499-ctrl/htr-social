@@ -23,9 +23,10 @@ NY = zoneinfo.ZoneInfo("America/New_York"); UTC = datetime.timezone.utc
 SETTLE_H = 48
 AMBIG_MIN = 10
 # (network, from, to) in America/New_York, inclusive. TikTok reach fell to 0-6 views per post from
-# midday 2026-10-16, after posting went from 4 to 12-14 a day; the publisher runs 2 a day through
-# 2026-10-26 to recover. Nothing posted in that stretch is evidence for or against a look.
-EXCLUDE = [("tiktok", "2026-10-16T12:00", "2026-10-26T23:59", "TikTok reach drop")]
+# midday 2026-10-16, after posting went from 4 to 12-14 a day. It came back briefly on 2026-10-19..21,
+# then fell to 0-9 again from 2026-10-22 when 5-7 extra short videos a day went back on TikTok, so on
+# 2026-10-26 the window was extended a week. Nothing posted in it is evidence for or against a look.
+EXCLUDE = [("tiktok", "2026-10-16T12:00", "2026-11-02T23:59", "TikTok reach drop")]
 
 def excluded(network, t):
     for net, lo, hi, why in EXCLUDE:
