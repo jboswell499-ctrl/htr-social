@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-10-25 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-10-26 22:43 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach drop).
 
@@ -8,11 +8,11 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 4 | 285.5 | 9.50 | 3.33 | 2 | 3 |
+| editorial | 5 | 249.2 | 8.40 | 3.37 | 2 | 4 |
 | ledger | 3 | 104.3 | 2.00 | 1.92 | 0 | 1 |
 | block | 4 | 84.2 | 2.50 | 2.97 | 0 | 2 |
-| notebook | 3 | 78.7 | 3.67 | 4.66 | 0 | 2 |
-| classic | 36 | 74.3 | 4.83 | 6.50 | 14 | 19 |
+| notebook | 3 | 78.7 | 4.00 | 5.08 | 0 | 2 |
+| classic | 37 | 75.5 | 4.81 | 6.37 | 14 | 20 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 ## Tiktok
@@ -29,9 +29,9 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 3 | 98.7 | 7.00 | 7.09 | 1 | 3 |
-| notebook | 2 | 69.5 | 5.00 | 7.19 | 0 | 2 |
-| classic | 19 | 60.3 | 7.11 | 11.79 | 14 | 19 |
+| editorial | 4 | 100.0 | 6.25 | 6.25 | 1 | 4 |
+| notebook | 2 | 69.5 | 5.50 | 7.91 | 0 | 2 |
+| classic | 20 | 63.1 | 6.95 | 11.01 | 14 | 20 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 2 | 26.5 | 3.00 | 11.32 | 0 | 2 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
@@ -108,14 +108,18 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-21 | IG-2 | block | - | 30 | 2 | 0 | yes | Ch17 Daily Standard |
 | 2026-10-21 | IG-4 | classic | carousel | 11 | 1 | 0 | yes | Ch17 carousel |
 | 2026-10-22 | TT-1 | classic | gold | 1 | 1 | 0 | no (TikTok reach drop) | Unfair doesn't mean final. |
-| 2026-10-22 | IG-2 | classic | brush | 41 | 1 | 1 | yes | Ch18 Daily Standard |
-| 2026-10-22 | IG-4 | notebook | - | 109 | 0 | 0 | yes | Ch18 carousel |
+| 2026-10-22 | IG-2 | classic | brush | 41 | 2 | 1 | yes | Ch18 Daily Standard |
+| 2026-10-22 | IG-4 | notebook | - | 109 | 1 | 0 | yes | Ch18 carousel |
 | 2026-10-23 | TT-1 | classic | gold | 1 | 1 | 0 | no (TikTok reach drop) | Your personality is a habit. |
-| 2026-10-23 | IG-2 | editorial | - | 116 | 1 | 0 | yes | Ch19 Daily Standard |
-| 2026-10-23 | IG-4 | classic | carousel | 118 | 2 | 0 | yes | Ch19 carousel |
+| 2026-10-23 | IG-2 | editorial | - | 116 | 2 | 0 | yes | Ch19 Daily Standard |
+| 2026-10-23 | IG-4 | classic | carousel | 118 | 3 | 0 | yes | Ch19 carousel |
 | 2026-10-24 | TT-1 | block | - | 1 | 1 | 0 | no (TikTok reach drop) | 5 patterns that should end with you |
-| 2026-10-24 | IG-2 | classic | paper | 45 | 0 | 0 | no (new) | Ch20 Daily Standard |
+| 2026-10-24 | IG-2 | classic | paper | 117 | 2 | 0 | yes | Ch20 Daily Standard |
 | 2026-10-24 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Doing nothing still leaves a legacy. |
-| 2026-10-24 | IG-4 | editorial | - | 34 | 0 | 0 | no (new) | Ch20 carousel |
+| 2026-10-24 | IG-4 | editorial | - | 104 | 3 | 0 | yes | Ch20 carousel |
+| 2026-10-25 | TT-1 | classic | gold | 2 | 2 | 0 | no (TikTok reach drop) | You don't know your own numbers. |
+| 2026-10-25 | IG-2 | classic | swipe | 56 | 2 | 1 | no (new) | Ch21 Daily Standard |
+| 2026-10-25 | TT-3 | classic | oxblood | 9 | 1 | 0 | no (TikTok reach drop) | 3 things not looking costs you |
+| 2026-10-25 | IG-4 | classic | carousel | 35 | 1 | 0 | no (new) | Ch21 carousel |
 
-75 logged posts matched, 4 not found in the metrics yet.
+79 logged posts matched, 4 not found in the metrics yet.
