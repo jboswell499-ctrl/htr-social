@@ -1,29 +1,29 @@
 # HTR style report
 
-Updated 2026-10-26 22:43 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-10-27 22:43 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
-Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach drop).
+Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
 ## All networks
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 5 | 249.2 | 8.40 | 3.37 | 2 | 4 |
+| editorial | 5 | 249.4 | 8.40 | 3.37 | 2 | 4 |
 | ledger | 3 | 104.3 | 2.00 | 1.92 | 0 | 1 |
 | block | 4 | 84.2 | 2.50 | 2.97 | 0 | 2 |
 | notebook | 3 | 78.7 | 4.00 | 5.08 | 0 | 2 |
-| classic | 37 | 75.5 | 4.81 | 6.37 | 14 | 20 |
+| classic | 39 | 74.7 | 4.64 | 6.22 | 15 | 22 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 ## Tiktok
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 1 | 846.0 | 17.00 | 2.01 | 1 | 0 |
+| editorial | 1 | 847.0 | 17.00 | 2.01 | 1 | 0 |
 | block | 2 | 142.0 | 2.00 | 1.41 | 0 | 0 |
 | ledger | 2 | 139.5 | 1.50 | 1.08 | 0 | 0 |
 | notebook | 1 | 97.0 | 1.00 | 1.03 | 0 | 0 |
-| classic | 17 | 90.1 | 2.29 | 2.55 | 0 | 0 |
+| classic | 17 | 90.2 | 2.29 | 2.54 | 0 | 0 |
 
 ## Instagram
 
@@ -31,7 +31,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-10-26 23:59 (TikTok reach
 |---|---|---|---|---|---|---|
 | editorial | 4 | 100.0 | 6.25 | 6.25 | 1 | 4 |
 | notebook | 2 | 69.5 | 5.50 | 7.91 | 0 | 2 |
-| classic | 20 | 63.1 | 6.95 | 11.01 | 14 | 20 |
+| classic | 22 | 62.7 | 6.45 | 10.30 | 15 | 22 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 2 | 26.5 | 3.00 | 11.32 | 0 | 2 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
@@ -52,7 +52,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-11 | IG-2 | classic | clean | 123 | 10 | 1 | yes | Ch7 Daily Standard |
 | 2026-10-11 | TT-3 | classic | oxblood | 120 | 1 | 0 | yes | 3 things people learn when your standards bend |
 | 2026-10-11 | IG-4 | classic | carousel | 36 | 9 | 1 | yes | Ch7 carousel |
-| 2026-10-11 | TT-4 | classic | navy | 106 | 2 | 0 | yes | You don't have standards. You have preferences. |
+| 2026-10-11 | TT-4 | classic | navy | 108 | 2 | 0 | yes | You don't have standards. You have preferences. |
 | 2026-10-12 | TT-1 | classic | gold | 163 | 4 | 0 | yes | Strong men get corrected on purpose. |
 | 2026-10-12 | IG-2 | classic | paper | 197 | 11 | 1 | yes | Ch8 Daily Standard |
 | 2026-10-12 | TT-2 | classic | bone | 111 | 2 | 0 | yes | They quietly stopped counting on you. |
@@ -68,7 +68,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-14 | TT-1 | block | - | 141 | 2 | 0 | yes | You don't lose respect arguing. You lose it rushing. |
 | 2026-10-14 | IG-2 | classic | brush | 27 | 10 | 1 | yes | Ch10 Daily Standard |
 | 2026-10-14 | TT-2 | classic | bone | 25 | 1 | 0 | yes | You lost the room before you spoke. |
-| 2026-10-14 | TT-3 | editorial | - | 846 | 17 | 1 | yes | 3 ways men lose respect they took years to build |
+| 2026-10-14 | TT-3 | editorial | - | 847 | 17 | 1 | yes | 3 ways men lose respect they took years to build |
 | 2026-10-14 | TT-4 | ledger | - | 173 | 2 | 0 | yes | Letting it slide is teaching. |
 | 2026-10-14 | IG-4 | notebook | - | 30 | 10 | 0 | yes | Ch10 carousel |
 | 2026-10-15 | TT-1 | classic | gold | 162 | 5 | 0 | yes | You're not too nice. You're being used. |
@@ -118,8 +118,12 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-24 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Doing nothing still leaves a legacy. |
 | 2026-10-24 | IG-4 | editorial | - | 104 | 3 | 0 | yes | Ch20 carousel |
 | 2026-10-25 | TT-1 | classic | gold | 2 | 2 | 0 | no (TikTok reach drop) | You don't know your own numbers. |
-| 2026-10-25 | IG-2 | classic | swipe | 56 | 2 | 1 | no (new) | Ch21 Daily Standard |
-| 2026-10-25 | TT-3 | classic | oxblood | 9 | 1 | 0 | no (TikTok reach drop) | 3 things not looking costs you |
-| 2026-10-25 | IG-4 | classic | carousel | 35 | 1 | 0 | no (new) | Ch21 carousel |
+| 2026-10-25 | IG-2 | classic | swipe | 63 | 2 | 1 | yes | Ch21 Daily Standard |
+| 2026-10-25 | TT-3 | classic | oxblood | 17 | 2 | 0 | no (TikTok reach drop) | 3 things not looking costs you |
+| 2026-10-25 | IG-4 | classic | carousel | 54 | 1 | 0 | yes | Ch21 carousel |
+| 2026-10-26 | TT-1 | classic | gold | 12 | 1 | 0 | no (TikTok reach drop) | A plan in your head isn't a plan. |
+| 2026-10-26 | IG-2 | editorial | - | 121 | 0 | 0 | no (new) | Ch22 Daily Standard |
+| 2026-10-26 | TT-3 | classic | oxblood | 2 | 0 | 0 | no (TikTok reach drop) | 3 things your phone takes before 7am |
+| 2026-10-26 | IG-4 | block | - | 8 | 1 | 0 | no (new) | Ch22 carousel |
 
-79 logged posts matched, 4 not found in the metrics yet.
+83 logged posts matched, 3 not found in the metrics yet.
