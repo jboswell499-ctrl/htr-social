@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-10-27 22:43 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-10-28 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -8,11 +8,11 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 5 | 249.4 | 8.40 | 3.37 | 2 | 4 |
+| editorial | 6 | 237.5 | 7.00 | 2.95 | 2 | 5 |
 | ledger | 3 | 104.3 | 2.00 | 1.92 | 0 | 1 |
-| block | 4 | 84.2 | 2.50 | 2.97 | 0 | 2 |
 | notebook | 3 | 78.7 | 4.00 | 5.08 | 0 | 2 |
 | classic | 39 | 74.7 | 4.64 | 6.22 | 15 | 22 |
+| block | 5 | 73.8 | 2.20 | 2.98 | 0 | 3 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 ## Tiktok
@@ -29,11 +29,11 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 4 | 100.0 | 6.25 | 6.25 | 1 | 4 |
+| editorial | 5 | 115.6 | 5.00 | 4.33 | 1 | 5 |
 | notebook | 2 | 69.5 | 5.50 | 7.91 | 0 | 2 |
 | classic | 22 | 62.7 | 6.45 | 10.30 | 15 | 22 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
-| block | 2 | 26.5 | 3.00 | 11.32 | 0 | 2 |
+| block | 3 | 28.3 | 2.33 | 8.24 | 0 | 3 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
@@ -122,8 +122,11 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-25 | TT-3 | classic | oxblood | 17 | 2 | 0 | no (TikTok reach drop) | 3 things not looking costs you |
 | 2026-10-25 | IG-4 | classic | carousel | 54 | 1 | 0 | yes | Ch21 carousel |
 | 2026-10-26 | TT-1 | classic | gold | 12 | 1 | 0 | no (TikTok reach drop) | A plan in your head isn't a plan. |
-| 2026-10-26 | IG-2 | editorial | - | 121 | 0 | 0 | no (new) | Ch22 Daily Standard |
-| 2026-10-26 | TT-3 | classic | oxblood | 2 | 0 | 0 | no (TikTok reach drop) | 3 things your phone takes before 7am |
-| 2026-10-26 | IG-4 | block | - | 8 | 1 | 0 | no (new) | Ch22 carousel |
+| 2026-10-26 | IG-2 | editorial | - | 178 | 0 | 0 | yes | Ch22 Daily Standard |
+| 2026-10-26 | TT-3 | classic | oxblood | 3 | 0 | 0 | no (TikTok reach drop) | 3 things your phone takes before 7am |
+| 2026-10-26 | IG-4 | block | - | 32 | 1 | 0 | yes | Ch22 carousel |
+| 2026-10-27 | TT-1 | classic | gold | 4 | 0 | 0 | no (TikTok reach drop) | In a crisis, cut these 3. Never this one. |
+| 2026-10-27 | TT-3 | classic | oxblood | 142 | 1 | 0 | no (TikTok reach drop) | Surviving a crisis isn't the win. |
+| 2026-10-27 | IG-1 | classic | bone | 10 | 0 | 0 | no (new) | The 4 decisions men regret most |
 
-83 logged posts matched, 3 not found in the metrics yet.
+86 logged posts matched, 3 not found in the metrics yet.
