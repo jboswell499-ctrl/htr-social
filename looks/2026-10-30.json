@@ -1,0 +1,34 @@
+{
+ "date": "2026-10-30",
+ "picked": {
+  "TT-1": "notebook",
+  "TT-2": "classic",
+  "TT-3": "classic",
+  "TT-4": "classic",
+  "IG-1": "ledger",
+  "IG-2": "editorial",
+  "IG-4": "classic"
+ },
+ "used": {
+  "IG-4": {
+   "look": "classic",
+   "palette": "carousel"
+  },
+  "IG-2": {
+   "look": "editorial",
+   "palette": "-"
+  },
+  "TT-1": {
+   "look": "classic",
+   "palette": "gold"
+  },
+  "TT-3": {
+   "look": "classic",
+   "palette": "oxblood"
+  },
+  "IG-1": {
+   "look": "classic",
+   "palette": "bone"
+  }
+ }
+}
