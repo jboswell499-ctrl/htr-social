@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-10-30 22:44 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-10-31 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -11,8 +11,8 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | editorial | 6 | 237.8 | 7.00 | 2.94 | 2 | 5 |
 | ledger | 3 | 104.3 | 2.00 | 1.92 | 0 | 1 |
 | notebook | 3 | 78.7 | 4.00 | 5.08 | 0 | 2 |
-| classic | 41 | 74.6 | 4.51 | 6.05 | 16 | 24 |
 | block | 5 | 74.2 | 2.40 | 3.23 | 0 | 3 |
+| classic | 42 | 73.6 | 4.43 | 6.02 | 16 | 25 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 ## Tiktok
@@ -31,7 +31,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 |---|---|---|---|---|---|---|
 | editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
 | notebook | 2 | 69.5 | 5.50 | 7.91 | 0 | 2 |
-| classic | 24 | 63.6 | 6.08 | 9.56 | 16 | 24 |
+| classic | 25 | 62.3 | 5.88 | 9.44 | 16 | 25 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
@@ -133,6 +133,9 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-28 | IG-1 | classic | bone | 125 | 3 | 1 | yes | 4 signs your discipline is just a mood |
 | 2026-10-29 | TT-1 | classic | gold | 0 | 0 | 0 | no (TikTok reach drop) | 3 things drift teaches you to accept |
 | 2026-10-29 | TT-3 | classic | oxblood | 0 | 0 | 0 | no (TikTok reach drop) | Your excuses have a price tag. |
-| 2026-10-29 | IG-1 | classic | bone | 13 | 1 | 0 | no (new) | 3 exits you keep open on purpose |
+| 2026-10-29 | IG-1 | classic | bone | 31 | 1 | 0 | yes | 3 exits you keep open on purpose |
+| 2026-10-30 | TT-1 | classic | gold | 17 | 0 | 0 | no (TikTok reach drop) | Feeling powerless pays you 4 ways. |
+| 2026-10-30 | TT-3 | classic | oxblood | 5 | 0 | 0 | no (TikTok reach drop) | Powerless men are easy to manage. |
+| 2026-10-30 | IG-1 | classic | bone | 20 | 1 | 0 | no (new) | 4 hits that weren't your fault. |
 
-92 logged posts matched, 3 not found in the metrics yet.
+95 logged posts matched, 3 not found in the metrics yet.
