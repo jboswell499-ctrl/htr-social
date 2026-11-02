@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-10-31 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-01 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -12,7 +12,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | ledger | 3 | 104.3 | 2.00 | 1.92 | 0 | 1 |
 | notebook | 3 | 78.7 | 4.00 | 5.08 | 0 | 2 |
 | block | 5 | 74.2 | 2.40 | 3.23 | 0 | 3 |
-| classic | 42 | 73.6 | 4.43 | 6.02 | 16 | 25 |
+| classic | 39 | 72.1 | 4.21 | 5.84 | 13 | 24 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 ## Tiktok
@@ -23,7 +23,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | block | 2 | 142.0 | 2.00 | 1.41 | 0 | 0 |
 | ledger | 2 | 139.5 | 1.50 | 1.08 | 0 | 0 |
 | notebook | 1 | 97.0 | 1.00 | 1.03 | 0 | 0 |
-| classic | 17 | 90.2 | 2.29 | 2.54 | 0 | 0 |
+| classic | 15 | 88.7 | 2.33 | 2.63 | 0 | 0 |
 
 ## Instagram
 
@@ -31,7 +31,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 |---|---|---|---|---|---|---|
 | editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
 | notebook | 2 | 69.5 | 5.50 | 7.91 | 0 | 2 |
-| classic | 25 | 62.3 | 5.88 | 9.44 | 16 | 25 |
+| classic | 24 | 61.6 | 5.38 | 8.72 | 13 | 24 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
@@ -42,10 +42,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-10 | TT-2 | classic | bone | 113 | 2 | 0 | yes | 4 things men say instead of "I'm afraid." |
-| 2026-10-10 | IG-2 | classic | brush | 62 | 10 | 2 | yes | Ch6 Daily Standard |
-| 2026-10-10 | TT-3 | classic | oxblood | 89 | 2 | 0 | yes | Fear doesn't wreck your life. |
-| 2026-10-10 | IG-4 | classic | carousel | 97 | 10 | 1 | yes | Ch6 carousel |
 | 2026-10-10 | TT-4 | classic | navy | 29 | 2 | 0 | yes | Confidence is a bank account. |
 | 2026-10-11 | TT-1 | classic | gold | 127 | 2 | 0 | yes | "I'll do better" is not a standard. |
 | 2026-10-11 | TT-2 | classic | bone | 93 | 2 | 0 | yes | The third exception slips by you. |
@@ -131,11 +127,14 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-28 | TT-1 | classic | gold | 74 | 3 | 0 | no (TikTok reach drop) | 3 speeches men give instead of changing |
 | 2026-10-28 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Drift never feels like losing. |
 | 2026-10-28 | IG-1 | classic | bone | 125 | 3 | 1 | yes | 4 signs your discipline is just a mood |
-| 2026-10-29 | TT-1 | classic | gold | 0 | 0 | 0 | no (TikTok reach drop) | 3 things drift teaches you to accept |
-| 2026-10-29 | TT-3 | classic | oxblood | 0 | 0 | 0 | no (TikTok reach drop) | Your excuses have a price tag. |
+| 2026-10-29 | TT-1 | classic | gold | 0 | 1 | 0 | no (TikTok reach drop) | 3 things drift teaches you to accept |
+| 2026-10-29 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Your excuses have a price tag. |
 | 2026-10-29 | IG-1 | classic | bone | 31 | 1 | 0 | yes | 3 exits you keep open on purpose |
-| 2026-10-30 | TT-1 | classic | gold | 17 | 0 | 0 | no (TikTok reach drop) | Feeling powerless pays you 4 ways. |
-| 2026-10-30 | TT-3 | classic | oxblood | 5 | 0 | 0 | no (TikTok reach drop) | Powerless men are easy to manage. |
-| 2026-10-30 | IG-1 | classic | bone | 20 | 1 | 0 | no (new) | 4 hits that weren't your fault. |
+| 2026-10-30 | TT-1 | classic | gold | 23 | 1 | 0 | no (TikTok reach drop) | Feeling powerless pays you 4 ways. |
+| 2026-10-30 | TT-3 | classic | oxblood | 13 | 1 | 0 | no (TikTok reach drop) | Powerless men are easy to manage. |
+| 2026-10-30 | IG-1 | classic | bone | 80 | 2 | 0 | yes | 4 hits that weren't your fault. |
+| 2026-10-31 | TT-1 | classic | gold | 467 | 8 | 0 | no (TikTok reach drop) | 3 signs you're used, not useful |
+| 2026-10-31 | TT-3 | classic | oxblood | 6 | 0 | 0 | no (TikTok reach drop) | Weakness already picked the day. |
+| 2026-10-31 | IG-1 | classic | bone | 75 | 1 | 0 | no (new) | 3 signs your title is on borrowed time |
 
-95 logged posts matched, 3 not found in the metrics yet.
+94 logged posts matched, 7 not found in the metrics yet.
