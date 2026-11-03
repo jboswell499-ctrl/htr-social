@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 22:42",
+ "updated": "2026-11-02 22:42",
  "looks": {
   "block": {
    "n": 5,
@@ -10,12 +10,12 @@
    "comments": 3
   },
   "classic": {
-   "n": 39,
-   "avg_views": 72.1,
-   "avg_likes": 4.21,
-   "likes_per_100_views": 5.84,
-   "shares": 13,
-   "comments": 24
+   "n": 34,
+   "avg_views": 70.3,
+   "avg_likes": 4.09,
+   "likes_per_100_views": 5.82,
+   "shares": 11,
+   "comments": 23
   },
   "editorial": {
    "n": 6,
@@ -61,10 +61,10 @@
     "comments": 0
    },
    "classic": {
-    "n": 15,
-    "avg_views": 88.7,
-    "avg_likes": 2.33,
-    "likes_per_100_views": 2.63,
+    "n": 11,
+    "avg_views": 87.5,
+    "avg_likes": 2.55,
+    "likes_per_100_views": 2.91,
     "shares": 0,
     "comments": 0
    },
@@ -103,12 +103,12 @@
     "comments": 3
    },
    "classic": {
-    "n": 24,
-    "avg_views": 61.6,
-    "avg_likes": 5.38,
-    "likes_per_100_views": 8.72,
-    "shares": 13,
-    "comments": 24
+    "n": 23,
+    "avg_views": 62.0,
+    "avg_likes": 4.83,
+    "likes_per_100_views": 7.78,
+    "shares": 11,
+    "comments": 23
    },
    "editorial": {
     "n": 5,
