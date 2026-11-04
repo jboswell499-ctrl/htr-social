@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-02 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-03 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -9,10 +9,11 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | editorial | 6 | 237.8 | 7.00 | 2.94 | 2 | 5 |
+| focus-list | 1 | 125.0 | 5.00 | 4.00 | 0 | 1 |
 | ledger | 3 | 104.3 | 2.00 | 1.92 | 0 | 1 |
 | notebook | 3 | 78.7 | 4.00 | 5.08 | 0 | 2 |
 | block | 5 | 74.2 | 2.40 | 3.23 | 0 | 3 |
-| classic | 34 | 70.3 | 4.09 | 5.82 | 11 | 23 |
+| classic | 27 | 61.2 | 3.81 | 6.23 | 10 | 21 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 ## Tiktok
@@ -23,15 +24,16 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | block | 2 | 142.0 | 2.00 | 1.41 | 0 | 0 |
 | ledger | 2 | 139.5 | 1.50 | 1.08 | 0 | 0 |
 | notebook | 1 | 97.0 | 1.00 | 1.03 | 0 | 0 |
-| classic | 11 | 87.5 | 2.55 | 2.91 | 0 | 0 |
+| classic | 6 | 73.2 | 2.33 | 3.19 | 0 | 0 |
 
 ## Instagram
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
+| focus-list | 1 | 125.0 | 5.00 | 4.00 | 0 | 1 |
 | editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
 | notebook | 2 | 69.5 | 5.50 | 7.91 | 0 | 2 |
-| classic | 23 | 62.0 | 4.83 | 7.78 | 11 | 23 |
+| classic | 21 | 57.8 | 4.24 | 7.34 | 10 | 21 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
@@ -42,13 +44,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-11 | TT-4 | classic | navy | 108 | 2 | 0 | yes | You don't have standards. You have preferences. |
-| 2026-10-12 | TT-1 | classic | gold | 163 | 4 | 0 | yes | Strong men get corrected on purpose. |
-| 2026-10-12 | IG-2 | classic | paper | 198 | 11 | 1 | yes | Ch8 Daily Standard |
-| 2026-10-12 | TT-2 | classic | bone | 111 | 2 | 0 | yes | They quietly stopped counting on you. |
-| 2026-10-12 | TT-3 | classic | oxblood | 129 | 5 | 0 | yes | 3 bills unreliability never mails you |
-| 2026-10-12 | TT-4 | classic | navy | 12 | 1 | 0 | yes | Small promises are a preview. |
-| 2026-10-12 | IG-4 | classic | carousel | 18 | 11 | 0 | yes | Ch8 carousel |
 | 2026-10-13 | TT-1 | classic | gold | 61 | 3 | 0 | yes | You're not explaining. You're leaking. |
 | 2026-10-13 | IG-2 | classic | swipe | 143 | 10 | 2 | yes | Ch9 Daily Standard |
 | 2026-10-13 | TT-2 | classic | bone | 118 | 3 | 0 | yes | Whoever frames it wins it. |
@@ -100,7 +95,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-22 | TT-1 | classic | gold | 1 | 1 | 0 | no (TikTok reach drop) | Unfair doesn't mean final. |
 | 2026-10-22 | IG-2 | classic | brush | 41 | 2 | 1 | yes | Ch18 Daily Standard |
 | 2026-10-22 | IG-4 | notebook | - | 109 | 1 | 0 | yes | Ch18 carousel |
-| 2026-10-23 | TT-1 | classic | gold | 1 | 1 | 0 | no (TikTok reach drop) | Your personality is a habit. |
+| 2026-10-23 | TT-1 | classic | gold | 2 | 1 | 0 | no (TikTok reach drop) | Your personality is a habit. |
 | 2026-10-23 | IG-2 | editorial | - | 116 | 2 | 0 | yes | Ch19 Daily Standard |
 | 2026-10-23 | IG-4 | classic | carousel | 118 | 3 | 0 | yes | Ch19 carousel |
 | 2026-10-24 | TT-1 | block | - | 1 | 1 | 0 | no (TikTok reach drop) | 5 patterns that should end with you |
@@ -108,7 +103,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-24 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Doing nothing still leaves a legacy. |
 | 2026-10-24 | IG-4 | editorial | - | 105 | 3 | 0 | yes | Ch20 carousel |
 | 2026-10-25 | TT-1 | classic | gold | 2 | 2 | 0 | no (TikTok reach drop) | You don't know your own numbers. |
-| 2026-10-25 | IG-2 | classic | swipe | 63 | 2 | 1 | yes | Ch21 Daily Standard |
+| 2026-10-25 | IG-2 | classic | swipe | 64 | 2 | 1 | yes | Ch21 Daily Standard |
 | 2026-10-25 | TT-3 | classic | oxblood | 17 | 2 | 0 | no (TikTok reach drop) | 3 things not looking costs you |
 | 2026-10-25 | IG-4 | classic | carousel | 54 | 1 | 0 | yes | Ch21 carousel |
 | 2026-10-26 | TT-1 | classic | gold | 12 | 1 | 0 | no (TikTok reach drop) | A plan in your head isn't a plan. |
@@ -126,12 +121,15 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-29 | IG-1 | classic | bone | 33 | 1 | 0 | yes | 3 exits you keep open on purpose |
 | 2026-10-30 | TT-1 | classic | gold | 23 | 1 | 0 | no (TikTok reach drop) | Feeling powerless pays you 4 ways. |
 | 2026-10-30 | TT-3 | classic | oxblood | 13 | 1 | 0 | no (TikTok reach drop) | Powerless men are easy to manage. |
-| 2026-10-30 | IG-1 | classic | bone | 81 | 2 | 0 | yes | 4 hits that weren't your fault. |
+| 2026-10-30 | IG-1 | classic | bone | 82 | 2 | 0 | yes | 4 hits that weren't your fault. |
 | 2026-10-31 | TT-1 | classic | gold | 532 | 9 | 0 | no (TikTok reach drop) | 3 signs you're used, not useful |
 | 2026-10-31 | TT-3 | classic | oxblood | 18 | 2 | 0 | no (TikTok reach drop) | Weakness already picked the day. |
 | 2026-10-31 | IG-1 | classic | bone | 103 | 1 | 0 | yes | 3 signs your title is on borrowed time |
-| 2026-11-01 | TT-1 | classic | gold | 114 | 5 | 0 | no (TikTok reach drop) | 4 thoughts running your life unchecked |
-| 2026-11-01 | IG-3 | focus-list | - | 97 | 1 | 0 | no (new) | Ch5 focus list |
-| 2026-11-01 | TT-3 | classic | oxblood | 6 | 0 | 0 | no (TikTok reach drop) | An unguarded mind costs you 3 things |
+| 2026-11-01 | TT-1 | classic | gold | 121 | 7 | 0 | no (TikTok reach drop) | 4 thoughts running your life unchecked |
+| 2026-11-01 | IG-3 | focus-list | - | 125 | 5 | 0 | yes | Ch5 focus list |
+| 2026-11-01 | TT-3 | classic | oxblood | 12 | 2 | 0 | no (TikTok reach drop) | An unguarded mind costs you 3 things |
+| 2026-11-02 | TT-1 | classic | gold | 383 | 13 | 0 | no (TikTok reach drop) | 3 ways men keep one foot out |
+| 2026-11-02 | TT-3 | classic | oxblood | 10 | 2 | 0 | no (TikTok reach drop) | Fear won't make you fail. It's worse. |
+| 2026-11-02 | IG-1 | classic | bone | 29 | 2 | 1 | no (new) | 3 questions that tell fear from wisdom |
 
-91 logged posts matched, 13 not found in the metrics yet.
+87 logged posts matched, 20 not found in the metrics yet.
