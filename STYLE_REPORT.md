@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-04 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-05 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -8,23 +8,22 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 6 | 237.8 | 7.00 | 2.94 | 2 | 5 |
 | focus-list | 1 | 126.0 | 5.00 | 3.97 | 0 | 1 |
-| ledger | 3 | 104.3 | 2.00 | 1.92 | 0 | 1 |
-| notebook | 3 | 78.7 | 4.00 | 5.08 | 0 | 2 |
-| block | 5 | 74.2 | 2.40 | 3.23 | 0 | 3 |
-| classic | 22 | 58.8 | 3.55 | 6.03 | 9 | 20 |
+| editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
+| notebook | 2 | 103.0 | 1.00 | 0.97 | 0 | 1 |
+| ledger | 2 | 70.0 | 2.00 | 2.86 | 0 | 1 |
+| classic | 23 | 66.8 | 3.26 | 4.88 | 8 | 20 |
+| block | 4 | 57.5 | 2.50 | 4.35 | 0 | 3 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
 
 ## Tiktok
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 1 | 847.0 | 17.00 | 2.01 | 1 | 0 |
-| block | 2 | 142.0 | 2.00 | 1.41 | 0 | 0 |
-| ledger | 2 | 139.5 | 1.50 | 1.08 | 0 | 0 |
+| block | 1 | 143.0 | 2.00 | 1.40 | 0 | 0 |
+| classic | 3 | 119.0 | 3.67 | 3.08 | 0 | 0 |
+| ledger | 1 | 106.0 | 1.00 | 0.94 | 0 | 0 |
 | notebook | 1 | 97.0 | 1.00 | 1.03 | 0 | 0 |
-| classic | 2 | 93.5 | 3.00 | 3.21 | 0 | 0 |
 
 ## Instagram
 
@@ -32,8 +31,8 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 |---|---|---|---|---|---|---|
 | focus-list | 1 | 126.0 | 5.00 | 3.97 | 0 | 1 |
 | editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
-| notebook | 2 | 69.5 | 5.50 | 7.91 | 0 | 2 |
-| classic | 20 | 55.3 | 3.60 | 6.51 | 9 | 20 |
+| notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
+| classic | 20 | 59.0 | 3.20 | 5.43 | 8 | 20 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
 | poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
@@ -44,12 +43,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-14 | TT-1 | block | - | 141 | 2 | 0 | yes | You don't lose respect arguing. You lose it rushing. |
-| 2026-10-14 | IG-2 | classic | brush | 27 | 10 | 1 | yes | Ch10 Daily Standard |
-| 2026-10-14 | TT-2 | classic | bone | 25 | 1 | 0 | yes | You lost the room before you spoke. |
-| 2026-10-14 | TT-3 | editorial | - | 847 | 17 | 1 | yes | 3 ways men lose respect they took years to build |
-| 2026-10-14 | TT-4 | ledger | - | 173 | 2 | 0 | yes | Letting it slide is teaching. |
-| 2026-10-14 | IG-4 | notebook | - | 30 | 10 | 0 | yes | Ch10 carousel |
 | 2026-10-15 | TT-1 | classic | gold | 162 | 5 | 0 | yes | You're not too nice. You're being used. |
 | 2026-10-15 | IG-2 | poster | - | 24 | 10 | 1 | yes | Ch11 Daily Standard |
 | 2026-10-15 | TT-2 | ledger | - | 106 | 1 | 0 | yes | "A real man would..." is a leash. |
@@ -122,11 +115,14 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-01 | TT-1 | classic | gold | 121 | 7 | 0 | no (TikTok reach drop) | 4 thoughts running your life unchecked |
 | 2026-11-01 | IG-3 | focus-list | - | 126 | 5 | 0 | yes | Ch5 focus list |
 | 2026-11-01 | TT-3 | classic | oxblood | 12 | 2 | 0 | no (TikTok reach drop) | An unguarded mind costs you 3 things |
-| 2026-11-02 | TT-1 | classic | gold | 448 | 14 | 0 | no (TikTok reach drop) | 3 ways men keep one foot out |
+| 2026-11-02 | TT-1 | classic | gold | 450 | 14 | 0 | no (TikTok reach drop) | 3 ways men keep one foot out |
 | 2026-11-02 | TT-3 | classic | oxblood | 17 | 2 | 0 | no (TikTok reach drop) | Fear won't make you fail. It's worse. |
 | 2026-11-02 | IG-1 | classic | bone | 48 | 2 | 1 | yes | 3 questions that tell fear from wisdom |
-| 2026-11-03 | TT-1 | classic | gold | 170 | 5 | 0 | no (new) | 4 things that learn how to work you |
-| 2026-11-03 | TT-3 | classic | oxblood | 6 | 1 | 0 | no (new) | One sentence can cost you two years. |
-| 2026-11-03 | IG-1 | classic | bone | 25 | 1 | 0 | no (new) | 3 exits that kill every standard |
+| 2026-11-03 | TT-1 | classic | gold | 182 | 5 | 0 | yes | 4 things that learn how to work you |
+| 2026-11-03 | TT-3 | classic | oxblood | 13 | 1 | 0 | yes | One sentence can cost you two years. |
+| 2026-11-03 | IG-1 | classic | bone | 100 | 2 | 0 | yes | 3 exits that kill every standard |
+| 2026-11-04 | TT-1 | classic | gold | 21 | 0 | 0 | no (new) | 4 promises you're carrying halfway |
+| 2026-11-04 | TT-3 | classic | oxblood | 10 | 0 | 0 | no (new) | Your word is a credit score. |
+| 2026-11-04 | IG-1 | classic | bone | 16 | 1 | 0 | no (new) | 3 things people read before they trust you |
 
-84 logged posts matched, 26 not found in the metrics yet.
+81 logged posts matched, 32 not found in the metrics yet.
