@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-05 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-06 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -10,20 +10,10 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 |---|---|---|---|---|---|---|
 | focus-list | 1 | 126.0 | 5.00 | 3.97 | 0 | 1 |
 | editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
-| notebook | 2 | 103.0 | 1.00 | 0.97 | 0 | 1 |
-| ledger | 2 | 70.0 | 2.00 | 2.86 | 0 | 1 |
-| classic | 23 | 66.8 | 3.26 | 4.88 | 8 | 20 |
-| block | 4 | 57.5 | 2.50 | 4.35 | 0 | 3 |
-| poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
-
-## Tiktok
-
-| Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
-|---|---|---|---|---|---|---|
-| block | 1 | 143.0 | 2.00 | 1.40 | 0 | 0 |
-| classic | 3 | 119.0 | 3.67 | 3.08 | 0 | 0 |
-| ledger | 1 | 106.0 | 1.00 | 0.94 | 0 | 0 |
-| notebook | 1 | 97.0 | 1.00 | 1.03 | 0 | 0 |
+| notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
+| classic | 24 | 61.5 | 2.71 | 4.41 | 7 | 20 |
+| ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
+| block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
 
 ## Instagram
 
@@ -32,10 +22,15 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | focus-list | 1 | 126.0 | 5.00 | 3.97 | 0 | 1 |
 | editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
 | notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
-| classic | 20 | 59.0 | 3.20 | 5.43 | 8 | 20 |
+| classic | 20 | 58.9 | 2.75 | 4.67 | 7 | 20 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
-| poster | 1 | 24.0 | 10.00 | 41.67 | 1 | 1 |
+
+## Tiktok
+
+| Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
+|---|---|---|---|---|---|---|
+| classic | 4 | 74.2 | 2.50 | 3.37 | 0 | 0 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
 
@@ -43,12 +38,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-15 | TT-1 | classic | gold | 162 | 5 | 0 | yes | You're not too nice. You're being used. |
-| 2026-10-15 | IG-2 | poster | - | 24 | 10 | 1 | yes | Ch11 Daily Standard |
-| 2026-10-15 | TT-2 | ledger | - | 106 | 1 | 0 | yes | "A real man would..." is a leash. |
-| 2026-10-15 | TT-3 | block | - | 143 | 2 | 0 | yes | Manipulation works. Then 4 bills arrive. |
-| 2026-10-15 | TT-4 | notebook | - | 97 | 1 | 0 | yes | Real deals survive a night's sleep. |
-| 2026-10-15 | IG-4 | classic | carousel | 34 | 10 | 1 | yes | Ch11 carousel |
 | 2026-10-16 | TT-1 | block | - | 84 | 1 | 0 | no (two posts at that time) | Your most fun friend is your biggest leak. |
 | 2026-10-16 | IG-2 | classic | paper | 54 | 11 | 1 | yes | Ch12 Daily Standard |
 | 2026-10-16 | TT-2 | notebook | - | 111 | 3 | 0 | no (two posts at that time) | Your setbacks have perfect timing. |
@@ -103,7 +92,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-28 | TT-1 | classic | gold | 74 | 3 | 0 | no (TikTok reach drop) | 3 speeches men give instead of changing |
 | 2026-10-28 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Drift never feels like losing. |
 | 2026-10-28 | IG-1 | classic | bone | 125 | 3 | 1 | yes | 4 signs your discipline is just a mood |
-| 2026-10-29 | TT-1 | classic | gold | 0 | 1 | 0 | no (TikTok reach drop) | 3 things drift teaches you to accept |
+| 2026-10-29 | TT-1 | classic | gold | 1 | 1 | 0 | no (TikTok reach drop) | 3 things drift teaches you to accept |
 | 2026-10-29 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Your excuses have a price tag. |
 | 2026-10-29 | IG-1 | classic | bone | 33 | 1 | 0 | yes | 3 exits you keep open on purpose |
 | 2026-10-30 | TT-1 | classic | gold | 23 | 1 | 0 | no (TikTok reach drop) | Feeling powerless pays you 4 ways. |
@@ -118,11 +107,14 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-02 | TT-1 | classic | gold | 450 | 14 | 0 | no (TikTok reach drop) | 3 ways men keep one foot out |
 | 2026-11-02 | TT-3 | classic | oxblood | 17 | 2 | 0 | no (TikTok reach drop) | Fear won't make you fail. It's worse. |
 | 2026-11-02 | IG-1 | classic | bone | 48 | 2 | 1 | yes | 3 questions that tell fear from wisdom |
-| 2026-11-03 | TT-1 | classic | gold | 182 | 5 | 0 | yes | 4 things that learn how to work you |
+| 2026-11-03 | TT-1 | classic | gold | 183 | 5 | 0 | yes | 4 things that learn how to work you |
 | 2026-11-03 | TT-3 | classic | oxblood | 13 | 1 | 0 | yes | One sentence can cost you two years. |
 | 2026-11-03 | IG-1 | classic | bone | 100 | 2 | 0 | yes | 3 exits that kill every standard |
-| 2026-11-04 | TT-1 | classic | gold | 21 | 0 | 0 | no (new) | 4 promises you're carrying halfway |
-| 2026-11-04 | TT-3 | classic | oxblood | 10 | 0 | 0 | no (new) | Your word is a credit score. |
-| 2026-11-04 | IG-1 | classic | bone | 16 | 1 | 0 | no (new) | 3 things people read before they trust you |
+| 2026-11-04 | TT-1 | classic | gold | 27 | 1 | 0 | yes | 4 promises you're carrying halfway |
+| 2026-11-04 | TT-3 | classic | oxblood | 74 | 3 | 0 | yes | Your word is a credit score. |
+| 2026-11-04 | IG-1 | classic | bone | 33 | 1 | 0 | yes | 3 things people read before they trust you |
+| 2026-11-05 | TT-1 | classic | gold | 168 | 3 | 0 | no (new) | 4 ways you leak authority without noticing |
+| 2026-11-05 | TT-3 | classic | oxblood | 7 | 0 | 0 | no (new) | Ignoring power doesn't keep you out of it. |
+| 2026-11-05 | IG-1 | classic | bone | 8 | 1 | 0 | no (new) | 3 things a man with no options always says |
 
-81 logged posts matched, 32 not found in the metrics yet.
+78 logged posts matched, 38 not found in the metrics yet.
