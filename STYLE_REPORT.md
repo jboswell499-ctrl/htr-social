@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-06 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-07 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -8,10 +8,10 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
+| editorial | 4 | 126.0 | 3.75 | 2.98 | 1 | 4 |
 | focus-list | 1 | 126.0 | 5.00 | 3.97 | 0 | 1 |
-| editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
 | notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
-| classic | 24 | 61.5 | 2.71 | 4.41 | 7 | 20 |
+| classic | 26 | 64.4 | 2.31 | 3.58 | 6 | 20 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
 
@@ -19,10 +19,10 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
+| editorial | 4 | 126.0 | 3.75 | 2.98 | 1 | 4 |
 | focus-list | 1 | 126.0 | 5.00 | 3.97 | 0 | 1 |
-| editorial | 5 | 116.0 | 5.00 | 4.31 | 1 | 5 |
 | notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
-| classic | 20 | 58.9 | 2.75 | 4.67 | 7 | 20 |
+| classic | 20 | 57.1 | 2.30 | 4.03 | 6 | 20 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
 
@@ -30,7 +30,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| classic | 4 | 74.2 | 2.50 | 3.37 | 0 | 0 |
+| classic | 6 | 88.8 | 2.33 | 2.63 | 0 | 0 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
 
@@ -38,12 +38,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-16 | TT-1 | block | - | 84 | 1 | 0 | no (two posts at that time) | Your most fun friend is your biggest leak. |
-| 2026-10-16 | IG-2 | classic | paper | 54 | 11 | 1 | yes | Ch12 Daily Standard |
-| 2026-10-16 | TT-2 | notebook | - | 111 | 3 | 0 | no (two posts at that time) | Your setbacks have perfect timing. |
-| 2026-10-16 | TT-3 | poster | - | 3 | 1 | 0 | no (TikTok reach drop) | 3 things bad company takes before you notice. |
-| 2026-10-16 | TT-4 | classic | navy | 8 | 1 | 0 | no (two posts at that time) | Forgiveness isn't a house key. |
-| 2026-10-16 | IG-4 | editorial | - | 76 | 10 | 0 | yes | Ch12 carousel |
 | 2026-10-17 | TT-1 | poster | - | 2 | 1 | 0 | no (two posts at that time) | Your bank app is a lie detector. |
 | 2026-10-17 | IG-2 | editorial | - | 104 | 10 | 1 | yes | Ch13 Daily Standard |
 | 2026-10-17 | TT-2 | editorial | - | 1 | 1 | 0 | no (two posts at that time) | Raises don't fix leaks. |
@@ -109,12 +103,13 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-02 | IG-1 | classic | bone | 48 | 2 | 1 | yes | 3 questions that tell fear from wisdom |
 | 2026-11-03 | TT-1 | classic | gold | 183 | 5 | 0 | yes | 4 things that learn how to work you |
 | 2026-11-03 | TT-3 | classic | oxblood | 13 | 1 | 0 | yes | One sentence can cost you two years. |
-| 2026-11-03 | IG-1 | classic | bone | 100 | 2 | 0 | yes | 3 exits that kill every standard |
+| 2026-11-03 | IG-1 | classic | bone | 101 | 2 | 0 | yes | 3 exits that kill every standard |
 | 2026-11-04 | TT-1 | classic | gold | 27 | 1 | 0 | yes | 4 promises you're carrying halfway |
 | 2026-11-04 | TT-3 | classic | oxblood | 74 | 3 | 0 | yes | Your word is a credit score. |
-| 2026-11-04 | IG-1 | classic | bone | 33 | 1 | 0 | yes | 3 things people read before they trust you |
-| 2026-11-05 | TT-1 | classic | gold | 168 | 3 | 0 | no (new) | 4 ways you leak authority without noticing |
-| 2026-11-05 | TT-3 | classic | oxblood | 7 | 0 | 0 | no (new) | Ignoring power doesn't keep you out of it. |
-| 2026-11-05 | IG-1 | classic | bone | 8 | 1 | 0 | no (new) | 3 things a man with no options always says |
+| 2026-11-04 | IG-1 | classic | bone | 35 | 1 | 0 | yes | 3 things people read before they trust you |
+| 2026-11-05 | TT-1 | classic | gold | 193 | 3 | 0 | yes | 4 ways you leak authority without noticing |
+| 2026-11-05 | TT-3 | classic | oxblood | 43 | 1 | 0 | yes | Ignoring power doesn't keep you out of it. |
+| 2026-11-05 | IG-1 | classic | bone | 15 | 2 | 0 | yes | 3 things a man with no options always says |
+| 2026-11-06 | IG-1 | classic | bone | 59 | 1 | 0 | no (new) | 3 things you let slide that became rules |
 
-78 logged posts matched, 38 not found in the metrics yet.
+73 logged posts matched, 46 not found in the metrics yet.
