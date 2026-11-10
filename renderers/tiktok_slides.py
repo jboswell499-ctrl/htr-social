@@ -72,19 +72,51 @@ def _delegate(slot, a, args, palette):
     here = os.path.dirname(os.path.abspath(__file__))
     sys.path.insert(0, os.path.join(os.path.dirname(here), "tools"))
     import pick_looks
+    tt = slot.startswith("TT")
+    if tt and a.look not in ("auto", "fresh"):
+        # 2026-11-10, Justin: TikTok never shows the same image twice. The classic and the old looks
+        # repeat, so a TikTok set always gets a new design. "--look classic" now means: a new design in
+        # the roomiest typefaces (for copy that would not fit).
+        print("NOTE: TikTok sets always get a new design; --look %s gives a new design in a roomier typeface" % a.look)
+        a.look, roomy = "fresh", True
+    else:
+        roomy = False
     if a.look in ("auto", "fresh"):
         # 2026-11-09, Justin: "It needs to be different everyday. Not rotate between 5." Every set gets a
         # design that has never been used before (fresh.py). A design whose typeface cannot hold the
         # copy is swapped for another, up to three times, before the slides are flagged.
-        import fresh
-        day = pick_looks.today_ny().isoformat(); slides = json.load(open(a.json)); tried = []
-        for attempt in range(4):
-            sp = fresh.design_for(slot, day, avoid_fonts=tuple(tried))
+        # 2026-11-10: every set is then checked against every swipe slide ever published
+        # (tools/tt_fresh_check.py): no repeated image, and a TikTok set's first slide must look clearly
+        # different from every earlier TikTok first slide. A set that fails is redesigned.
+        import fresh, glob as _g
+        sys.path.insert(0, os.path.join(os.path.dirname(here), "tools"))
+        import tt_fresh_check
+        day = pick_looks.today_ny().isoformat(); slides = json.load(open(a.json))
+        tried = ["anton", "hand", "marker", "type", "serif"] if roomy else []
+        rejected, best, new = [], None, roomy
+        for attempt in range(8):
+            sp = fresh.design_for(slot, day, avoid_fonts=tuple(tried), avoid_specs=tuple(rejected), new=new,
+                                  salt=a.slug)
             print("LOOK: new design for %s: %s" % (slot, fresh.label(sp)))
+            for f in _g.glob(os.path.join(a.outdir, "HTR_tt_%s_*.png" % a.slug)): os.remove(f)
             bad, ok = fresh.render(slides, a.slug, sp, a.outdir, a.motif, a.workdir)
             if not ok: print("STATUS: fonts missing - do not publish these renders"); return 1
-            if not bad or attempt == 3: break
-            tried.append(sp["font"])
+            if bad:
+                if attempt >= 3: break
+                tried.append(sp["font"]); new = True; rejected.append(sp); continue
+            files = sorted(_g.glob(os.path.join(a.outdir, "HTR_tt_%s_*.png" % a.slug)))
+            fresh_ok, probs, near = tt_fresh_check.check(files, a.outdir, a.slug)
+            if not tt:                       # the Instagram set only has to avoid repeating an image
+                probs = [p for p in probs if p.startswith("SAME IMAGE")]; fresh_ok = not probs
+            for p in probs: print("  " + p)
+            if fresh_ok:
+                if near: print("FRESH CHECK: pass (first slide is %.1f from the nearest earlier TikTok)" % near[0])
+                break
+            score = near[0] if near else 0
+            if not best or score > best[0]: best = (score, sp)
+            rejected.append(sp); new = True
+        else:
+            print("FRESH CHECK: FAIL after 8 designs - do not publish this set"); return 1
         pick_looks.record(slot, "fresh-" + sp["font"], sp["pal"], spec=sp)
         print("STATUS: chromium - full brand quality" + (" (%d flagged)" % bad if bad else ""))
         return 1 if bad else 0

@@ -86,31 +86,52 @@ def _history(date):
     return out
 
 
-def design_for(slot, date, avoid_fonts=()):
-    """The design for a slot on a date (YYYY-MM-DD). Never a repeat; see the rules at the top."""
+def _prev_days(date, n):
+    import datetime
+    d = datetime.date.fromisoformat(date)
+    return {(d - datetime.timedelta(days=k)).isoformat() for k in range(1, n + 1)}
+
+
+def design_for(slot, date, avoid_fonts=(), avoid_specs=(), new=False, salt=""):
+    """The design for a slot on a date (YYYY-MM-DD). Never a repeat; see the rules at the top.
+
+    TikTok (2026-11-10, Justin: "Ensure that TikTok never posts the same image twice. Should look fresh
+    to eyes daily"): a TikTok set also shares no colours with any TikTok set of the previous 3 days, and
+    no typeface, layout or background with yesterday's TikTok sets. new=True skips "a re-render keeps
+    its design" and picks a different one; avoid_specs are designs already rejected this run."""
     hist = _history(date)
-    for d, s, sp in hist:
-        if d == date and s == slot: return sp                      # a re-render keeps its design
+    if not new:
+        for d, s, sp in hist:
+            if d == date and s == slot: return sp                  # a re-render keeps its design
     fonts = [f for f in FONTS if f not in avoid_fonts] or list(FONTS)
-    today = [sp for d, s, sp in hist if d == date]
-    recent = [sp for d, s, sp in hist][:5]
+    today = [sp for d, s, sp in hist if d == date and s != slot]
+    recent = [sp for d, s, sp in hist if not (d == date and s == slot)][:5]
+    tt = slot.startswith("TT")
+    tt3 = [sp for d, s, sp in hist if s.startswith("TT") and d in _prev_days(date, 3)]
+    tt1 = [sp for d, s, sp in hist if s.startswith("TT") and d in _prev_days(date, 1)]
     VIS = ("pal", "font", "layout", "back")           # what the eye sees first: never the same four twice
     seen = {tuple(sp.get(k) for k in VIS) for _, _, sp in hist}
-    seed = int(hashlib.sha256(("%s|%s|%s" % (date, slot, ",".join(sorted(avoid_fonts)))).encode()).hexdigest(), 16)
+    seen |= {tuple(sp.get(k) for k in VIS) for sp in avoid_specs}
+    seed = int(hashlib.sha256(("%s|%s|%s|%s|%d" % (date, slot, ",".join(sorted(avoid_fonts)), salt,
+                                                    len(avoid_specs))).encode()).hexdigest(), 16)
     rnd = random.Random(seed)
-    best = None
-    for attempt in range(4000):
+    tiers = [None, None, None]                        # strictest first; fall back only if nothing passes
+    for attempt in range(6000):
         sp = dict(pal=rnd.choice(list(PALETTES)), font=rnd.choice(fonts), layout=rnd.choice(LAYOUTS),
                   back=rnd.choice(BACKS), accent=rnd.choice(ACCENTS), marks=rnd.choice(MARKS))
         if sp["font"] == "hand" and sp["accent"] in ("box", "stamp"): continue      # boxes fight the handwriting
         if tuple(sp[k] for k in VIS) in seen: continue
-        best = best or sp
-        if any(sp[k] == o.get(k) for o in today for k in ("pal", "font", "layout", "back")): continue
+        if any(sp[k] == o.get(k) for o in today for k in ("pal", "font", "layout", "back", "accent")): continue
+        tiers[2] = tiers[2] or sp
         if any(sp[k] == o.get(k) for o in recent for k in ("pal", "font")): continue
         if any(sp["back"] == o.get("back") for o in recent[:3]): continue
         if recent and sp["layout"] == recent[0].get("layout"): continue
+        tiers[1] = tiers[1] or sp
+        if tt:
+            if any(sp["pal"] == o.get("pal") for o in tt3): continue
+            if any(sp[k] == o.get(k) for o in tt1 for k in ("font", "layout", "back", "accent")): continue
         return sp
-    return best
+    return tiers[1] or tiers[2]
 
 
 def _faces(fd):

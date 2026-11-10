@@ -52,3 +52,17 @@ renderers/htrcards.py picks a palette per asset when --palette is not given (aut
   no sky, clouds or mountain, no distressed type or brush underline, and every item carries a plain line.
 - Scheduled each Sunday as IG-3 (15:00 Reel), ST-3 (15:02 Story) and FB-3 (15:00 post). `log_today.py` logs IG-3 under the
   look `focus-list`, which `pick_looks.py` never picks for the other slots.
+
+## TikTok never repeats an image (2026-11-10)
+
+Justin: "Ensure that TikTok never posts the same image twice. Should look fresh to eyes daily."
+
+- `renderers/fresh.py` now also keeps TikTok sets apart across days: a TikTok set shares no colours with
+  any TikTok set from the previous 3 days, and no typeface, layout, background or accent style with
+  yesterday's TikTok sets. The day's three sets also never share an accent style.
+- `tools/tt_fresh_check.py` checks every new set against every swipe slide ever published here: no slide
+  may repeat an earlier image, and a TikTok set's first slide (the frame shown in the feed) must look
+  clearly different from every earlier TikTok first slide. `tiktok_slides.py` runs it after each render
+  and redesigns the set until it passes (up to 8 designs; otherwise it exits 1 and the set is not published).
+- TikTok sets never fall back to the classic or older looks, which repeat. `--look classic` on a TikTok
+  slug now gives a new design in a roomier typeface.
