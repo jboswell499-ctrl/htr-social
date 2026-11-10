@@ -7,6 +7,10 @@ Prints one line per slot, for example "TT-1 ledger". Reads style_scores.json (wr
 style_report.py) from the repo root if it exists.
 
 Rules
+- FROM 2026-11-10 THE SWIPE SETS DO NOT USE THESE PICKS. Justin: "It needs to be different everyday.
+  Not rotate between 5." tiktok_slides.py now builds a brand-new design for every set with
+  renderers/fresh.py and records it here with record(..., spec=...). The rotation below is only what
+  you get if someone passes --look explicitly, and it still feeds the quote card and carousel.
 - Pool: classic (the original renderers) plus the looks in renderers/looks.py.
 - EVERY SWIPE SET LOOKS DIFFERENT (Justin's call on 2026-11-09: "why are all the TikToks looking
   exactly the same"). The two TikTok sets (TT-1, TT-3) and the Instagram Reel (IG-1) no longer follow
@@ -118,10 +122,11 @@ def todays_look(slot, d=None):
         os.makedirs(os.path.dirname(f), exist_ok=True); json.dump(rec, open(f, "w"), indent=1)
     return rec["picked"].get(slot, "classic")
 
-def record(slot, look, palette="-", d=None):
+def record(slot, look, palette="-", d=None, spec=None):
     """Note the look a slot was actually rendered in (it can fall back to classic)."""
     todays_look(slot, d); d = d or today_ny(); f = _path(d)
     rec = json.load(open(f)); rec["used"][slot] = {"look": look, "palette": palette}
+    if spec: rec["used"][slot]["spec"] = spec
     json.dump(rec, open(f, "w"), indent=1)
 
 def main():

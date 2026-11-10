@@ -72,7 +72,23 @@ def _delegate(slot, a, args, palette):
     here = os.path.dirname(os.path.abspath(__file__))
     sys.path.insert(0, os.path.join(os.path.dirname(here), "tools"))
     import pick_looks
-    look = pick_looks.todays_look(slot) if a.look == "auto" else a.look
+    if a.look in ("auto", "fresh"):
+        # 2026-11-09, Justin: "It needs to be different everyday. Not rotate between 5." Every set gets a
+        # design that has never been used before (fresh.py). A design whose typeface cannot hold the
+        # copy is swapped for another, up to three times, before the slides are flagged.
+        import fresh
+        day = pick_looks.today_ny().isoformat(); slides = json.load(open(a.json)); tried = []
+        for attempt in range(4):
+            sp = fresh.design_for(slot, day, avoid_fonts=tuple(tried))
+            print("LOOK: new design for %s: %s" % (slot, fresh.label(sp)))
+            bad, ok = fresh.render(slides, a.slug, sp, a.outdir, a.motif, a.workdir)
+            if not ok: print("STATUS: fonts missing - do not publish these renders"); return 1
+            if not bad or attempt == 3: break
+            tried.append(sp["font"])
+        pick_looks.record(slot, "fresh-" + sp["font"], sp["pal"], spec=sp)
+        print("STATUS: chromium - full brand quality" + (" (%d flagged)" % bad if bad else ""))
+        return 1 if bad else 0
+    look = a.look
     if a.motif != "none": look = "classic"
     if look == "classic":
         if a.palette == "auto": a.palette = pick_looks.classic_palette(slot)
