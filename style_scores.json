@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08 22:42",
+ "updated": "2026-11-09 22:42",
  "looks": {
   "block": {
    "n": 3,
@@ -10,12 +10,12 @@
    "comments": 3
   },
   "classic": {
-   "n": 26,
-   "avg_views": 66.2,
-   "avg_likes": 2.27,
-   "likes_per_100_views": 3.43,
+   "n": 29,
+   "avg_views": 75.0,
+   "avg_likes": 2.24,
+   "likes_per_100_views": 2.99,
    "shares": 7,
-   "comments": 20
+   "comments": 19
   },
   "editorial": {
    "n": 3,
@@ -61,12 +61,12 @@
     "comments": 3
    },
    "classic": {
-    "n": 20,
-    "avg_views": 59.4,
-    "avg_likes": 2.25,
-    "likes_per_100_views": 3.79,
+    "n": 19,
+    "avg_views": 61.5,
+    "avg_likes": 2.05,
+    "likes_per_100_views": 3.34,
     "shares": 7,
-    "comments": 20
+    "comments": 19
    },
    "editorial": {
     "n": 3,
@@ -103,10 +103,10 @@
   },
   "tiktok": {
    "classic": {
-    "n": 6,
-    "avg_views": 88.8,
-    "avg_likes": 2.33,
-    "likes_per_100_views": 2.63,
+    "n": 10,
+    "avg_views": 100.5,
+    "avg_likes": 2.6,
+    "likes_per_100_views": 2.59,
     "shares": 0,
     "comments": 0
    }
