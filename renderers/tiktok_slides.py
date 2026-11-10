@@ -75,7 +75,8 @@ def _delegate(slot, a, args, palette):
     look = pick_looks.todays_look(slot) if a.look == "auto" else a.look
     if a.motif != "none": look = "classic"
     if look == "classic":
-        pick_looks.record(slot, "classic", palette); print("LOOK: classic"); return None
+        if a.palette == "auto": a.palette = pick_looks.classic_palette(slot)
+        pick_looks.record(slot, "classic", a.palette); print("LOOK: classic (%s)" % a.palette); return None
     m = re.match(r"ch(\d+)", a.slug); ch = m.group(1) if m else "00"
     print("LOOK: %s (today's pick for %s; pass --look classic to force the original look)" % (look, slot))
     r = subprocess.run([sys.executable, os.path.join(here, "looks.py"), "--look", look, "--chapter", ch,
@@ -86,7 +87,8 @@ def _delegate(slot, a, args, palette):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", required=True); ap.add_argument("--slug", required=True)
-    ap.add_argument("--palette", default="gold", choices=list(PALETTES))
+    ap.add_argument("--palette", default="auto", choices=["auto"] + list(PALETTES),
+                    help="auto (default): a classic set takes the colour used least recently")
     ap.add_argument("--outdir", default=os.path.expanduser("~/htr-engine/cards"))
     ap.add_argument("--workdir", default=os.path.expanduser("~/htr-engine"))
     ap.add_argument("--motif", default="none", choices=["none", "cross"], help="cross: Sunday scripture days")
@@ -97,6 +99,7 @@ def main():
         slot = "IG-1" if m.group(1) == "ig" else "TT-" + m.group(1)[2]
         rc = _delegate(slot, a, ["--mode", "slides", "--json", a.json, "--ratio", "9x16"], a.palette)
         if rc is not None: return rc
+    if a.palette == "auto": a.palette = "gold"
     slides = json.load(open(a.json))
     if not 4 <= len(slides) <= 7:
         print("ERROR: need 4 to 7 slides, got %d" % len(slides)); return 1

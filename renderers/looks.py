@@ -78,7 +78,20 @@ html,body{width:%(w)spx;height:%(h)spx;overflow:hidden}
 .big{font-size:%(bigfs)spx}
 .small{font-size:%(smfs)spx}
 .hl,.nw{white-space:nowrap}
+.pips{display:inline-flex;gap:9px;align-items:center;vertical-align:middle}
+.pips i{display:block;width:30px;height:8px;border-radius:4px;background:rgba(127,127,127,.35)}
 """
+
+# Swipe sets (TikTok and the Reel) carry no chapter label and no slide number (Justin's stop test), so
+# they can be used every day. Progress marks say there is more to swipe; the text keeps clear of
+# TikTok's right-hand button rail.
+BARE_CSS = {
+"editorial": ".pips i.on{background:#8E1B1B}",
+"ledger": ".pips{margin-top:10px}.pips i{width:22px;height:22px;border-radius:0;background:none;border:3px solid #1E1E1E}.pips i.on{background:#1E1E1E}.big{line-height:1.22}.big .hl{transform:rotate(-1.5deg);margin:.05em 0}",
+"block": ".foot{justify-content:flex-start;gap:30px;align-items:center}.pips i{background:#3A3833}.pips i.on{background:#E3A83B}",
+"notebook": ".pips{gap:12px}.pips i{width:24px;height:24px;border-radius:50%%;background:none;border:3px solid #5B6478}.pips i.on{background:#18213A;border-color:#18213A}",
+"poster": ".pips i{background:rgba(246,239,227,.25)}.pips i.on{background:#E3A83B}",
+}
 
 LOOK_CSS = {
 "editorial": """
@@ -188,7 +201,7 @@ document.fonts.ready.then(function(){
 });
 </script>"""
 
-def build(look, w, h, ratio, fd, big, small, attrib, top, foot, ghost, n=None, total=None):
+def build(look, w, h, ratio, fd, big, small, attrib, top, foot, ghost, n=None, total=None, bare=False):
     pt, pb, ps = SAFE[ratio]
     short = min(w, h)
     lab = max(18, round(short * 0.021)) if ratio != "16x9" else 15
@@ -208,16 +221,22 @@ def build(look, w, h, ratio, fd, big, small, attrib, top, foot, ghost, n=None, t
         p["bigfs"] = round(short * 0.15); p["smfs"] = round(short * 0.06)
     if look == "poster":
         p["ghost"] = round(h * 0.62) if ratio != "16x9" else 560
+    if bare: p["smfs"] = max(p["smfs"], round(short * 0.043))
     css = (CSS_BASE + LOOK_CSS[look]) % p
     counter = ("%02d / %02d" % (n, total)) if n else ""
+    if bare:
+        css += BARE_CSS[look] % () + ".mid{padding-right:%dpx}" % (0 if look == "ledger" else 64)
+        counter = '<span class="pips">%s</span>' % "".join('<i class="%s"></i>' % ("on" if k <= n else "") for k in range(1, total + 1))
+        top = "Hard To Replace&trade;"
     if look == "editorial":
         topl = '<div class="top"><span>%s</span><span>%s</span></div>' % (top, counter or "No. %s" % ghost)
         qm = '<div class="qm">&ldquo;</div>' if attrib else ""
-        footl = '<div class="foot"><span>Justin Boswell</span><span>%s</span></div>' % foot
+        footl = '<div class="foot"><span>Justin Boswell</span><span>%s</span></div>' % ("" if bare else foot)
         mid = qm + '<div class="big">%s</div>' % big
     elif look == "ledger":
         topl = ('<div class="top">%s%s<span class="dash">- - - - - - - - - - - - - - - - - - - - - - - - - -</span></div>'
-                % ("Hard To Replace&trade;<br>" + (top if not counter else "Ch. %s" % ghost), (" &middot; " + counter) if counter else ""))
+                % (("Hard To Replace&trade;<br>" + counter, "") if bare else
+                   ("Hard To Replace&trade;<br>" + (top if not counter else "Ch. %s" % ghost), (" &middot; " + counter) if counter else "")))
         footl = ('<div class="foot"><span class="dash">- - - - - - - - - - - - - - - - - - - - - - - - - -</span>'
                  '<div class="bars"></div>Justin Boswell</div>')
         mid = '<div class="big">%s</div>' % big
@@ -247,7 +266,7 @@ def build(look, w, h, ratio, fd, big, small, attrib, top, foot, ghost, n=None, t
             mid += '<div class="attr">%s</div>' % "<br>".join(esc(x) for x in a)
     layers = ""
     if look == "ledger": layers = '<div class="paper"></div>'
-    if look == "block": layers = '<div class="blk"></div><div class="bw"><span>%s</span></div>' % (esc(ACCENT[0]) or counter or ghost)
+    if look == "block": layers = '<div class="blk"></div><div class="bw"><span>%s</span></div>' % (esc(ACCENT[0]) or ("" if bare else counter) or ghost)
     if look == "notebook": layers = '<div class="tape"></div>'
     if look == "poster": layers = '<div class="ghost">%s</div>' % ghost
     html = ('<!doctype html><meta charset="utf-8"><style>%s%s</style><body><div class="card %s">%s'
@@ -315,7 +334,7 @@ def main():
             smh = re.sub(r"\*(.+?)\*", r"\1", smh)
             html, st = build(a.look, w, h, a.ratio, fd, fmt(t), smh, "",
                              "Ch. %s &middot; Hard To Replace&trade;" % ch, "Hard To Replace&trade;", ch,
-                             n=i if n > 1 else None, total=n)
+                             n=i if n > 1 else None, total=n, bare=(a.prefix == "tt" and n > 1))
             name = ("HTR_tt_%s_%02d.png" if a.prefix == "tt" else "HTR_carousel_%s_%02d.png") % (a.slug, i)
             jobs.append((html, os.path.join(a.outdir, name), w, h, st))
     flags = render(jobs, a.look)
