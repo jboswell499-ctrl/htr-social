@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-09 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-10 22:45 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -9,28 +9,28 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | editorial | 3 | 133.3 | 1.67 | 1.25 | 0 | 3 |
-| focus-list | 1 | 126.0 | 5.00 | 3.97 | 0 | 1 |
 | notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
-| classic | 29 | 75.0 | 2.24 | 2.99 | 7 | 19 |
+| classic | 30 | 102.8 | 3.73 | 3.63 | 6 | 18 |
+| focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
-| block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
+| block | 2 | 32.0 | 2.00 | 6.25 | 0 | 2 |
 
 ## Instagram
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | editorial | 3 | 133.3 | 1.67 | 1.25 | 0 | 3 |
-| focus-list | 1 | 126.0 | 5.00 | 3.97 | 0 | 1 |
 | notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
-| classic | 19 | 61.5 | 2.05 | 3.34 | 7 | 19 |
+| focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
+| classic | 18 | 63.7 | 1.94 | 3.05 | 6 | 18 |
 | ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
-| block | 3 | 29.0 | 2.67 | 9.20 | 0 | 3 |
+| block | 2 | 32.0 | 2.00 | 6.25 | 0 | 2 |
 
 ## Tiktok
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| classic | 10 | 100.5 | 2.60 | 2.59 | 0 | 0 |
+| classic | 12 | 161.5 | 6.42 | 3.97 | 0 | 0 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
 
@@ -38,12 +38,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-19 | TT-1 | block | - | 110 | 2 | 0 | no (TikTok reach drop) | A goal without a plan is a daydream. |
-| 2026-10-19 | IG-2 | block | - | 23 | 4 | 0 | yes | Ch15 Daily Standard |
-| 2026-10-19 | TT-2 | classic | bone | 16 | 2 | 0 | no (TikTok reach drop) | A full calendar proves nothing. |
-| 2026-10-19 | TT-3 | editorial | - | 199 | 12 | 0 | no (TikTok reach drop) | 3 things a vague purpose costs you. |
-| 2026-10-19 | TT-4 | ledger | - | 9 | 1 | 0 | no (TikTok reach drop) | You're not productive. You're drifting. |
-| 2026-10-19 | IG-4 | classic | carousel | 24 | 4 | 1 | yes | Ch15 carousel |
 | 2026-10-20 | TT-1 | notebook | - | 142 | 4 | 0 | no (TikTok reach drop) | You're not underpaid. You're out of options. |
 | 2026-10-20 | IG-2 | classic | paper | 77 | 6 | 1 | yes | Ch16 Daily Standard |
 | 2026-10-20 | TT-3 | classic | oxblood | 2 | 1 | 0 | no (TikTok reach drop) | Your steady job is your biggest risk. |
@@ -94,18 +88,21 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-03 | IG-1 | classic | bone | 101 | 2 | 0 | yes | 3 exits that kill every standard |
 | 2026-11-04 | TT-1 | classic | gold | 27 | 1 | 0 | yes | 4 promises you're carrying halfway |
 | 2026-11-04 | TT-3 | classic | oxblood | 74 | 3 | 0 | yes | Your word is a credit score. |
-| 2026-11-04 | IG-1 | classic | bone | 38 | 1 | 0 | yes | 3 things people read before they trust you |
+| 2026-11-04 | IG-1 | classic | bone | 40 | 1 | 0 | yes | 3 things people read before they trust you |
 | 2026-11-05 | TT-1 | classic | gold | 193 | 3 | 0 | yes | 4 ways you leak authority without noticing |
 | 2026-11-05 | TT-3 | classic | oxblood | 43 | 1 | 0 | yes | Ignoring power doesn't keep you out of it. |
 | 2026-11-05 | IG-1 | classic | bone | 16 | 2 | 0 | yes | 3 things a man with no options always says |
-| 2026-11-06 | TT-1 | classic | gold | 1 | 0 | 0 | yes | 4 signs pushback still owns you |
-| 2026-11-06 | TT-3 | classic | oxblood | 0 | 0 | 0 | yes | Letting it slide isn't free. |
+| 2026-11-06 | TT-1 | classic | gold | 2 | 1 | 0 | yes | 4 signs pushback still owns you |
+| 2026-11-06 | TT-3 | classic | oxblood | 0 | 1 | 0 | yes | Letting it slide isn't free. |
 | 2026-11-06 | IG-1 | classic | bone | 76 | 2 | 1 | yes | 3 things you let slide that became rules |
-| 2026-11-07 | TT-1 | classic | gold | 0 | 0 | 0 | yes | 3 signs the deadline is fake. |
-| 2026-11-07 | TT-3 | classic | oxblood | 469 | 12 | 0 | yes | Good men get played the most. |
+| 2026-11-07 | TT-1 | classic | gold | 0 | 1 | 0 | yes | 3 signs the deadline is fake. |
+| 2026-11-07 | TT-3 | classic | oxblood | 470 | 12 | 0 | yes | Good men get played the most. |
 | 2026-11-07 | IG-1 | classic | bone | 15 | 1 | 0 | yes | 4 lines that turn a favor into a debt. |
-| 2026-11-08 | TT-1 | classic | gold | 845 | 47 | 0 | no (new) | 3 people to stop telling your plans. |
-| 2026-11-08 | IG-3 | focus-list | - | 27 | 2 | 0 | no (new) | Ch12 focus list |
-| 2026-11-08 | TT-3 | classic | oxblood | 34 | 1 | 0 | no (new) | Bad company costs you 3 things. |
+| 2026-11-08 | TT-1 | classic | gold | 849 | 47 | 0 | yes | 3 people to stop telling your plans. |
+| 2026-11-08 | IG-3 | focus-list | - | 36 | 2 | 0 | yes | Ch12 focus list |
+| 2026-11-08 | TT-3 | classic | oxblood | 82 | 1 | 0 | yes | Bad company costs you 3 things. |
+| 2026-11-09 | TT-1 | classic | gold | 777 | 8 | 0 | no (new) | 5 numbers a man should know by heart |
+| 2026-11-09 | TT-3 | classic | oxblood | 113 | 2 | 0 | no (new) | Being broke isn't the expensive part. |
+| 2026-11-09 | IG-1 | classic | bone | 21 | 1 | 0 | no (new) | 4 links between your savings and your freedom |
 
-69 logged posts matched, 56 not found in the metrics yet.
+66 logged posts matched, 62 not found in the metrics yet.
