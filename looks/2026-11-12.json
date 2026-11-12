@@ -1,0 +1,58 @@
+{
+ "date": "2026-11-12",
+ "picked": {
+  "TT-1": "notebook",
+  "TT-2": "classic",
+  "TT-3": "classic",
+  "TT-4": "classic",
+  "IG-1": "ledger",
+  "IG-2": "classic",
+  "IG-4": "ledger"
+ },
+ "used": {
+  "IG-4": {
+   "look": "ledger",
+   "palette": "-"
+  },
+  "IG-2": {
+   "look": "classic",
+   "palette": "clean"
+  },
+  "TT-1": {
+   "look": "fresh-type",
+   "palette": "olive",
+   "spec": {
+    "pal": "olive",
+    "font": "type",
+    "layout": "high",
+    "back": "corner",
+    "accent": "stamp",
+    "marks": "dots"
+   }
+  },
+  "TT-3": {
+   "look": "fresh-hand",
+   "palette": "plum",
+   "spec": {
+    "pal": "plum",
+    "font": "hand",
+    "layout": "ruled",
+    "back": "frame",
+    "accent": "underline",
+    "marks": "dots"
+   }
+  },
+  "IG-1": {
+   "look": "fresh-anton",
+   "palette": "bone-red",
+   "spec": {
+    "pal": "bone-red",
+    "font": "anton",
+    "layout": "low",
+    "back": "bar",
+    "accent": "swipe",
+    "marks": "bars"
+   }
+  }
+ }
+}
