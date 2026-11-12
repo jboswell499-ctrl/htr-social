@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-10 22:45 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-11 22:43 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -9,10 +9,9 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | editorial | 3 | 133.3 | 1.67 | 1.25 | 0 | 3 |
+| classic | 32 | 126.7 | 3.81 | 3.01 | 6 | 19 |
 | notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
-| classic | 30 | 102.8 | 3.73 | 3.63 | 6 | 18 |
 | focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
-| ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
 | block | 2 | 32.0 | 2.00 | 6.25 | 0 | 2 |
 
 ## Instagram
@@ -22,15 +21,14 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | editorial | 3 | 133.3 | 1.67 | 1.25 | 0 | 3 |
 | notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
 | focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
-| classic | 18 | 63.7 | 1.94 | 3.05 | 6 | 18 |
-| ledger | 1 | 34.0 | 3.00 | 8.82 | 0 | 1 |
+| classic | 18 | 61.9 | 1.67 | 2.69 | 5 | 18 |
 | block | 2 | 32.0 | 2.00 | 6.25 | 0 | 2 |
 
 ## Tiktok
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| classic | 12 | 161.5 | 6.42 | 3.97 | 0 | 0 |
+| classic | 14 | 210.0 | 6.57 | 3.13 | 1 | 1 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
 
@@ -38,10 +36,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-20 | TT-1 | notebook | - | 142 | 4 | 0 | no (TikTok reach drop) | You're not underpaid. You're out of options. |
-| 2026-10-20 | IG-2 | classic | paper | 77 | 6 | 1 | yes | Ch16 Daily Standard |
-| 2026-10-20 | TT-3 | classic | oxblood | 2 | 1 | 0 | no (TikTok reach drop) | Your steady job is your biggest risk. |
-| 2026-10-20 | IG-4 | ledger | - | 34 | 3 | 0 | yes | Ch16 carousel |
 | 2026-10-21 | IG-2 | block | - | 30 | 2 | 0 | yes | Ch17 Daily Standard |
 | 2026-10-21 | IG-4 | classic | carousel | 11 | 1 | 0 | yes | Ch17 carousel |
 | 2026-10-22 | TT-1 | classic | gold | 1 | 1 | 0 | no (TikTok reach drop) | Unfair doesn't mean final. |
@@ -95,14 +89,17 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-06 | TT-1 | classic | gold | 2 | 1 | 0 | yes | 4 signs pushback still owns you |
 | 2026-11-06 | TT-3 | classic | oxblood | 0 | 1 | 0 | yes | Letting it slide isn't free. |
 | 2026-11-06 | IG-1 | classic | bone | 76 | 2 | 1 | yes | 3 things you let slide that became rules |
-| 2026-11-07 | TT-1 | classic | gold | 0 | 1 | 0 | yes | 3 signs the deadline is fake. |
+| 2026-11-07 | TT-1 | classic | gold | 1 | 1 | 0 | yes | 3 signs the deadline is fake. |
 | 2026-11-07 | TT-3 | classic | oxblood | 470 | 12 | 0 | yes | Good men get played the most. |
 | 2026-11-07 | IG-1 | classic | bone | 15 | 1 | 0 | yes | 4 lines that turn a favor into a debt. |
-| 2026-11-08 | TT-1 | classic | gold | 849 | 47 | 0 | yes | 3 people to stop telling your plans. |
+| 2026-11-08 | TT-1 | classic | gold | 850 | 47 | 0 | yes | 3 people to stop telling your plans. |
 | 2026-11-08 | IG-3 | focus-list | - | 36 | 2 | 0 | yes | Ch12 focus list |
 | 2026-11-08 | TT-3 | classic | oxblood | 82 | 1 | 0 | yes | Bad company costs you 3 things. |
-| 2026-11-09 | TT-1 | classic | gold | 777 | 8 | 0 | no (new) | 5 numbers a man should know by heart |
-| 2026-11-09 | TT-3 | classic | oxblood | 113 | 2 | 0 | no (new) | Being broke isn't the expensive part. |
-| 2026-11-09 | IG-1 | classic | bone | 21 | 1 | 0 | no (new) | 4 links between your savings and your freedom |
+| 2026-11-09 | TT-1 | classic | gold | 871 | 13 | 1 | yes | 5 numbers a man should know by heart |
+| 2026-11-09 | TT-3 | classic | oxblood | 129 | 2 | 0 | yes | Being broke isn't the expensive part. |
+| 2026-11-09 | IG-1 | classic | bone | 44 | 1 | 0 | yes | 4 links between your savings and your freedom |
+| 2026-11-10 | TT-1 | fresh-anton | ink-gold | 92 | 1 | 0 | no (new) | 3 questions to ask before you swipe. |
+| 2026-11-10 | TT-3 | fresh-serif | teal | 113 | 0 | 0 | no (new) | Never risking a dollar has a price. |
+| 2026-11-10 | IG-1 | fresh-inter | cream-wine | 37 | 1 | 1 | no (new) | 4 things fear calls being smart. |
 
-66 logged posts matched, 62 not found in the metrics yet.
+65 logged posts matched, 65 not found in the metrics yet.
