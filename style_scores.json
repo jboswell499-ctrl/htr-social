@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-11 22:43",
+ "updated": "2026-11-12 22:42",
  "looks": {
   "block": {
-   "n": 2,
-   "avg_views": 32.0,
+   "n": 1,
+   "avg_views": 34.0,
    "avg_likes": 2.0,
-   "likes_per_100_views": 6.25,
+   "likes_per_100_views": 5.88,
    "shares": 0,
-   "comments": 2
+   "comments": 1
   },
   "classic": {
-   "n": 32,
-   "avg_views": 126.7,
-   "avg_likes": 3.81,
-   "likes_per_100_views": 3.01,
+   "n": 31,
+   "avg_views": 130.5,
+   "avg_likes": 3.9,
+   "likes_per_100_views": 2.99,
    "shares": 6,
-   "comments": 19
+   "comments": 18
   },
   "editorial": {
    "n": 3,
@@ -33,6 +33,30 @@
    "shares": 0,
    "comments": 2
   },
+  "fresh-anton": {
+   "n": 1,
+   "avg_views": 93.0,
+   "avg_likes": 1.0,
+   "likes_per_100_views": 1.08,
+   "shares": 0,
+   "comments": 0
+  },
+  "fresh-inter": {
+   "n": 1,
+   "avg_views": 48.0,
+   "avg_likes": 1.0,
+   "likes_per_100_views": 2.08,
+   "shares": 1,
+   "comments": 1
+  },
+  "fresh-serif": {
+   "n": 1,
+   "avg_views": 117.0,
+   "avg_likes": 2.0,
+   "likes_per_100_views": 1.71,
+   "shares": 0,
+   "comments": 0
+  },
   "notebook": {
    "n": 1,
    "avg_views": 109.0,
@@ -45,20 +69,20 @@
  "by_network": {
   "instagram": {
    "block": {
-    "n": 2,
-    "avg_views": 32.0,
+    "n": 1,
+    "avg_views": 34.0,
     "avg_likes": 2.0,
-    "likes_per_100_views": 6.25,
+    "likes_per_100_views": 5.88,
     "shares": 0,
-    "comments": 2
+    "comments": 1
    },
    "classic": {
-    "n": 18,
-    "avg_views": 61.9,
-    "avg_likes": 1.67,
-    "likes_per_100_views": 2.69,
+    "n": 17,
+    "avg_views": 64.9,
+    "avg_likes": 1.71,
+    "likes_per_100_views": 2.63,
     "shares": 5,
-    "comments": 18
+    "comments": 17
    },
    "editorial": {
     "n": 3,
@@ -76,6 +100,14 @@
     "shares": 0,
     "comments": 2
    },
+   "fresh-inter": {
+    "n": 1,
+    "avg_views": 48.0,
+    "avg_likes": 1.0,
+    "likes_per_100_views": 2.08,
+    "shares": 1,
+    "comments": 1
+   },
    "notebook": {
     "n": 1,
     "avg_views": 109.0,
@@ -88,11 +120,27 @@
   "tiktok": {
    "classic": {
     "n": 14,
-    "avg_views": 210.0,
+    "avg_views": 210.2,
     "avg_likes": 6.57,
     "likes_per_100_views": 3.13,
     "shares": 1,
     "comments": 1
+   },
+   "fresh-anton": {
+    "n": 1,
+    "avg_views": 93.0,
+    "avg_likes": 1.0,
+    "likes_per_100_views": 1.08,
+    "shares": 0,
+    "comments": 0
+   },
+   "fresh-serif": {
+    "n": 1,
+    "avg_views": 117.0,
+    "avg_likes": 2.0,
+    "likes_per_100_views": 1.71,
+    "shares": 0,
+    "comments": 0
    }
   }
  }
