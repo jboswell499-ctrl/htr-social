@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-12 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-13 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -8,31 +8,33 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
+| fresh-marker | 1 | 144.0 | 2.00 | 1.39 | 0 | 0 |
+| classic | 30 | 133.5 | 3.97 | 2.97 | 5 | 17 |
 | editorial | 3 | 133.3 | 1.67 | 1.25 | 0 | 3 |
-| classic | 31 | 130.5 | 3.90 | 2.99 | 6 | 18 |
 | fresh-serif | 1 | 117.0 | 2.00 | 1.71 | 0 | 0 |
-| notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
 | fresh-anton | 1 | 93.0 | 1.00 | 1.08 | 0 | 0 |
 | focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
 | fresh-inter | 1 | 48.0 | 1.00 | 2.08 | 1 | 1 |
 | block | 1 | 34.0 | 2.00 | 5.88 | 0 | 1 |
+| fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
 
 ## Instagram
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | editorial | 3 | 133.3 | 1.67 | 1.25 | 0 | 3 |
-| notebook | 1 | 109.0 | 1.00 | 0.92 | 0 | 1 |
 | focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
-| classic | 17 | 64.9 | 1.71 | 2.63 | 5 | 17 |
+| classic | 16 | 66.4 | 1.69 | 2.54 | 4 | 16 |
 | fresh-inter | 1 | 48.0 | 1.00 | 2.08 | 1 | 1 |
 | block | 1 | 34.0 | 2.00 | 5.88 | 0 | 1 |
+| fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
 
 ## Tiktok
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | classic | 14 | 210.2 | 6.57 | 3.13 | 1 | 1 |
+| fresh-marker | 1 | 144.0 | 2.00 | 1.39 | 0 | 0 |
 | fresh-serif | 1 | 117.0 | 2.00 | 1.71 | 0 | 0 |
 | fresh-anton | 1 | 93.0 | 1.00 | 1.08 | 0 | 0 |
 
@@ -42,9 +44,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-22 | TT-1 | classic | gold | 1 | 1 | 0 | no (TikTok reach drop) | Unfair doesn't mean final. |
-| 2026-10-22 | IG-2 | classic | brush | 41 | 2 | 1 | yes | Ch18 Daily Standard |
-| 2026-10-22 | IG-4 | notebook | - | 109 | 1 | 0 | yes | Ch18 carousel |
 | 2026-10-23 | TT-1 | classic | gold | 2 | 1 | 0 | no (TikTok reach drop) | Your personality is a habit. |
 | 2026-10-23 | IG-2 | editorial | - | 116 | 2 | 0 | yes | Ch19 Daily Standard |
 | 2026-10-23 | IG-4 | classic | carousel | 119 | 3 | 0 | yes | Ch19 carousel |
@@ -75,7 +74,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-10-31 | TT-1 | classic | gold | 532 | 9 | 0 | no (TikTok reach drop) | 3 signs you're used, not useful |
 | 2026-10-31 | TT-3 | classic | oxblood | 18 | 2 | 0 | no (TikTok reach drop) | Weakness already picked the day. |
 | 2026-10-31 | IG-1 | classic | bone | 104 | 1 | 0 | yes | 3 signs your title is on borrowed time |
-| 2026-11-01 | TT-1 | classic | gold | 121 | 7 | 0 | no (TikTok reach drop) | 4 thoughts running your life unchecked |
+| 2026-11-01 | TT-1 | classic | gold | 123 | 7 | 0 | no (TikTok reach drop) | 4 thoughts running your life unchecked |
 | 2026-11-01 | IG-3 | focus-list | - | 126 | 5 | 0 | yes | Ch5 focus list |
 | 2026-11-01 | TT-3 | classic | oxblood | 12 | 2 | 0 | no (TikTok reach drop) | An unguarded mind costs you 3 things |
 | 2026-11-02 | TT-1 | classic | gold | 454 | 14 | 0 | no (TikTok reach drop) | 3 ways men keep one foot out |
@@ -105,7 +104,10 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-10 | TT-1 | fresh-anton | ink-gold | 93 | 1 | 0 | yes | 3 questions to ask before you swipe. |
 | 2026-11-10 | TT-3 | fresh-serif | teal | 117 | 2 | 0 | yes | Never risking a dollar has a price. |
 | 2026-11-10 | IG-1 | fresh-inter | cream-wine | 48 | 1 | 1 | yes | 4 things fear calls being smart. |
-| 2026-11-11 | TT-3 | fresh-marker | rust | 126 | 1 | 0 | no (new) | Quitting quietly costs you 3 things |
-| 2026-11-11 | IG-1 | fresh-black | forest | 4 | 0 | 0 | no (new) | 2 ways to waste a year working hard |
+| 2026-11-11 | TT-3 | fresh-marker | rust | 144 | 2 | 0 | yes | Quitting quietly costs you 3 things |
+| 2026-11-11 | IG-1 | fresh-black | forest | 19 | 1 | 0 | yes | 2 ways to waste a year working hard |
+| 2026-11-12 | TT-1 | fresh-type | olive | 112 | 2 | 0 | no (new) | 3 places where needing it costs you |
+| 2026-11-12 | TT-3 | fresh-hand | plum | 265 | 7 | 0 | no (new) | Your steady job is your riskiest bet. |
+| 2026-11-12 | IG-1 | fresh-anton | bone-red | 9 | 1 | 0 | no (new) | 2 kinds of money. Only one frees you. |
 
-65 logged posts matched, 68 not found in the metrics yet.
+65 logged posts matched, 71 not found in the metrics yet.

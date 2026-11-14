@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 22:42",
+ "updated": "2026-11-13 22:42",
  "looks": {
   "block": {
    "n": 1,
@@ -10,12 +10,12 @@
    "comments": 1
   },
   "classic": {
-   "n": 31,
-   "avg_views": 130.5,
-   "avg_likes": 3.9,
-   "likes_per_100_views": 2.99,
-   "shares": 6,
-   "comments": 18
+   "n": 30,
+   "avg_views": 133.5,
+   "avg_likes": 3.97,
+   "likes_per_100_views": 2.97,
+   "shares": 5,
+   "comments": 17
   },
   "editorial": {
    "n": 3,
@@ -41,6 +41,14 @@
    "shares": 0,
    "comments": 0
   },
+  "fresh-black": {
+   "n": 1,
+   "avg_views": 19.0,
+   "avg_likes": 1.0,
+   "likes_per_100_views": 5.26,
+   "shares": 0,
+   "comments": 1
+  },
   "fresh-inter": {
    "n": 1,
    "avg_views": 48.0,
@@ -49,6 +57,14 @@
    "shares": 1,
    "comments": 1
   },
+  "fresh-marker": {
+   "n": 1,
+   "avg_views": 144.0,
+   "avg_likes": 2.0,
+   "likes_per_100_views": 1.39,
+   "shares": 0,
+   "comments": 0
+  },
   "fresh-serif": {
    "n": 1,
    "avg_views": 117.0,
@@ -56,14 +72,6 @@
    "likes_per_100_views": 1.71,
    "shares": 0,
    "comments": 0
-  },
-  "notebook": {
-   "n": 1,
-   "avg_views": 109.0,
-   "avg_likes": 1.0,
-   "likes_per_100_views": 0.92,
-   "shares": 0,
-   "comments": 1
   }
  },
  "by_network": {
@@ -77,12 +85,12 @@
     "comments": 1
    },
    "classic": {
-    "n": 17,
-    "avg_views": 64.9,
-    "avg_likes": 1.71,
-    "likes_per_100_views": 2.63,
-    "shares": 5,
-    "comments": 17
+    "n": 16,
+    "avg_views": 66.4,
+    "avg_likes": 1.69,
+    "likes_per_100_views": 2.54,
+    "shares": 4,
+    "comments": 16
    },
    "editorial": {
     "n": 3,
@@ -100,20 +108,20 @@
     "shares": 0,
     "comments": 2
    },
+   "fresh-black": {
+    "n": 1,
+    "avg_views": 19.0,
+    "avg_likes": 1.0,
+    "likes_per_100_views": 5.26,
+    "shares": 0,
+    "comments": 1
+   },
    "fresh-inter": {
     "n": 1,
     "avg_views": 48.0,
     "avg_likes": 1.0,
     "likes_per_100_views": 2.08,
     "shares": 1,
-    "comments": 1
-   },
-   "notebook": {
-    "n": 1,
-    "avg_views": 109.0,
-    "avg_likes": 1.0,
-    "likes_per_100_views": 0.92,
-    "shares": 0,
     "comments": 1
    }
   },
@@ -131,6 +139,14 @@
     "avg_views": 93.0,
     "avg_likes": 1.0,
     "likes_per_100_views": 1.08,
+    "shares": 0,
+    "comments": 0
+   },
+   "fresh-marker": {
+    "n": 1,
+    "avg_views": 144.0,
+    "avg_likes": 2.0,
+    "likes_per_100_views": 1.39,
     "shares": 0,
     "comments": 0
    },
