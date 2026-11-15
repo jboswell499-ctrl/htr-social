@@ -92,6 +92,23 @@ def _prev_days(date, n):
     return {(d - datetime.timedelta(days=k)).isoformat() for k in range(1, n + 1)}
 
 
+def font_weights(network, fonts):
+    """Steer typefaces toward what wins on views (2026-11-15, Justin: the style tracker's findings go to
+    the publisher and steer the designs). Reads style_scores.json, written nightly by the style tracker.
+    A typeface with at least 3 scored "fresh-<font>" posts on this network gets weight avg_views / the
+    network median of those typefaces, held between 0.5 and 2.0; a typeface still under test gets 1.0 so
+    it keeps being tried. Every freshness rule in design_for still applies, so sets stay different daily;
+    this only changes which allowed typeface is tried first. No scores file: all weights are 1.0."""
+    try:
+        sc = json.load(open(os.path.join(HERE, "style_scores.json")))["by_network"][network]
+    except Exception:
+        return [1.0] * len(fonts)
+    views = {f: sc["fresh-" + f]["avg_views"] for f in fonts
+             if isinstance(sc.get("fresh-" + f), dict) and sc["fresh-" + f].get("n", 0) >= 3}
+    if not views: return [1.0] * len(fonts)
+    med = sorted(views.values())[len(views) // 2] or 1.0
+    return [min(2.0, max(0.5, views[f] / med)) if f in views else 1.0 for f in fonts]
+
 def design_for(slot, date, avoid_fonts=(), avoid_specs=(), new=False, salt=""):
     """The design for a slot on a date (YYYY-MM-DD). Never a repeat; see the rules at the top.
 
@@ -115,9 +132,10 @@ def design_for(slot, date, avoid_fonts=(), avoid_specs=(), new=False, salt=""):
     seed = int(hashlib.sha256(("%s|%s|%s|%s|%d" % (date, slot, ",".join(sorted(avoid_fonts)), salt,
                                                     len(avoid_specs))).encode()).hexdigest(), 16)
     rnd = random.Random(seed)
+    fw = font_weights("tiktok" if tt else "instagram", fonts)
     tiers = [None, None, None]                        # strictest first; fall back only if nothing passes
     for attempt in range(6000):
-        sp = dict(pal=rnd.choice(list(PALETTES)), font=rnd.choice(fonts), layout=rnd.choice(LAYOUTS),
+        sp = dict(pal=rnd.choice(list(PALETTES)), font=rnd.choices(fonts, weights=fw)[0], layout=rnd.choice(LAYOUTS),
                   back=rnd.choice(BACKS), accent=rnd.choice(ACCENTS), marks=rnd.choice(MARKS))
         if sp["font"] == "hand" and sp["accent"] in ("box", "stamp"): continue      # boxes fight the handwriting
         if tuple(sp[k] for k in VIS) in seen: continue
