@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 22:42",
+ "updated": "2026-11-14 22:42",
  "looks": {
   "block": {
    "n": 1,
@@ -10,20 +10,20 @@
    "comments": 1
   },
   "classic": {
-   "n": 30,
-   "avg_views": 133.5,
-   "avg_likes": 3.97,
-   "likes_per_100_views": 2.97,
+   "n": 29,
+   "avg_views": 134.1,
+   "avg_likes": 4.0,
+   "likes_per_100_views": 2.98,
    "shares": 5,
-   "comments": 17
+   "comments": 16
   },
   "editorial": {
-   "n": 3,
-   "avg_views": 133.3,
-   "avg_likes": 1.67,
-   "likes_per_100_views": 1.25,
+   "n": 2,
+   "avg_views": 142.0,
+   "avg_likes": 1.5,
+   "likes_per_100_views": 1.06,
    "shares": 0,
-   "comments": 3
+   "comments": 2
   },
   "focus-list": {
    "n": 2,
@@ -34,12 +34,12 @@
    "comments": 2
   },
   "fresh-anton": {
-   "n": 1,
-   "avg_views": 93.0,
+   "n": 2,
+   "avg_views": 54.0,
    "avg_likes": 1.0,
-   "likes_per_100_views": 1.08,
+   "likes_per_100_views": 1.85,
    "shares": 0,
-   "comments": 0
+   "comments": 1
   },
   "fresh-black": {
    "n": 1,
@@ -48,6 +48,14 @@
    "likes_per_100_views": 5.26,
    "shares": 0,
    "comments": 1
+  },
+  "fresh-hand": {
+   "n": 1,
+   "avg_views": 663.0,
+   "avg_likes": 21.0,
+   "likes_per_100_views": 3.17,
+   "shares": 0,
+   "comments": 0
   },
   "fresh-inter": {
    "n": 1,
@@ -72,6 +80,14 @@
    "likes_per_100_views": 1.71,
    "shares": 0,
    "comments": 0
+  },
+  "fresh-type": {
+   "n": 1,
+   "avg_views": 115.0,
+   "avg_likes": 2.0,
+   "likes_per_100_views": 1.74,
+   "shares": 0,
+   "comments": 0
   }
  },
  "by_network": {
@@ -85,20 +101,20 @@
     "comments": 1
    },
    "classic": {
-    "n": 16,
-    "avg_views": 66.4,
-    "avg_likes": 1.69,
-    "likes_per_100_views": 2.54,
+    "n": 15,
+    "avg_views": 62.9,
+    "avg_likes": 1.6,
+    "likes_per_100_views": 2.55,
     "shares": 4,
-    "comments": 16
+    "comments": 15
    },
    "editorial": {
-    "n": 3,
-    "avg_views": 133.3,
-    "avg_likes": 1.67,
-    "likes_per_100_views": 1.25,
+    "n": 2,
+    "avg_views": 142.0,
+    "avg_likes": 1.5,
+    "likes_per_100_views": 1.06,
     "shares": 0,
-    "comments": 3
+    "comments": 2
    },
    "focus-list": {
     "n": 2,
@@ -107,6 +123,14 @@
     "likes_per_100_views": 4.32,
     "shares": 0,
     "comments": 2
+   },
+   "fresh-anton": {
+    "n": 1,
+    "avg_views": 15.0,
+    "avg_likes": 1.0,
+    "likes_per_100_views": 6.67,
+    "shares": 0,
+    "comments": 1
    },
    "fresh-black": {
     "n": 1,
@@ -128,9 +152,9 @@
   "tiktok": {
    "classic": {
     "n": 14,
-    "avg_views": 210.2,
+    "avg_views": 210.4,
     "avg_likes": 6.57,
-    "likes_per_100_views": 3.13,
+    "likes_per_100_views": 3.12,
     "shares": 1,
     "comments": 1
    },
@@ -139,6 +163,14 @@
     "avg_views": 93.0,
     "avg_likes": 1.0,
     "likes_per_100_views": 1.08,
+    "shares": 0,
+    "comments": 0
+   },
+   "fresh-hand": {
+    "n": 1,
+    "avg_views": 663.0,
+    "avg_likes": 21.0,
+    "likes_per_100_views": 3.17,
     "shares": 0,
     "comments": 0
    },
@@ -155,6 +187,14 @@
     "avg_views": 117.0,
     "avg_likes": 2.0,
     "likes_per_100_views": 1.71,
+    "shares": 0,
+    "comments": 0
+   },
+   "fresh-type": {
+    "n": 1,
+    "avg_views": 115.0,
+    "avg_likes": 2.0,
+    "likes_per_100_views": 1.74,
     "shares": 0,
     "comments": 0
    }
