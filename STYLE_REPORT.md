@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-14 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-15 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -9,14 +9,14 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | fresh-hand | 1 | 663.0 | 21.00 | 3.17 | 0 | 0 |
-| fresh-marker | 1 | 144.0 | 2.00 | 1.39 | 0 | 0 |
-| editorial | 2 | 142.0 | 1.50 | 1.06 | 0 | 2 |
-| classic | 29 | 134.1 | 4.00 | 2.98 | 5 | 16 |
-| fresh-serif | 1 | 117.0 | 2.00 | 1.71 | 0 | 0 |
+| editorial | 1 | 179.0 | 0.00 | 0.00 | 0 | 1 |
+| classic | 28 | 134.7 | 4.07 | 3.02 | 5 | 15 |
+| fresh-marker | 2 | 121.5 | 1.50 | 1.23 | 0 | 0 |
+| fresh-serif | 2 | 120.0 | 1.50 | 1.25 | 1 | 1 |
 | fresh-type | 1 | 115.0 | 2.00 | 1.74 | 0 | 0 |
+| fresh-inter | 2 | 91.0 | 1.50 | 1.65 | 1 | 1 |
 | focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
-| fresh-anton | 2 | 54.0 | 1.00 | 1.85 | 0 | 1 |
-| fresh-inter | 1 | 48.0 | 1.00 | 2.08 | 1 | 1 |
+| fresh-anton | 2 | 54.5 | 1.00 | 1.83 | 0 | 1 |
 | block | 1 | 34.0 | 2.00 | 5.88 | 0 | 1 |
 | fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
 
@@ -24,13 +24,14 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| editorial | 2 | 142.0 | 1.50 | 1.06 | 0 | 2 |
+| editorial | 1 | 179.0 | 0.00 | 0.00 | 0 | 1 |
+| fresh-serif | 1 | 123.0 | 1.00 | 0.81 | 1 | 1 |
 | focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
-| classic | 15 | 62.9 | 1.60 | 2.55 | 4 | 15 |
+| classic | 14 | 58.9 | 1.57 | 2.67 | 4 | 14 |
 | fresh-inter | 1 | 48.0 | 1.00 | 2.08 | 1 | 1 |
 | block | 1 | 34.0 | 2.00 | 5.88 | 0 | 1 |
 | fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
-| fresh-anton | 1 | 15.0 | 1.00 | 6.67 | 0 | 1 |
+| fresh-anton | 1 | 16.0 | 1.00 | 6.25 | 0 | 1 |
 
 ## Tiktok
 
@@ -38,7 +39,8 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 |---|---|---|---|---|---|---|
 | fresh-hand | 1 | 663.0 | 21.00 | 3.17 | 0 | 0 |
 | classic | 14 | 210.4 | 6.57 | 3.12 | 1 | 1 |
-| fresh-marker | 1 | 144.0 | 2.00 | 1.39 | 0 | 0 |
+| fresh-inter | 1 | 134.0 | 2.00 | 1.49 | 0 | 0 |
+| fresh-marker | 2 | 121.5 | 1.50 | 1.23 | 0 | 0 |
 | fresh-serif | 1 | 117.0 | 2.00 | 1.71 | 0 | 0 |
 | fresh-type | 1 | 115.0 | 2.00 | 1.74 | 0 | 0 |
 | fresh-anton | 1 | 93.0 | 1.00 | 1.08 | 0 | 0 |
@@ -49,10 +51,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-24 | TT-1 | block | - | 1 | 1 | 0 | no (TikTok reach drop) | 5 patterns that should end with you |
-| 2026-10-24 | IG-2 | classic | paper | 118 | 2 | 0 | yes | Ch20 Daily Standard |
-| 2026-10-24 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Doing nothing still leaves a legacy. |
-| 2026-10-24 | IG-4 | editorial | - | 105 | 3 | 0 | yes | Ch20 carousel |
 | 2026-10-25 | TT-1 | classic | gold | 2 | 2 | 0 | no (TikTok reach drop) | You don't know your own numbers. |
 | 2026-10-25 | IG-2 | classic | swipe | 64 | 2 | 1 | yes | Ch21 Daily Standard |
 | 2026-10-25 | TT-3 | classic | oxblood | 17 | 2 | 0 | no (TikTok reach drop) | 3 things not looking costs you |
@@ -100,7 +98,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-08 | TT-1 | classic | gold | 853 | 47 | 0 | yes | 3 people to stop telling your plans. |
 | 2026-11-08 | IG-3 | focus-list | - | 36 | 2 | 0 | yes | Ch12 focus list |
 | 2026-11-08 | TT-3 | classic | oxblood | 82 | 1 | 0 | yes | Bad company costs you 3 things. |
-| 2026-11-09 | TT-1 | classic | gold | 873 | 13 | 1 | yes | 5 numbers a man should know by heart |
+| 2026-11-09 | TT-1 | classic | gold | 874 | 13 | 1 | yes | 5 numbers a man should know by heart |
 | 2026-11-09 | TT-3 | classic | oxblood | 129 | 2 | 0 | yes | Being broke isn't the expensive part. |
 | 2026-11-09 | IG-1 | classic | bone | 44 | 1 | 0 | yes | 4 links between your savings and your freedom |
 | 2026-11-10 | TT-1 | fresh-anton | ink-gold | 93 | 1 | 0 | yes | 3 questions to ask before you swipe. |
@@ -110,9 +108,12 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-11 | IG-1 | fresh-black | forest | 19 | 1 | 0 | yes | 2 ways to waste a year working hard |
 | 2026-11-12 | TT-1 | fresh-type | olive | 115 | 2 | 0 | yes | 3 places where needing it costs you |
 | 2026-11-12 | TT-3 | fresh-hand | plum | 663 | 21 | 0 | yes | Your steady job is your riskiest bet. |
-| 2026-11-12 | IG-1 | fresh-anton | bone-red | 15 | 1 | 0 | yes | 2 kinds of money. Only one frees you. |
-| 2026-11-13 | TT-1 | fresh-inter | mustard | 133 | 2 | 0 | no (new) | Plan stopped working? Change 1 thing. Never the other. |
-| 2026-11-13 | TT-3 | fresh-marker | navy-gold | 97 | 1 | 0 | no (new) | Grinding with no plan costs you 3 things. |
-| 2026-11-13 | IG-1 | fresh-serif | oxblood | 52 | 0 | 0 | no (new) | 4 signs you're busy, not building. |
+| 2026-11-12 | IG-1 | fresh-anton | bone-red | 16 | 1 | 0 | yes | 2 kinds of money. Only one frees you. |
+| 2026-11-13 | TT-1 | fresh-inter | mustard | 134 | 2 | 0 | yes | Plan stopped working? Change 1 thing. Never the other. |
+| 2026-11-13 | TT-3 | fresh-marker | navy-gold | 99 | 1 | 0 | yes | Grinding with no plan costs you 3 things. |
+| 2026-11-13 | IG-1 | fresh-serif | oxblood | 123 | 1 | 1 | yes | 4 signs you're busy, not building. |
+| 2026-11-14 | TT-1 | fresh-type | slate | 98 | 2 | 0 | no (new) | 4 things you never tried. Nobody stopped you. |
+| 2026-11-14 | TT-3 | fresh-black | sand | 109 | 1 | 0 | no (new) | A ceiling you can't see takes 3 things. |
+| 2026-11-14 | IG-1 | fresh-anton | ink-gold | 55 | 0 | 0 | no (new) | Nobody locked you in. You still don't leave. |
 
-65 logged posts matched, 74 not found in the metrics yet.
+64 logged posts matched, 78 not found in the metrics yet.

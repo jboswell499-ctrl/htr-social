@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14 22:42",
+ "updated": "2026-11-15 22:42",
  "looks": {
   "block": {
    "n": 1,
@@ -10,20 +10,20 @@
    "comments": 1
   },
   "classic": {
-   "n": 29,
-   "avg_views": 134.1,
-   "avg_likes": 4.0,
-   "likes_per_100_views": 2.98,
+   "n": 28,
+   "avg_views": 134.7,
+   "avg_likes": 4.07,
+   "likes_per_100_views": 3.02,
    "shares": 5,
-   "comments": 16
+   "comments": 15
   },
   "editorial": {
-   "n": 2,
-   "avg_views": 142.0,
-   "avg_likes": 1.5,
-   "likes_per_100_views": 1.06,
+   "n": 1,
+   "avg_views": 179.0,
+   "avg_likes": 0.0,
+   "likes_per_100_views": 0.0,
    "shares": 0,
-   "comments": 2
+   "comments": 1
   },
   "focus-list": {
    "n": 2,
@@ -35,9 +35,9 @@
   },
   "fresh-anton": {
    "n": 2,
-   "avg_views": 54.0,
+   "avg_views": 54.5,
    "avg_likes": 1.0,
-   "likes_per_100_views": 1.85,
+   "likes_per_100_views": 1.83,
    "shares": 0,
    "comments": 1
   },
@@ -58,28 +58,28 @@
    "comments": 0
   },
   "fresh-inter": {
-   "n": 1,
-   "avg_views": 48.0,
-   "avg_likes": 1.0,
-   "likes_per_100_views": 2.08,
+   "n": 2,
+   "avg_views": 91.0,
+   "avg_likes": 1.5,
+   "likes_per_100_views": 1.65,
    "shares": 1,
    "comments": 1
   },
   "fresh-marker": {
-   "n": 1,
-   "avg_views": 144.0,
-   "avg_likes": 2.0,
-   "likes_per_100_views": 1.39,
+   "n": 2,
+   "avg_views": 121.5,
+   "avg_likes": 1.5,
+   "likes_per_100_views": 1.23,
    "shares": 0,
    "comments": 0
   },
   "fresh-serif": {
-   "n": 1,
-   "avg_views": 117.0,
-   "avg_likes": 2.0,
-   "likes_per_100_views": 1.71,
-   "shares": 0,
-   "comments": 0
+   "n": 2,
+   "avg_views": 120.0,
+   "avg_likes": 1.5,
+   "likes_per_100_views": 1.25,
+   "shares": 1,
+   "comments": 1
   },
   "fresh-type": {
    "n": 1,
@@ -101,20 +101,20 @@
     "comments": 1
    },
    "classic": {
-    "n": 15,
-    "avg_views": 62.9,
-    "avg_likes": 1.6,
-    "likes_per_100_views": 2.55,
+    "n": 14,
+    "avg_views": 58.9,
+    "avg_likes": 1.57,
+    "likes_per_100_views": 2.67,
     "shares": 4,
-    "comments": 15
+    "comments": 14
    },
    "editorial": {
-    "n": 2,
-    "avg_views": 142.0,
-    "avg_likes": 1.5,
-    "likes_per_100_views": 1.06,
+    "n": 1,
+    "avg_views": 179.0,
+    "avg_likes": 0.0,
+    "likes_per_100_views": 0.0,
     "shares": 0,
-    "comments": 2
+    "comments": 1
    },
    "focus-list": {
     "n": 2,
@@ -126,9 +126,9 @@
    },
    "fresh-anton": {
     "n": 1,
-    "avg_views": 15.0,
+    "avg_views": 16.0,
     "avg_likes": 1.0,
-    "likes_per_100_views": 6.67,
+    "likes_per_100_views": 6.25,
     "shares": 0,
     "comments": 1
    },
@@ -145,6 +145,14 @@
     "avg_views": 48.0,
     "avg_likes": 1.0,
     "likes_per_100_views": 2.08,
+    "shares": 1,
+    "comments": 1
+   },
+   "fresh-serif": {
+    "n": 1,
+    "avg_views": 123.0,
+    "avg_likes": 1.0,
+    "likes_per_100_views": 0.81,
     "shares": 1,
     "comments": 1
    }
@@ -174,11 +182,19 @@
     "shares": 0,
     "comments": 0
    },
-   "fresh-marker": {
+   "fresh-inter": {
     "n": 1,
-    "avg_views": 144.0,
+    "avg_views": 134.0,
     "avg_likes": 2.0,
-    "likes_per_100_views": 1.39,
+    "likes_per_100_views": 1.49,
+    "shares": 0,
+    "comments": 0
+   },
+   "fresh-marker": {
+    "n": 2,
+    "avg_views": 121.5,
+    "avg_likes": 1.5,
+    "likes_per_100_views": 1.23,
     "shares": 0,
     "comments": 0
    },
