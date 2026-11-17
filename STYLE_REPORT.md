@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-15 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-16 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -8,17 +8,17 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| fresh-hand | 1 | 663.0 | 21.00 | 3.17 | 0 | 0 |
+| fresh-hand | 1 | 664.0 | 21.00 | 3.16 | 0 | 0 |
 | editorial | 1 | 179.0 | 0.00 | 0.00 | 0 | 1 |
-| classic | 28 | 134.7 | 4.07 | 3.02 | 5 | 15 |
+| classic | 26 | 140.6 | 4.27 | 3.04 | 4 | 13 |
 | fresh-marker | 2 | 121.5 | 1.50 | 1.23 | 0 | 0 |
 | fresh-serif | 2 | 120.0 | 1.50 | 1.25 | 1 | 1 |
-| fresh-type | 1 | 115.0 | 2.00 | 1.74 | 0 | 0 |
-| fresh-inter | 2 | 91.0 | 1.50 | 1.65 | 1 | 1 |
+| fresh-type | 2 | 109.5 | 2.00 | 1.83 | 0 | 0 |
+| fresh-inter | 2 | 91.5 | 1.50 | 1.64 | 1 | 1 |
 | focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
-| fresh-anton | 2 | 54.5 | 1.00 | 1.83 | 0 | 1 |
+| fresh-anton | 3 | 68.7 | 1.00 | 1.46 | 0 | 2 |
+| fresh-black | 2 | 68.0 | 1.00 | 1.47 | 0 | 1 |
 | block | 1 | 34.0 | 2.00 | 5.88 | 0 | 1 |
-| fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
 
 ## Instagram
 
@@ -27,22 +27,23 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | editorial | 1 | 179.0 | 0.00 | 0.00 | 0 | 1 |
 | fresh-serif | 1 | 123.0 | 1.00 | 0.81 | 1 | 1 |
 | focus-list | 2 | 81.0 | 3.50 | 4.32 | 0 | 2 |
-| classic | 14 | 58.9 | 1.57 | 2.67 | 4 | 14 |
+| classic | 12 | 58.9 | 1.58 | 2.69 | 3 | 12 |
+| fresh-anton | 2 | 56.5 | 1.00 | 1.77 | 0 | 2 |
 | fresh-inter | 1 | 48.0 | 1.00 | 2.08 | 1 | 1 |
 | block | 1 | 34.0 | 2.00 | 5.88 | 0 | 1 |
 | fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
-| fresh-anton | 1 | 16.0 | 1.00 | 6.25 | 0 | 1 |
 
 ## Tiktok
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| fresh-hand | 1 | 663.0 | 21.00 | 3.17 | 0 | 0 |
-| classic | 14 | 210.4 | 6.57 | 3.12 | 1 | 1 |
-| fresh-inter | 1 | 134.0 | 2.00 | 1.49 | 0 | 0 |
+| fresh-hand | 1 | 664.0 | 21.00 | 3.16 | 0 | 0 |
+| classic | 14 | 210.6 | 6.57 | 3.12 | 1 | 1 |
+| fresh-inter | 1 | 135.0 | 2.00 | 1.48 | 0 | 0 |
 | fresh-marker | 2 | 121.5 | 1.50 | 1.23 | 0 | 0 |
+| fresh-black | 1 | 117.0 | 1.00 | 0.85 | 0 | 0 |
 | fresh-serif | 1 | 117.0 | 2.00 | 1.71 | 0 | 0 |
-| fresh-type | 1 | 115.0 | 2.00 | 1.74 | 0 | 0 |
+| fresh-type | 2 | 109.5 | 2.00 | 1.83 | 0 | 0 |
 | fresh-anton | 1 | 93.0 | 1.00 | 1.08 | 0 | 0 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
@@ -51,10 +52,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-25 | TT-1 | classic | gold | 2 | 2 | 0 | no (TikTok reach drop) | You don't know your own numbers. |
-| 2026-10-25 | IG-2 | classic | swipe | 64 | 2 | 1 | yes | Ch21 Daily Standard |
-| 2026-10-25 | TT-3 | classic | oxblood | 17 | 2 | 0 | no (TikTok reach drop) | 3 things not looking costs you |
-| 2026-10-25 | IG-4 | classic | carousel | 54 | 1 | 0 | yes | Ch21 carousel |
 | 2026-10-26 | TT-1 | classic | gold | 12 | 1 | 0 | no (TikTok reach drop) | A plan in your head isn't a plan. |
 | 2026-10-26 | IG-2 | editorial | - | 179 | 0 | 0 | yes | Ch22 Daily Standard |
 | 2026-10-26 | TT-3 | classic | oxblood | 3 | 1 | 0 | no (TikTok reach drop) | 3 things your phone takes before 7am |
@@ -98,7 +95,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-08 | TT-1 | classic | gold | 853 | 47 | 0 | yes | 3 people to stop telling your plans. |
 | 2026-11-08 | IG-3 | focus-list | - | 36 | 2 | 0 | yes | Ch12 focus list |
 | 2026-11-08 | TT-3 | classic | oxblood | 82 | 1 | 0 | yes | Bad company costs you 3 things. |
-| 2026-11-09 | TT-1 | classic | gold | 874 | 13 | 1 | yes | 5 numbers a man should know by heart |
+| 2026-11-09 | TT-1 | classic | gold | 877 | 13 | 1 | yes | 5 numbers a man should know by heart |
 | 2026-11-09 | TT-3 | classic | oxblood | 129 | 2 | 0 | yes | Being broke isn't the expensive part. |
 | 2026-11-09 | IG-1 | classic | bone | 44 | 1 | 0 | yes | 4 links between your savings and your freedom |
 | 2026-11-10 | TT-1 | fresh-anton | ink-gold | 93 | 1 | 0 | yes | 3 questions to ask before you swipe. |
@@ -107,13 +104,15 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-11 | TT-3 | fresh-marker | rust | 144 | 2 | 0 | yes | Quitting quietly costs you 3 things |
 | 2026-11-11 | IG-1 | fresh-black | forest | 19 | 1 | 0 | yes | 2 ways to waste a year working hard |
 | 2026-11-12 | TT-1 | fresh-type | olive | 115 | 2 | 0 | yes | 3 places where needing it costs you |
-| 2026-11-12 | TT-3 | fresh-hand | plum | 663 | 21 | 0 | yes | Your steady job is your riskiest bet. |
+| 2026-11-12 | TT-3 | fresh-hand | plum | 664 | 21 | 0 | yes | Your steady job is your riskiest bet. |
 | 2026-11-12 | IG-1 | fresh-anton | bone-red | 16 | 1 | 0 | yes | 2 kinds of money. Only one frees you. |
-| 2026-11-13 | TT-1 | fresh-inter | mustard | 134 | 2 | 0 | yes | Plan stopped working? Change 1 thing. Never the other. |
+| 2026-11-13 | TT-1 | fresh-inter | mustard | 135 | 2 | 0 | yes | Plan stopped working? Change 1 thing. Never the other. |
 | 2026-11-13 | TT-3 | fresh-marker | navy-gold | 99 | 1 | 0 | yes | Grinding with no plan costs you 3 things. |
 | 2026-11-13 | IG-1 | fresh-serif | oxblood | 123 | 1 | 1 | yes | 4 signs you're busy, not building. |
-| 2026-11-14 | TT-1 | fresh-type | slate | 98 | 2 | 0 | no (new) | 4 things you never tried. Nobody stopped you. |
-| 2026-11-14 | TT-3 | fresh-black | sand | 109 | 1 | 0 | no (new) | A ceiling you can't see takes 3 things. |
-| 2026-11-14 | IG-1 | fresh-anton | ink-gold | 55 | 0 | 0 | no (new) | Nobody locked you in. You still don't leave. |
+| 2026-11-14 | TT-1 | fresh-type | slate | 104 | 2 | 0 | yes | 4 things you never tried. Nobody stopped you. |
+| 2026-11-14 | TT-3 | fresh-black | sand | 117 | 1 | 0 | yes | A ceiling you can't see takes 3 things. |
+| 2026-11-14 | IG-1 | fresh-anton | ink-gold | 97 | 1 | 0 | yes | Nobody locked you in. You still don't leave. |
+| 2026-11-15 | TT-1 | fresh-hand | bone-red | 41 | 1 | 0 | no (new) | 3 things left in reach keep beating you at night. |
+| 2026-11-15 | IG-3 | focus-list | - | 64 | 1 | 1 | no (new) | Ch19 focus list |
 
-64 logged posts matched, 78 not found in the metrics yet.
+62 logged posts matched, 82 not found in the metrics yet.
