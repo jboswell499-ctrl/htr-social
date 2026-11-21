@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-19 22:42",
+ "updated": "2026-11-20 22:42",
  "looks": {
   "classic": {
-   "n": 24,
-   "avg_views": 146.7,
-   "avg_likes": 4.46,
+   "n": 23,
+   "avg_views": 151.7,
+   "avg_likes": 4.61,
    "likes_per_100_views": 3.04,
    "shares": 3,
-   "comments": 11
+   "comments": 10
   },
   "focus-list": {
    "n": 3,
@@ -143,12 +143,12 @@
   },
   "instagram": {
    "classic": {
-    "n": 10,
-    "avg_views": 55.9,
-    "avg_likes": 1.5,
-    "likes_per_100_views": 2.68,
+    "n": 9,
+    "avg_views": 58.4,
+    "avg_likes": 1.56,
+    "likes_per_100_views": 2.66,
     "shares": 2,
-    "comments": 10
+    "comments": 9
    },
    "focus-list": {
     "n": 3,

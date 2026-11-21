@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-19 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-20 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -9,7 +9,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | fresh-hand | 2 | 354.0 | 11.00 | 3.11 | 0 | 0 |
-| classic | 24 | 146.7 | 4.46 | 3.04 | 3 | 11 |
+| classic | 23 | 151.7 | 4.61 | 3.04 | 3 | 10 |
 | fresh-marker | 2 | 122.5 | 1.50 | 1.22 | 0 | 0 |
 | fresh-type | 3 | 110.7 | 3.67 | 3.31 | 0 | 0 |
 | fresh-inter | 3 | 93.7 | 1.33 | 1.42 | 2 | 1 |
@@ -38,8 +38,8 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | focus-list | 3 | 82.0 | 2.67 | 3.25 | 1 | 2 |
 | fresh-serif | 2 | 75.0 | 1.00 | 1.33 | 1 | 1 |
 | fresh-inter | 2 | 72.5 | 1.00 | 1.38 | 2 | 1 |
+| classic | 9 | 58.4 | 1.56 | 2.66 | 2 | 9 |
 | fresh-anton | 2 | 57.0 | 1.00 | 1.75 | 0 | 2 |
-| classic | 10 | 55.9 | 1.50 | 2.68 | 2 | 10 |
 | fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
@@ -48,9 +48,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-29 | TT-1 | classic | gold | 1 | 1 | 0 | no (TikTok reach drop) | 3 things drift teaches you to accept |
-| 2026-10-29 | TT-3 | classic | oxblood | 0 | 1 | 0 | no (TikTok reach drop) | Your excuses have a price tag. |
-| 2026-10-29 | IG-1 | classic | bone | 33 | 1 | 0 | yes | 3 exits you keep open on purpose |
 | 2026-10-30 | TT-1 | classic | gold | 23 | 1 | 0 | no (TikTok reach drop) | Feeling powerless pays you 4 ways. |
 | 2026-10-30 | TT-3 | classic | oxblood | 13 | 1 | 0 | no (TikTok reach drop) | Powerless men are easy to manage. |
 | 2026-10-30 | IG-1 | classic | bone | 82 | 2 | 0 | yes | 4 hits that weren't your fault. |
@@ -103,5 +100,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-16 | TT-1 | fresh-type | oxblood | 111 | 7 | 0 | yes | What you don't fix, your kids inherit. |
 | 2026-11-16 | IG-1 | fresh-inter | rust | 97 | 1 | 1 | yes | 3 things you're already leaving behind. |
 | 2026-11-17 | IG-1 | fresh-serif | sand | 26 | 1 | 0 | yes | 4 scores you'd rate too high. |
+| 2026-11-19 | IG-1 | fresh-hand | black-red | 32 | 0 | 0 | no (new) | 3 moves for the night everything breaks. |
 
-55 logged posts matched, 91 not found in the metrics yet.
+53 logged posts matched, 94 not found in the metrics yet.
