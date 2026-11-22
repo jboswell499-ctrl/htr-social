@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-20 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-21 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -8,10 +8,10 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| fresh-hand | 2 | 354.0 | 11.00 | 3.11 | 0 | 0 |
-| classic | 23 | 151.7 | 4.61 | 3.04 | 3 | 10 |
+| fresh-hand | 3 | 256.7 | 7.67 | 2.99 | 1 | 0 |
+| classic | 22 | 154.9 | 4.73 | 3.05 | 3 | 9 |
 | fresh-marker | 2 | 122.5 | 1.50 | 1.22 | 0 | 0 |
-| fresh-type | 3 | 110.7 | 3.67 | 3.31 | 0 | 0 |
+| fresh-type | 3 | 111.3 | 3.67 | 3.29 | 0 | 0 |
 | fresh-inter | 3 | 93.7 | 1.33 | 1.42 | 2 | 1 |
 | fresh-serif | 3 | 89.3 | 1.33 | 1.49 | 1 | 1 |
 | focus-list | 3 | 82.0 | 2.67 | 3.25 | 1 | 2 |
@@ -23,12 +23,12 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | fresh-hand | 2 | 354.0 | 11.00 | 3.11 | 0 | 0 |
-| classic | 14 | 211.6 | 6.57 | 3.11 | 1 | 1 |
+| classic | 14 | 211.6 | 6.57 | 3.10 | 1 | 1 |
 | fresh-inter | 1 | 136.0 | 2.00 | 1.47 | 0 | 0 |
 | fresh-marker | 2 | 122.5 | 1.50 | 1.22 | 0 | 0 |
 | fresh-black | 1 | 119.0 | 1.00 | 0.84 | 0 | 0 |
 | fresh-serif | 1 | 118.0 | 2.00 | 1.69 | 0 | 0 |
-| fresh-type | 3 | 110.7 | 3.67 | 3.31 | 0 | 0 |
+| fresh-type | 3 | 111.3 | 3.67 | 3.29 | 0 | 0 |
 | fresh-anton | 1 | 94.0 | 1.00 | 1.06 | 0 | 0 |
 
 ## Instagram
@@ -38,8 +38,9 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | focus-list | 3 | 82.0 | 2.67 | 3.25 | 1 | 2 |
 | fresh-serif | 2 | 75.0 | 1.00 | 1.33 | 1 | 1 |
 | fresh-inter | 2 | 72.5 | 1.00 | 1.38 | 2 | 1 |
-| classic | 9 | 58.4 | 1.56 | 2.66 | 2 | 9 |
+| fresh-hand | 1 | 62.0 | 1.00 | 1.61 | 1 | 0 |
 | fresh-anton | 2 | 57.0 | 1.00 | 1.75 | 0 | 2 |
+| classic | 8 | 55.5 | 1.50 | 2.70 | 2 | 8 |
 | fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
@@ -48,9 +49,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-30 | TT-1 | classic | gold | 23 | 1 | 0 | no (TikTok reach drop) | Feeling powerless pays you 4 ways. |
-| 2026-10-30 | TT-3 | classic | oxblood | 13 | 1 | 0 | no (TikTok reach drop) | Powerless men are easy to manage. |
-| 2026-10-30 | IG-1 | classic | bone | 82 | 2 | 0 | yes | 4 hits that weren't your fault. |
 | 2026-10-31 | TT-1 | classic | gold | 532 | 9 | 0 | no (TikTok reach drop) | 3 signs you're used, not useful |
 | 2026-10-31 | TT-3 | classic | oxblood | 18 | 2 | 0 | no (TikTok reach drop) | Weakness already picked the day. |
 | 2026-10-31 | IG-1 | classic | bone | 104 | 1 | 0 | yes | 3 signs your title is on borrowed time |
@@ -69,7 +67,7 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-05 | TT-1 | classic | gold | 193 | 3 | 0 | yes | 4 ways you leak authority without noticing |
 | 2026-11-05 | TT-3 | classic | oxblood | 43 | 1 | 0 | yes | Ignoring power doesn't keep you out of it. |
 | 2026-11-05 | IG-1 | classic | bone | 16 | 2 | 0 | yes | 3 things a man with no options always says |
-| 2026-11-06 | TT-1 | classic | gold | 6 | 1 | 0 | yes | 4 signs pushback still owns you |
+| 2026-11-06 | TT-1 | classic | gold | 7 | 1 | 0 | yes | 4 signs pushback still owns you |
 | 2026-11-06 | TT-3 | classic | oxblood | 1 | 1 | 0 | yes | Letting it slide isn't free. |
 | 2026-11-06 | IG-1 | classic | bone | 76 | 2 | 1 | yes | 3 things you let slide that became rules |
 | 2026-11-07 | TT-1 | classic | gold | 2 | 1 | 0 | yes | 3 signs the deadline is fake. |
@@ -92,14 +90,15 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-13 | TT-1 | fresh-inter | mustard | 136 | 2 | 0 | yes | Plan stopped working? Change 1 thing. Never the other. |
 | 2026-11-13 | TT-3 | fresh-marker | navy-gold | 100 | 1 | 0 | yes | Grinding with no plan costs you 3 things. |
 | 2026-11-13 | IG-1 | fresh-serif | oxblood | 124 | 1 | 1 | yes | 4 signs you're busy, not building. |
-| 2026-11-14 | TT-1 | fresh-type | slate | 105 | 2 | 0 | yes | 4 things you never tried. Nobody stopped you. |
+| 2026-11-14 | TT-1 | fresh-type | slate | 106 | 2 | 0 | yes | 4 things you never tried. Nobody stopped you. |
 | 2026-11-14 | TT-3 | fresh-black | sand | 119 | 1 | 0 | yes | A ceiling you can't see takes 3 things. |
 | 2026-11-14 | IG-1 | fresh-anton | ink-gold | 98 | 1 | 0 | yes | Nobody locked you in. You still don't leave. |
 | 2026-11-15 | TT-1 | fresh-hand | bone-red | 44 | 1 | 0 | yes | 3 things left in reach keep beating you at night. |
 | 2026-11-15 | IG-3 | focus-list | - | 84 | 1 | 1 | yes | Ch19 focus list |
-| 2026-11-16 | TT-1 | fresh-type | oxblood | 111 | 7 | 0 | yes | What you don't fix, your kids inherit. |
+| 2026-11-16 | TT-1 | fresh-type | oxblood | 112 | 7 | 0 | yes | What you don't fix, your kids inherit. |
 | 2026-11-16 | IG-1 | fresh-inter | rust | 97 | 1 | 1 | yes | 3 things you're already leaving behind. |
 | 2026-11-17 | IG-1 | fresh-serif | sand | 26 | 1 | 0 | yes | 4 scores you'd rate too high. |
-| 2026-11-19 | IG-1 | fresh-hand | black-red | 32 | 0 | 0 | no (new) | 3 moves for the night everything breaks. |
+| 2026-11-19 | IG-1 | fresh-hand | black-red | 62 | 1 | 1 | yes | 3 moves for the night everything breaks. |
+| 2026-11-20 | IG-1 | fresh-marker | cream-wine | 16 | 0 | 0 | no (new) | Your potential is a bill. It's past due. |
 
-53 logged posts matched, 94 not found in the metrics yet.
+51 logged posts matched, 97 not found in the metrics yet.
