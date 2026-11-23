@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-21 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-22 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -8,12 +8,12 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
-| fresh-hand | 3 | 256.7 | 7.67 | 2.99 | 1 | 0 |
-| classic | 22 | 154.9 | 4.73 | 3.05 | 3 | 9 |
-| fresh-marker | 2 | 122.5 | 1.50 | 1.22 | 0 | 0 |
+| fresh-hand | 3 | 257.0 | 7.67 | 2.98 | 1 | 0 |
+| classic | 21 | 157.3 | 4.90 | 3.12 | 3 | 8 |
 | fresh-type | 3 | 111.3 | 3.67 | 3.29 | 0 | 0 |
 | fresh-inter | 3 | 93.7 | 1.33 | 1.42 | 2 | 1 |
 | fresh-serif | 3 | 89.3 | 1.33 | 1.49 | 1 | 1 |
+| fresh-marker | 3 | 88.0 | 1.00 | 1.14 | 0 | 0 |
 | focus-list | 3 | 82.0 | 2.67 | 3.25 | 1 | 2 |
 | fresh-anton | 3 | 69.3 | 1.00 | 1.44 | 0 | 2 |
 | fresh-black | 2 | 69.0 | 1.00 | 1.45 | 0 | 1 |
@@ -38,10 +38,11 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | focus-list | 3 | 82.0 | 2.67 | 3.25 | 1 | 2 |
 | fresh-serif | 2 | 75.0 | 1.00 | 1.33 | 1 | 1 |
 | fresh-inter | 2 | 72.5 | 1.00 | 1.38 | 2 | 1 |
-| fresh-hand | 1 | 62.0 | 1.00 | 1.61 | 1 | 0 |
+| fresh-hand | 1 | 63.0 | 1.00 | 1.59 | 1 | 0 |
 | fresh-anton | 2 | 57.0 | 1.00 | 1.75 | 0 | 2 |
-| classic | 8 | 55.5 | 1.50 | 2.70 | 2 | 8 |
+| classic | 7 | 48.6 | 1.57 | 3.24 | 2 | 7 |
 | fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
+| fresh-marker | 1 | 19.0 | 0.00 | 0.00 | 0 | 0 |
 
 Read with care: fewer than 3 posts per look is noise, and TikTok views swing with the hook as much as with the look.
 
@@ -49,9 +50,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-10-31 | TT-1 | classic | gold | 532 | 9 | 0 | no (TikTok reach drop) | 3 signs you're used, not useful |
-| 2026-10-31 | TT-3 | classic | oxblood | 18 | 2 | 0 | no (TikTok reach drop) | Weakness already picked the day. |
-| 2026-10-31 | IG-1 | classic | bone | 104 | 1 | 0 | yes | 3 signs your title is on borrowed time |
 | 2026-11-01 | TT-1 | classic | gold | 124 | 7 | 0 | no (TikTok reach drop) | 4 thoughts running your life unchecked |
 | 2026-11-01 | IG-3 | focus-list | - | 126 | 5 | 0 | yes | Ch5 focus list |
 | 2026-11-01 | TT-3 | classic | oxblood | 12 | 2 | 0 | no (TikTok reach drop) | An unguarded mind costs you 3 things |
@@ -98,7 +96,8 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-16 | TT-1 | fresh-type | oxblood | 112 | 7 | 0 | yes | What you don't fix, your kids inherit. |
 | 2026-11-16 | IG-1 | fresh-inter | rust | 97 | 1 | 1 | yes | 3 things you're already leaving behind. |
 | 2026-11-17 | IG-1 | fresh-serif | sand | 26 | 1 | 0 | yes | 4 scores you'd rate too high. |
-| 2026-11-19 | IG-1 | fresh-hand | black-red | 62 | 1 | 1 | yes | 3 moves for the night everything breaks. |
-| 2026-11-20 | IG-1 | fresh-marker | cream-wine | 16 | 0 | 0 | no (new) | Your potential is a bill. It's past due. |
+| 2026-11-19 | IG-1 | fresh-hand | black-red | 63 | 1 | 1 | yes | 3 moves for the night everything breaks. |
+| 2026-11-20 | IG-1 | fresh-marker | cream-wine | 19 | 0 | 0 | yes | Your potential is a bill. It's past due. |
+| 2026-11-21 | IG-1 | fresh-inter | plum | 12 | 0 | 0 | no (new) | 4 things run your week when you don't. |
 
-51 logged posts matched, 97 not found in the metrics yet.
+49 logged posts matched, 100 not found in the metrics yet.
