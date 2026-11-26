@@ -1,0 +1,34 @@
+{
+ "date": "2026-11-26",
+ "picked": {
+  "TT-1": "ledger",
+  "TT-2": "classic",
+  "TT-3": "block",
+  "TT-4": "classic",
+  "IG-1": "classic",
+  "IG-2": "classic",
+  "IG-4": "notebook"
+ },
+ "used": {
+  "IG-4": {
+   "look": "notebook",
+   "palette": "-"
+  },
+  "IG-2": {
+   "look": "classic",
+   "palette": "swipe"
+  },
+  "IG-1": {
+   "look": "fresh-serif",
+   "palette": "slate",
+   "spec": {
+    "pal": "slate",
+    "font": "serif",
+    "layout": "ruled",
+    "back": "grid",
+    "accent": "underline",
+    "marks": "bars"
+   }
+  }
+ }
+}
