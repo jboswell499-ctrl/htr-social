@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-26 22:42",
+ "updated": "2026-11-27 22:42",
  "looks": {
   "classic": {
-   "n": 15,
-   "avg_views": 190.7,
-   "avg_likes": 5.93,
-   "likes_per_100_views": 3.11,
+   "n": 12,
+   "avg_views": 215.5,
+   "avg_likes": 7.08,
+   "likes_per_100_views": 3.29,
    "shares": 2,
-   "comments": 6
+   "comments": 5
   },
   "focus-list": {
    "n": 3,
@@ -77,10 +77,10 @@
  "by_network": {
   "tiktok": {
    "classic": {
-    "n": 10,
-    "avg_views": 267.0,
-    "avg_likes": 8.2,
-    "likes_per_100_views": 3.07,
+    "n": 8,
+    "avg_views": 304.4,
+    "avg_likes": 9.88,
+    "likes_per_100_views": 3.24,
     "shares": 1,
     "comments": 1
    },
@@ -143,12 +143,12 @@
   },
   "instagram": {
    "classic": {
-    "n": 5,
-    "avg_views": 38.2,
-    "avg_likes": 1.4,
-    "likes_per_100_views": 3.66,
+    "n": 4,
+    "avg_views": 37.8,
+    "avg_likes": 1.5,
+    "likes_per_100_views": 3.97,
     "shares": 1,
-    "comments": 5
+    "comments": 4
    },
    "focus-list": {
     "n": 3,

@@ -1,6 +1,6 @@
 # HTR style report
 
-Updated 2026-11-26 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
+Updated 2026-11-27 22:42 (America/New_York). Scores use posts at least 48 hours old; newer posts are listed but not scored.
 
 Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach drop).
 
@@ -9,7 +9,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | fresh-hand | 3 | 257.3 | 7.67 | 2.98 | 1 | 0 |
-| classic | 15 | 190.7 | 5.93 | 3.11 | 2 | 6 |
+| classic | 12 | 215.5 | 7.08 | 3.29 | 2 | 5 |
 | fresh-type | 3 | 111.7 | 3.67 | 3.28 | 0 | 0 |
 | fresh-serif | 3 | 89.3 | 1.33 | 1.49 | 1 | 1 |
 | fresh-marker | 3 | 88.3 | 1.33 | 1.51 | 0 | 0 |
@@ -23,7 +23,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | Look | Posts | Avg views | Avg likes | Likes per 100 views | Shares | Comments |
 |---|---|---|---|---|---|---|
 | fresh-hand | 2 | 354.5 | 11.00 | 3.10 | 0 | 0 |
-| classic | 10 | 267.0 | 8.20 | 3.07 | 1 | 1 |
+| classic | 8 | 304.4 | 9.88 | 3.24 | 1 | 1 |
 | fresh-inter | 1 | 137.0 | 2.00 | 1.46 | 0 | 0 |
 | fresh-marker | 2 | 122.5 | 1.50 | 1.22 | 0 | 0 |
 | fresh-black | 1 | 119.0 | 1.00 | 0.84 | 0 | 0 |
@@ -40,7 +40,7 @@ Not scored: Tiktok posts from 2026-10-16 12:00 to 2026-11-02 23:59 (TikTok reach
 | fresh-anton | 2 | 57.0 | 1.00 | 1.75 | 0 | 2 |
 | fresh-inter | 3 | 54.3 | 1.00 | 1.84 | 2 | 1 |
 | focus-list | 3 | 42.3 | 1.33 | 3.15 | 1 | 1 |
-| classic | 5 | 38.2 | 1.40 | 3.66 | 1 | 5 |
+| classic | 4 | 37.8 | 1.50 | 3.97 | 1 | 4 |
 | fresh-marker | 1 | 20.0 | 1.00 | 5.00 | 0 | 0 |
 | fresh-black | 1 | 19.0 | 1.00 | 5.26 | 0 | 1 |
 
@@ -50,15 +50,12 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 
 | Date | Slot | Look | Palette | Views | Likes | Shares | Scored | Hook |
 |---|---|---|---|---|---|---|---|---|
-| 2026-11-04 | IG-1 | classic | bone | 40 | 1 | 0 | yes | 3 things people read before they trust you |
-| 2026-11-05 | TT-1 | classic | gold | 193 | 3 | 0 | yes | 4 ways you leak authority without noticing |
-| 2026-11-05 | TT-3 | classic | oxblood | 43 | 1 | 0 | yes | Ignoring power doesn't keep you out of it. |
 | 2026-11-05 | IG-1 | classic | bone | 16 | 2 | 0 | yes | 3 things a man with no options always says |
 | 2026-11-06 | TT-1 | classic | gold | 9 | 1 | 0 | yes | 4 signs pushback still owns you |
 | 2026-11-06 | TT-3 | classic | oxblood | 1 | 1 | 0 | yes | Letting it slide isn't free. |
 | 2026-11-06 | IG-1 | classic | bone | 76 | 2 | 1 | yes | 3 things you let slide that became rules |
 | 2026-11-07 | TT-1 | classic | gold | 2 | 1 | 0 | yes | 3 signs the deadline is fake. |
-| 2026-11-07 | TT-3 | classic | oxblood | 471 | 12 | 0 | yes | Good men get played the most. |
+| 2026-11-07 | TT-3 | classic | oxblood | 472 | 13 | 0 | yes | Good men get played the most. |
 | 2026-11-07 | IG-1 | classic | bone | 15 | 1 | 0 | yes | 4 lines that turn a favor into a debt. |
 | 2026-11-08 | TT-1 | classic | gold | 855 | 47 | 0 | yes | 3 people to stop telling your plans. |
 | 2026-11-08 | IG-3 | focus-list | - | 36 | 2 | 0 | yes | Ch12 focus list |
@@ -89,5 +86,6 @@ Read with care: fewer than 3 posts per look is noise, and TikTok views swing wit
 | 2026-11-20 | IG-1 | fresh-marker | cream-wine | 20 | 1 | 0 | yes | Your potential is a bill. It's past due. |
 | 2026-11-21 | IG-1 | fresh-inter | plum | 18 | 1 | 0 | yes | 4 things run your week when you don't. |
 | 2026-11-22 | IG-3 | focus-list | - | 7 | 1 | 0 | yes | Ch3 focus list |
+| 2026-11-26 | IG-1 | fresh-serif | slate | 12 | 0 | 0 | no (new) | 3 signs your standard is just a preference |
 
-39 logged posts matched, 111 not found in the metrics yet.
+37 logged posts matched, 113 not found in the metrics yet.
